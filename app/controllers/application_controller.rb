@@ -4,8 +4,6 @@ class ApplicationController < ActionController::API
   include Response
   helper_method :set_location
 
-  private
-
   def set_location
     mapquest = MapQuestFacade.coords(params[:location])
     @lat = mapquest.lat
