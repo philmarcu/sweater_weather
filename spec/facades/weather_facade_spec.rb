@@ -52,4 +52,15 @@ RSpec.describe 'WeatherFacade', :vcr do
       end
     end
   end
+
+  describe '#forecast' do
+    it 'returns all 3 other forecasts into one object' do
+      forecast = WeatherFacade.forecast(lat, long)
+
+      expect(forecast).to be_a Forecast
+      expect(forecast.current).to be_a CurrentWeather
+      expect(forecast.daily).to be_a Array
+      expect(forecast.hourly).to be_a Array
+    end
+  end
 end

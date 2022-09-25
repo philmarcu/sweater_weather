@@ -1,4 +1,11 @@
 class WeatherFacade
+  def self.forecast(lat, long)
+    curr = current(lat,long)
+    day = daily(lat, long)
+    hr = hourly(lat, long)
+    Forecast.new(curr, day, hr)
+  end
+
   def self.current(lat, long)
     results = WeatherService.data(lat, long)
     CurrentWeather.new(results[:current])
