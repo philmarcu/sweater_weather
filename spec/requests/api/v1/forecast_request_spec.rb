@@ -24,16 +24,16 @@ RSpec.describe 'Forecast Request', :vcr do
       expect(current.keys.first).to eq(:datetime)
       expect(current.keys.last).to eq(:icon)
       
-      daily.each do |d|
-        expect(d.keys.size).to eq(7)
-        expect(d.keys.first).to eq(:date)
-        expect(d.keys.last).to eq(:icon)
+      daily.each do |day|
+        expect(day.keys.size).to eq(7)
+        expect(day.keys.first).to eq(:date)
+        expect(day.keys.last).to eq(:icon)
       end
 
-      hourly.each do |h|
-        expect(h.keys.size).to eq(4)
-        expect(h.keys.first).to eq(:time)
-        expect(h.keys.last).to eq(:icon)
+      hourly.each do |hour|
+        expect(hour.keys.size).to eq(4)
+        expect(hour.keys.first).to eq(:time)
+        expect(hour.keys.last).to eq(:icon)
       end
     end
   end
