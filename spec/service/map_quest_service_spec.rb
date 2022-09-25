@@ -7,6 +7,7 @@ RSpec.describe 'MapQuestService', :vcr do
       lat = coords[:results].first[:locations].first[:latLng][:lat]
       long = coords[:results].first[:locations].first[:latLng][:lng]
 
+      binding.pry
       expect(coords).to be_a(Hash)
       expect(lat).to be_a(Float)
       expect(long).to be_a(Float)
