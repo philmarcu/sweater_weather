@@ -7,7 +7,6 @@ RSpec.describe 'WeatherFacade', :vcr do
       long = -104.984853
       results = WeatherFacade.one_call(lat, long)
       binding.pry
-
       expect(results).to be_a Hash
     end
   end

@@ -11,16 +11,16 @@ class CurrentWeather
               :icon,
               :id
   def initialize(data)
-    @id = nil
-    @datetime = Time.at(data[:dt])
-    @sunrise = Time.at(data[:sunrise])
-    @sunset = Time.at(data[:sunset])
-    @temp = data[:temp]
+    @id =         nil
+    @datetime =   Time.at(data[:dt]).to_s
+    @sunrise =    Time.at(data[:sunrise]).to_s
+    @sunset =     Time.at(data[:sunset]).to_s
+    @temp =       data[:temp]
     @feels_like = data[:feels_like]
-    @humidity = data[:humidity]
-    @uvi = data[:uvi]
+    @humidity =   data[:humidity]
+    @uvi =        data[:uvi]
     @visibility = data[:visibility]
     @conditions = data[:weather].first[:description]
-    @icon = data[:weather].first[:icon]
+    @icon =       data[:weather].first[:icon]
   end
 end

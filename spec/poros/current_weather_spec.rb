@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe CurrentWeather do
-  it 'is a weather object' do
+  it 'returns a weather object' do
     data = {
       "dt": 1664069761,
         "sunrise": 1664023766,
@@ -30,9 +30,9 @@ RSpec.describe CurrentWeather do
 
     expect(current).to be_a CurrentWeather
     expect(current.id).to eq(nil)
-    expect(current.datetime).to eq(Time.at(data[:dt]))
-    expect(current.sunrise).to eq(Time.at(data[:sunrise]))
-    expect(current.sunset).to eq(Time.at(data[:sunset]))
+    expect(current.datetime).to eq(Time.at(data[:dt]).to_s)
+    expect(current.sunrise).to eq(Time.at(data[:sunrise]).to_s)
+    expect(current.sunset).to eq(Time.at(data[:sunset]).to_s)
     expect(current.temp).to eq(293.4)
     expect(current.feels_like).to eq(292.26)
     expect(current.humidity).to eq(30)
