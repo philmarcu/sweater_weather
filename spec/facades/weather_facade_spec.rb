@@ -1,13 +1,16 @@
 require 'rails_helper'
 
 RSpec.describe 'WeatherFacade', :vcr do
-  describe '#one_call' do
+  describe '#current' do
     it 'returns all current weather data' do
       lat =  39.738453
       long = -104.984853
-      results = WeatherFacade.one_call(lat, long)
-      binding.pry
-      expect(results).to be_a Hash
+      current = WeatherFacade.current(lat, long)
+
+      expect(current).to be_a CurrentWeather
+      expect(current.datetime).to be_a String
+      expect(current.sunrise).to be_a String
+      expect(current.sunset).to be_a String
     end
   end
 end

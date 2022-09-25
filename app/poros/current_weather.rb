@@ -8,10 +8,8 @@ class CurrentWeather
               :uvi,
               :visibility,
               :conditions,
-              :icon,
-              :id
+              :icon
   def initialize(data)
-    @id =         nil
     @datetime =   Time.at(data[:dt]).to_s
     @sunrise =    Time.at(data[:sunrise]).to_s
     @sunset =     Time.at(data[:sunset]).to_s
