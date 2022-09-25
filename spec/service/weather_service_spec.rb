@@ -22,8 +22,8 @@ RSpec.describe 'Weather One Call', :vcr do
       expect(sunrise_utc).to be_a Integer
       expect(temperature).to be_a Float
       expect(feels_like).to be_a Float
-      expect(humidity).to be_a Integer
-      expect(uvi).to be_a Integer
+      expect(humidity).to be_a Numeric
+      expect(uvi).to be_a Numeric
       expect(visibility).to be_a Integer
       expect(conditions).to be_a String
       expect(icon).to be_a String
