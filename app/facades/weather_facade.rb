@@ -6,19 +6,15 @@ class WeatherFacade
 
   def self.daily(lat, long)
     results = WeatherService.data(lat, long)[:daily]
-    results.each_with_index.map do |daily_data, idx|
-      until idx > 4
+    results.first(5).map do |daily_data|
         DailyWeather.new(daily_data)
-      end
     end
   end
 
   def self.hourly(lat, long)
     results = WeatherService.data(lat, long)[:hourly]
-    results[:hourly].each_with_index.map do |hour_data, idx|
-      until idx > 7
+    results.first(8).map do |hour_data|
         HourlyWeather.new(hour_data)
-      end
     end
   end
 end
