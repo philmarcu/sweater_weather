@@ -8,6 +8,6 @@ class LibraryFacade
 
   def self.get_publisher(olid)
     results = LibraryService.get_publishers(olid)
-    results[:publishers].first
+    results[:publishers].first if results[:publishers].present?
   end
 end

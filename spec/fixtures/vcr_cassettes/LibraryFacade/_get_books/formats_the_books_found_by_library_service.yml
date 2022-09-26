@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 16:14:07 GMT
+      - Mon, 26 Sep 2022 17:04:45 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"MC 4 0.005 SR 1 0.000 TT 0 0.176"'
+      - '"MC 4 0.003 SR 1 0.000 TT 0 0.661"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -185,5 +185,272 @@ http_interactions:
         1], [1964, 1], [1965, 3], [1968, 1], [1969, 1], [1970, 1], [1972, 1], [1973,
         1], [1974, 1], [1987, 1], [1997, 1], [1998, 1], [2005, 1], [2006, 2], [2012,
         1]]}'
-  recorded_at: Mon, 26 Sep 2022 16:14:07 GMT
+  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL12340667M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 17:04:45 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Rose City Press"], "identifiers": {"goodreads": ["3624325"]},
+        "ia_box_id": ["IA117404"], "covers": [6480927], "physical_format": "Hardcover",
+        "key": "/books/OL12340667M", "authors": [{"key": "/authors/OL3879032A"}],
+        "ocaid": "boldfacedliesnov00port", "source_records": ["amazon:1934099112",
+        "marc:marc_loc_updates/v35.i12.records.utf8:11702355:796", "marc:marc_loc_updates/v36.i04.records.utf8:18012748:791",
+        "ia:boldfacedliesnov00port", "marc:marc_loc_2016/BooksAll.2016.part34.utf8:181673992:791"],
+        "title": "Boldfaced Lies", "number_of_pages": 349, "languages": [{"key": "/languages/eng"}],
+        "isbn_10": ["1934099112"], "publish_date": "2006", "oclc_numbers": ["70877639"],
+        "works": [{"key": "/works/OL9897019W"}], "type": {"key": "/type/edition"},
+        "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
+        10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
+        "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
+  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL708367M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 17:04:45 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["LPD Press"], "identifiers": {"goodreads": ["495928",
+        "4342018"], "librarything": ["4893103"]}, "subtitle": "thirty years of collecting
+        1966-1996", "isbn_10": ["0964154242", "0964154277"], "subject_place": ["New
+        Mexico", "Colorado", "Denver"], "pagination": "91 p. :", "covers": [1694386,
+        727871], "lc_classifications": ["N7910.N6 S78 1997", "N7910.N6S78 1997"],
+        "key": "/books/OL708367M", "authors": [{"key": "/authors/OL406949A"}], "publish_places":
+        ["Albuquerque, NM"], "contributions": ["Awalt, Barbe.", "Rhetts, Paul Fisher."],
+        "genres": ["Catalogs."], "source_records": ["marc:marc_loc_2016/BooksAll.2016.part26.utf8:82605084:1164",
+        "bwb:9780964154247"], "title": "The Regis santos", "dewey_decimal_class":
+        ["704.9/482/07478883"], "notes": {"type": "/type/text", "value": "Includes
+        bibliographical references (p. 87-90) and indexes."}, "number_of_pages": 91,
+        "languages": [{"key": "/languages/eng"}], "lccn": ["97070979"], "subjects":
+        ["Regis University (Denver, Colo.) -- Art collections -- Catalogs.", "Santos
+        (Art) -- New Mexico -- Catalogs.", "Folk art -- New Mexico -- Catalogs.",
+        "Santos (Art) -- Colorado -- Denver -- Catalogs.", "Folk art -- Colorado --
+        Denver -- Catalogs."], "publish_date": "1997", "publish_country": "nmu", "by_statement":
+        "by Thomas J. Steele, Barbe Awalt, and Paul Rhetts.", "oclc_numbers": ["37482854"],
+        "works": [{"key": "/works/OL2766605W"}], "type": {"key": "/type/edition"},
+        "latest_revision": 9, "revision": 9, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "last_modified": {"type": "/type/datetime",
+        "value": "2021-09-17T21:05:30.232755"}}'
+  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL5416784M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 17:04:45 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.002 TT 0 0.004"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["University of Washington Press"], "number_of_pages":
+        364, "isbn_10": ["0295952989"], "series": ["Americana library, AL-28"], "lc_classifications":
+        ["HV9094.D4 L5 1973"], "key": "/books/OL5416784M", "authors": [{"key": "/authors/OL150590A"}],
+        "publish_places": ["Seattle"], "contributions": ["Evans, Wainwright, joint
+        author."], "pagination": "xx, 364 p.", "source_records": ["marc:marc_records_scriblio_net/part07.dat:107217508:959",
+        "marc:marc_ithaca_college/ic_marc.mrc:149385128:1011", "marc:marc_loc_2016/BooksAll.2016.part08.utf8:5375457:954",
+        "ia:revoltofmodernyo0000lind"], "title": "The revolt of modern youth", "dewey_decimal_class":
+        ["301.43/15"], "notes": {"type": "/type/text", "value": "Includes bibliographical
+        references.\nReprint of the ed. published by Boni & Liveright, New York; with
+        new introd."}, "identifiers": {"goodreads": ["1167918"]}, "languages": [{"key":
+        "/languages/eng"}], "lccn": ["73008818"], "subjects": ["Denver. Juvenile Court
+        of the City and County of Denver", "Juvenile delinquency", "Sexual ethics"],
+        "publish_date": "1973", "publish_country": "wau", "by_statement": "by Ben
+        B. Lindsey and Wainwright Evans. Introd. by Charles E. Larsen.", "works":
+        [{"key": "/works/OL1439708W"}], "type": {"key": "/type/edition"}, "covers":
+        [12846444], "ocaid": "revoltofmodernyo0000lind", "latest_revision": 8, "revision":
+        8, "created": {"type": "/type/datetime", "value": "2008-04-01T03:28:50.625462"},
+        "last_modified": {"type": "/type/datetime", "value": "2022-07-31T05:45:19.824198"}}'
+  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 17:04:46 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL8584347M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 17:04:46 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.002 TT 0 0.004"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Pilgrims'' Process, Inc."], "number_of_pages": 252,
+        "subtitle": "Opera in Denver-1879-2006", "weight": "11.2 ounces", "covers":
+        [740871], "physical_format": "Paperback", "last_modified": {"type": "/type/datetime",
+        "value": "2019-07-31T04:03:45.585860"}, "latest_revision": 8, "key": "/books/OL8584347M",
+        "authors": [{"key": "/authors/OL1175532A"}], "subjects": ["Genres & Styles
+        - Opera", "History & Criticism - General", "Music / History & Criticism",
+        "Music-Genres & Styles - Opera", "Music/Songbooks", "Music", "Colorado", "Denver",
+        "Denver (Colo.)", "Opera", "Social life and customs"], "isbn_13": ["9780974959788"],
+        "title": "Exotic and Irrational", "identifiers": {"goodreads": ["4290059"],
+        "librarything": ["2495048"]}, "created": {"type": "/type/datetime", "value":
+        "2008-04-30T06:33:27.187047"}, "languages": [{"key": "/languages/eng"}], "isbn_10":
+        ["0974959782"], "publish_date": "May 15, 2006", "oclc_numbers": ["71354924"],
+        "works": [{"key": "/works/OL3404420W"}], "type": {"key": "/type/edition"},
+        "physical_dimensions": "8.8 x 6 x 0.5 inches", "revision": 8}'
+  recorded_at: Mon, 26 Sep 2022 17:04:46 GMT
 recorded_with: VCR 6.1.0

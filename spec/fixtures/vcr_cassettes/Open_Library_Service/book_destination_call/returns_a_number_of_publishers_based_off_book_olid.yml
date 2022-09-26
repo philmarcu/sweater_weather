@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 16:48:04 GMT
+      - Mon, 26 Sep 2022 17:00:18 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -52,5 +52,5 @@ http_interactions:
         "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
         10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
         "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
-  recorded_at: Mon, 26 Sep 2022 16:48:04 GMT
+  recorded_at: Mon, 26 Sep 2022 17:00:18 GMT
 recorded_with: VCR 6.1.0

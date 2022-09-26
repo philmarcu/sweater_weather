@@ -4,7 +4,7 @@ RSpec.describe 'LibraryFacade', :vcr do
   describe '#get_books' do
     it 'formats the books found by library service' do
       books = LibraryFacade.get_books("denver")
-      
+
       expect(books).to be_a Array
     end
 
