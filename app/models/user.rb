@@ -9,6 +9,6 @@ class User < ApplicationRecord
   end
 
   def generate_api_key
-    SecueRandom.hex(10)
+    SecureRandom.hex(10)
   end
 end
