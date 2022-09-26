@@ -6,7 +6,7 @@ RSpec.describe 'Register Request' do
       user_params = {
         email: "yep@email.com",
         password: "password",
-        password_confirmation: "password",
+        password_confirmation: "password"
       }
 
       headers = {"CONTENT_TYPE" => "application/json"}
@@ -42,24 +42,26 @@ RSpec.describe 'Register Request' do
       user = User.create(user_params)
 
       headers = {"CONTENT_TYPE" => "application/json"}
-      post "/api/v1/users", headers: headers, params: JSON.generate(user_params)      
+      post "/api/v1/users", headers: headers, params: JSON.generate(user_params)   
+      results = JSON.parse(response.body, symbolize_names: true)
 
       expect(response.status).to eq(400)
-      expect(response.body).to eq("A user already exists with this email")
+      expect(results[:message]).to eq("Email has already been taken")
     end
 
     it 'does not create user if passwords do not match' do
       user_params = {
         email: "yep@email.com",
         password: "password",
-        password_confirmation: "pwd",
+        password_confirmation: "1212221",
       }
 
       headers = {"CONTENT_TYPE" => "application/json"}
       post "/api/v1/users", headers: headers, params: JSON.generate(user_params)
+      results = JSON.parse(response.body, symbolize_names: true)
 
       expect(response.status).to eq(400)
-      expect(response.body).to eq("Passwords must match")
+      expect(results[:message]).to eq("Password confirmation doesn't match Password")
     end
   end
 end
