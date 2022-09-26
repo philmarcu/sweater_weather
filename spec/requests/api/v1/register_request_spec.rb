@@ -8,7 +8,6 @@ RSpec.describe 'Register Request' do
         email: "yep@email.com",
         password: "password",
         password_confirmation: "password",
-        api_key: SecureRandom.hex(10)
       }
 
       headers = {"CONTENT_TYPE" => "application/json"}
@@ -20,11 +19,14 @@ RSpec.describe 'Register Request' do
       expect(response).to be_successful
       expect(response.status).to eq(201)
       expect(response.body).to be_a String
+
       expect(results).to be_a Hash
+      expect(results[:data].size).to eq(3)
       expect(results[:data]).to have_key(:id)
       expect(results[:data]).to have_key(:type)
-      expect(type).to eq("users")
       expect(results[:data]).to have_key(:attributes)
+      expect(type).to eq("users")
+
       expect(attributes).to have_key(:email)
       expect(attributes).to have_key(:api_key)
       expect(attributes[:email]).to eq(user_params[:email])
