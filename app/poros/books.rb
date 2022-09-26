@@ -4,6 +4,9 @@ class Books
               :weather,
               :books
   def initialize(location, total, weather, books)
-    binding.pry
+    @location = location
+    @total = total
+    @weather = weather
+    @books = book
   end
 end
