@@ -22,4 +22,9 @@ class WeatherFacade
       HourlyWeather.new(hour)
     end
   end
+
+  def self.library_call(lat, long)
+    data = WeatherService.data(lat, long)[:current]
+    BookForecast.new(data)
+  end
 end

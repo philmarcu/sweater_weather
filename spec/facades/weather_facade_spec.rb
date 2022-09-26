@@ -66,4 +66,14 @@ RSpec.describe 'WeatherFacade', :vcr do
       expect(forecast.hourly).to be_a Array
     end
   end
+
+  describe '#library_call' do
+    it 'returns minimal data for book forecast' do
+      books_forecast = WeatherFacade.library_call(lat, long)
+
+      expect(books_forecast).to be_a BookForecast
+      expect(books_forecast.temp).to be_a Numeric
+      expect(books_forecast.summary).to be_a String
+    end
+  end
 end
