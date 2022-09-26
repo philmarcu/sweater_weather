@@ -274,4 +274,57 @@ http_interactions:
       encoding: UTF-8
       string: ''
   recorded_at: Mon, 26 Sep 2022 16:37:44 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL12340667M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 16:50:03 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.004"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Rose City Press"], "identifiers": {"goodreads": ["3624325"]},
+        "ia_box_id": ["IA117404"], "covers": [6480927], "physical_format": "Hardcover",
+        "key": "/books/OL12340667M", "authors": [{"key": "/authors/OL3879032A"}],
+        "ocaid": "boldfacedliesnov00port", "source_records": ["amazon:1934099112",
+        "marc:marc_loc_updates/v35.i12.records.utf8:11702355:796", "marc:marc_loc_updates/v36.i04.records.utf8:18012748:791",
+        "ia:boldfacedliesnov00port", "marc:marc_loc_2016/BooksAll.2016.part34.utf8:181673992:791"],
+        "title": "Boldfaced Lies", "number_of_pages": 349, "languages": [{"key": "/languages/eng"}],
+        "isbn_10": ["1934099112"], "publish_date": "2006", "oclc_numbers": ["70877639"],
+        "works": [{"key": "/works/OL9897019W"}], "type": {"key": "/type/edition"},
+        "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
+        10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
+        "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
+  recorded_at: Mon, 26 Sep 2022 16:50:03 GMT
 recorded_with: VCR 6.1.0

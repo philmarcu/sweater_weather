@@ -1,15 +1,16 @@
 class Book
   attr_reader :title,
               :publisher,
-              :isbn
+              :isbn,
+              :olid
   def initialize(data)
     @title = data[:title]
     @isbn = data[:availability][:isbn]
+    @olid = data[:cover_edition_key]
     @publisher = find_publisher
-    @key = data[:cover_edition_key]
   end
 
-  def self.find_publisher
-    LibraryFacade.get_publisher(@key)
+  def find_publisher
+    LibraryFacade.get_publisher(@olid)
   end
 end
