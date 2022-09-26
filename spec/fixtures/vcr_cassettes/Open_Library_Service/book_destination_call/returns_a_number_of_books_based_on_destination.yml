@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 20:24:55 GMT
+      - Mon, 26 Sep 2022 20:46:57 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"MC 6 0.006 SR 1 0.000 TT 0 0.138"'
+      - '"MC 6 0.004 SR 1 0.000 TT 0 0.166"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -241,5 +241,5 @@ http_interactions:
         1], [1964, 1], [1965, 3], [1968, 1], [1969, 1], [1970, 1], [1972, 1], [1973,
         1], [1974, 1], [1987, 1], [1997, 1], [1998, 1], [2005, 1], [2006, 2], [2012,
         1]]}'
-  recorded_at: Mon, 26 Sep 2022 20:24:55 GMT
+  recorded_at: Mon, 26 Sep 2022 20:46:57 GMT
 recorded_with: VCR 6.1.0
