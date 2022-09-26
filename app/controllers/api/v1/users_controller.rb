@@ -6,8 +6,9 @@ class Api::V1::UsersController < ApplicationController
         json_create(serializer(new_user))
       end
     elsif exist?
-      user = User.find_by(email: params[:email])
-      json_response(serializer(user))
+      json_error("A user already exists with this email")
+    else
+      json_error("Passwords must match")
     end
   end
 
