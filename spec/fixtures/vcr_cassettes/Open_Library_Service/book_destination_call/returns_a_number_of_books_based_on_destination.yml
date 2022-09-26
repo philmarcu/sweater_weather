@@ -382,6 +382,116 @@ http_interactions:
   recorded_at: Mon, 26 Sep 2022 15:40:18 GMT
 - request:
     method: get
+    uri: http://openlibrary.org/subjects/denver.json?limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 15:54:01 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 4 0.002 SR 1 0.000 TT 0 0.075"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"key": "/subjects/denver", "name": "denver", "subject_type": "subject",
+        "work_count": 20, "works": [{"key": "/works/OL9897019W", "title": "Boldfaced
+        Lies", "edition_count": 3, "cover_id": 6480927, "cover_edition_key": "OL12340667M",
+        "subject": ["Passing (Identity)", "Colorado", "Ku Klux Klan (1915- )", "Denver",
+        "Fiction", "Accessible book", "Protected DAISY"], "ia_collection": ["americana",
+        "inlibrary", "internetarchivebooks", "printdisabled", "smithsonianlibraries"],
+        "lendinglibrary": false, "printdisabled": true, "lending_edition": "OL12340667M",
+        "lending_identifier": "boldfacedliesnov00port", "authors": [{"key": "/authors/OL3879032A",
+        "name": "Charlene A. Porter"}], "first_publish_year": null, "ia": "boldfacedliesnov00port",
+        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
+        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
+        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
+        "is_previewable": true, "identifier": "boldfacedliesnov00port", "isbn": "1934099112",
+        "oclc": null, "openlibrary_work": "OL9897019W", "openlibrary_edition": "OL12340667M",
+        "last_loan_date": null, "num_waitlist": null, "last_waitlist_date": null,
+        "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}},
+        {"key": "/works/OL2766605W", "title": "The Regis santos", "edition_count":
+        3, "cover_id": 1694386, "cover_edition_key": "OL708367M", "subject": ["Catalogs",
+        "Folk art", "Santos (Art)", "Art collections", "Regis University (Denver,
+        Colo.)", "Ethnic studies", "Exhibition catalogues and specific collections",
+        "History Of Art / Art & Design Styles", "Museum, historic sites, gallery &
+        art guides", "Hispanic Art", "Colorado", "Permanent Collection Catalogs",
+        "Art", "Art & Art Instruction", "Collections, Catalogs, Exhibitions - General",
+        "Folk & Outsider Art", "Criticism", "Subjects & Themes - General", "New Mexico",
+        "Denver", "Hispanic american art"], "ia_collection": [], "lendinglibrary":
+        false, "printdisabled": false, "lending_edition": "", "lending_identifier":
+        "", "authors": [{"key": "/authors/OL406949A", "name": "Thomas J. Steele"},
+        {"key": "/authors/OL407128A", "name": "Barbe Awalt"}, {"key": "/authors/OL1240313A",
+        "name": "Paul Fisher Rhetts"}], "first_publish_year": null, "ia": null, "public_scan":
+        false, "has_fulltext": false}, {"key": "/works/OL1439708W", "title": "The
+        revolt of modern youth", "edition_count": 3, "cover_id": 12846444, "cover_edition_key":
+        "OL5416784M", "subject": ["Juvenile delinquency", "Sexual ethics", "Denver",
+        "Denver. Juvenile Court of the City and County of Denver", "Denver (Colo).
+        Juvenile Court of the City and County of Denver", "Denver (Colo)"], "ia_collection":
+        ["inlibrary", "internetarchivebooks", "printdisabled"], "lendinglibrary":
+        false, "printdisabled": true, "lending_edition": "OL5416784M", "lending_identifier":
+        "revoltofmodernyo0000lind", "authors": [{"key": "/authors/OL150590A", "name":
+        "Ben B. Lindsey"}], "first_publish_year": null, "ia": "revoltofmodernyo0000lind",
+        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
+        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
+        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
+        "is_previewable": true, "identifier": "revoltofmodernyo0000lind", "isbn":
+        "0295952989", "oclc": null, "openlibrary_work": "OL1439708W", "openlibrary_edition":
+        "OL5416784M", "last_loan_date": null, "num_waitlist": null, "last_waitlist_date":
+        null, "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}},
+        {"key": "/works/OL1439707W", "title": "The dangerous life", "edition_count":
+        2, "cover_id": null, "subject": ["Child welfare", "Denver", "Denver. Juvenile
+        Court of the City and County of Denver"], "ia_collection": [], "lendinglibrary":
+        false, "printdisabled": false, "lending_edition": "", "lending_identifier":
+        "", "authors": [{"key": "/authors/OL150590A", "name": "Ben B. Lindsey"}],
+        "first_publish_year": null, "ia": null, "public_scan": false, "has_fulltext":
+        false}, {"key": "/works/OL3404420W", "title": "Exotic and irrational", "edition_count":
+        2, "cover_id": 740871, "cover_edition_key": "OL8584347M", "subject": ["Opera",
+        "Social life and customs", "Genres & Styles - Opera", "History & Criticism
+        - General", "Music / History & Criticism", "Music-Genres & Styles - Opera",
+        "Music/Songbooks", "Music", "Colorado", "Denver", "Denver (Colo.)", "Accessible
+        book", "Protected DAISY"], "ia_collection": ["inlibrary", "internetarchivebooks",
+        "printdisabled"], "lendinglibrary": false, "printdisabled": true, "lending_edition":
+        "OL22750683M", "lending_identifier": "exoticirrational0000youn", "authors":
+        [{"key": "/authors/OL558147A", "name": "Young, Allen"}, {"key": "/authors/OL1175532A",
+        "name": "Allen Young"}], "first_publish_year": null, "ia": "exoticirrational0000youn",
+        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
+        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
+        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
+        "is_previewable": true, "identifier": "exoticirrational0000youn", "isbn":
+        "0974959782", "oclc": null, "openlibrary_work": "OL3404420W", "openlibrary_edition":
+        "OL22750683M", "last_loan_date": null, "num_waitlist": null, "last_waitlist_date":
+        null, "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}}],
+        "ebook_count": 20}'
+  recorded_at: Mon, 26 Sep 2022 15:54:01 GMT
+- request:
+    method: get
     uri: http://openlibrary.org/subjects/denver.json?details=true&limit=5
     body:
       encoding: US-ASCII
@@ -401,7 +511,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 15:53:43 GMT
+      - Mon, 26 Sep 2022 16:48:03 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -415,7 +525,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"MC 4 0.003 SR 1 0.000 TT 0 0.545"'
+      - '"MC 4 0.003 SR 1 0.000 TT 0 0.716"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -565,115 +675,5 @@ http_interactions:
         1], [1964, 1], [1965, 3], [1968, 1], [1969, 1], [1970, 1], [1972, 1], [1973,
         1], [1974, 1], [1987, 1], [1997, 1], [1998, 1], [2005, 1], [2006, 2], [2012,
         1]]}'
-  recorded_at: Mon, 26 Sep 2022 15:53:43 GMT
-- request:
-    method: get
-    uri: http://openlibrary.org/subjects/denver.json?limit=5
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.5.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx/1.18.0 (Ubuntu)
-      Date:
-      - Mon, 26 Sep 2022 15:54:01 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Method:
-      - GET, OPTIONS
-      Access-Control-Max-Age:
-      - '86400'
-      X-Ol-Stats:
-      - '"MC 4 0.002 SR 1 0.000 TT 0 0.075"'
-      Referrer-Policy:
-      - no-referrer-when-downgrade
-    body:
-      encoding: UTF-8
-      string: '{"key": "/subjects/denver", "name": "denver", "subject_type": "subject",
-        "work_count": 20, "works": [{"key": "/works/OL9897019W", "title": "Boldfaced
-        Lies", "edition_count": 3, "cover_id": 6480927, "cover_edition_key": "OL12340667M",
-        "subject": ["Passing (Identity)", "Colorado", "Ku Klux Klan (1915- )", "Denver",
-        "Fiction", "Accessible book", "Protected DAISY"], "ia_collection": ["americana",
-        "inlibrary", "internetarchivebooks", "printdisabled", "smithsonianlibraries"],
-        "lendinglibrary": false, "printdisabled": true, "lending_edition": "OL12340667M",
-        "lending_identifier": "boldfacedliesnov00port", "authors": [{"key": "/authors/OL3879032A",
-        "name": "Charlene A. Porter"}], "first_publish_year": null, "ia": "boldfacedliesnov00port",
-        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
-        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
-        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
-        "is_previewable": true, "identifier": "boldfacedliesnov00port", "isbn": "1934099112",
-        "oclc": null, "openlibrary_work": "OL9897019W", "openlibrary_edition": "OL12340667M",
-        "last_loan_date": null, "num_waitlist": null, "last_waitlist_date": null,
-        "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}},
-        {"key": "/works/OL2766605W", "title": "The Regis santos", "edition_count":
-        3, "cover_id": 1694386, "cover_edition_key": "OL708367M", "subject": ["Catalogs",
-        "Folk art", "Santos (Art)", "Art collections", "Regis University (Denver,
-        Colo.)", "Ethnic studies", "Exhibition catalogues and specific collections",
-        "History Of Art / Art & Design Styles", "Museum, historic sites, gallery &
-        art guides", "Hispanic Art", "Colorado", "Permanent Collection Catalogs",
-        "Art", "Art & Art Instruction", "Collections, Catalogs, Exhibitions - General",
-        "Folk & Outsider Art", "Criticism", "Subjects & Themes - General", "New Mexico",
-        "Denver", "Hispanic american art"], "ia_collection": [], "lendinglibrary":
-        false, "printdisabled": false, "lending_edition": "", "lending_identifier":
-        "", "authors": [{"key": "/authors/OL406949A", "name": "Thomas J. Steele"},
-        {"key": "/authors/OL407128A", "name": "Barbe Awalt"}, {"key": "/authors/OL1240313A",
-        "name": "Paul Fisher Rhetts"}], "first_publish_year": null, "ia": null, "public_scan":
-        false, "has_fulltext": false}, {"key": "/works/OL1439708W", "title": "The
-        revolt of modern youth", "edition_count": 3, "cover_id": 12846444, "cover_edition_key":
-        "OL5416784M", "subject": ["Juvenile delinquency", "Sexual ethics", "Denver",
-        "Denver. Juvenile Court of the City and County of Denver", "Denver (Colo).
-        Juvenile Court of the City and County of Denver", "Denver (Colo)"], "ia_collection":
-        ["inlibrary", "internetarchivebooks", "printdisabled"], "lendinglibrary":
-        false, "printdisabled": true, "lending_edition": "OL5416784M", "lending_identifier":
-        "revoltofmodernyo0000lind", "authors": [{"key": "/authors/OL150590A", "name":
-        "Ben B. Lindsey"}], "first_publish_year": null, "ia": "revoltofmodernyo0000lind",
-        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
-        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
-        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
-        "is_previewable": true, "identifier": "revoltofmodernyo0000lind", "isbn":
-        "0295952989", "oclc": null, "openlibrary_work": "OL1439708W", "openlibrary_edition":
-        "OL5416784M", "last_loan_date": null, "num_waitlist": null, "last_waitlist_date":
-        null, "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}},
-        {"key": "/works/OL1439707W", "title": "The dangerous life", "edition_count":
-        2, "cover_id": null, "subject": ["Child welfare", "Denver", "Denver. Juvenile
-        Court of the City and County of Denver"], "ia_collection": [], "lendinglibrary":
-        false, "printdisabled": false, "lending_edition": "", "lending_identifier":
-        "", "authors": [{"key": "/authors/OL150590A", "name": "Ben B. Lindsey"}],
-        "first_publish_year": null, "ia": null, "public_scan": false, "has_fulltext":
-        false}, {"key": "/works/OL3404420W", "title": "Exotic and irrational", "edition_count":
-        2, "cover_id": 740871, "cover_edition_key": "OL8584347M", "subject": ["Opera",
-        "Social life and customs", "Genres & Styles - Opera", "History & Criticism
-        - General", "Music / History & Criticism", "Music-Genres & Styles - Opera",
-        "Music/Songbooks", "Music", "Colorado", "Denver", "Denver (Colo.)", "Accessible
-        book", "Protected DAISY"], "ia_collection": ["inlibrary", "internetarchivebooks",
-        "printdisabled"], "lendinglibrary": false, "printdisabled": true, "lending_edition":
-        "OL22750683M", "lending_identifier": "exoticirrational0000youn", "authors":
-        [{"key": "/authors/OL558147A", "name": "Young, Allen"}, {"key": "/authors/OL1175532A",
-        "name": "Allen Young"}], "first_publish_year": null, "ia": "exoticirrational0000youn",
-        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
-        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
-        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
-        "is_previewable": true, "identifier": "exoticirrational0000youn", "isbn":
-        "0974959782", "oclc": null, "openlibrary_work": "OL3404420W", "openlibrary_edition":
-        "OL22750683M", "last_loan_date": null, "num_waitlist": null, "last_waitlist_date":
-        null, "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}}],
-        "ebook_count": 20}'
-  recorded_at: Mon, 26 Sep 2022 15:54:01 GMT
+  recorded_at: Mon, 26 Sep 2022 16:48:04 GMT
 recorded_with: VCR 6.1.0

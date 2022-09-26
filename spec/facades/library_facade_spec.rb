@@ -9,9 +9,9 @@ RSpec.describe 'LibraryFacade', :vcr do
     end
 
     it 'can get publishers' do
-      publishers = LibraryFacade.get_publisher("1934099112")
-
+      publishers = LibraryFacade.get_publisher("OL12340667M")
       expect(publishers).to be_a Array
+      expect(publishers).to be_a String
     end
   end
 end

@@ -6,8 +6,7 @@ class LibraryFacade
     end
   end
 
-  def self.get_publisher(isbn)
-    results = LibraryService.get_books(isbn)
-    results[:publishers]
+  def self.get_publisher(olid)
+    results = LibraryService.get_publishers(olid)
   end
 end
