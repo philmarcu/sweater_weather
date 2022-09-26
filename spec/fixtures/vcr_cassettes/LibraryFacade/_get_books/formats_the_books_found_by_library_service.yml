@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 17:04:45 GMT
+      - Mon, 26 Sep 2022 17:13:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"MC 4 0.003 SR 1 0.000 TT 0 0.661"'
+      - '"MC 4 0.007 SR 1 0.000 TT 0 2.076"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -185,7 +185,7 @@ http_interactions:
         1], [1964, 1], [1965, 3], [1968, 1], [1969, 1], [1970, 1], [1972, 1], [1973,
         1], [1974, 1], [1987, 1], [1997, 1], [1998, 1], [2005, 1], [2006, 2], [2012,
         1]]}'
-  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+  recorded_at: Mon, 26 Sep 2022 17:13:14 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/OL12340667M.json
@@ -207,7 +207,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 17:04:45 GMT
+      - Mon, 26 Sep 2022 17:13:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -238,7 +238,7 @@ http_interactions:
         "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
         10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
         "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
-  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+  recorded_at: Mon, 26 Sep 2022 17:13:14 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/OL708367M.json
@@ -260,7 +260,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 17:04:45 GMT
+      - Mon, 26 Sep 2022 17:13:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -274,7 +274,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"MC 2 0.001 TT 0 0.003"'
+      - '"MC 2 0.001 TT 0 0.004"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -300,7 +300,7 @@ http_interactions:
         "latest_revision": 9, "revision": 9, "created": {"type": "/type/datetime",
         "value": "2008-04-01T03:28:50.625462"}, "last_modified": {"type": "/type/datetime",
         "value": "2021-09-17T21:05:30.232755"}}'
-  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+  recorded_at: Mon, 26 Sep 2022 17:13:14 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/OL5416784M.json
@@ -322,7 +322,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 17:04:45 GMT
+      - Mon, 26 Sep 2022 17:13:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -336,7 +336,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"MC 2 0.002 TT 0 0.004"'
+      - '"MC 2 0.001 TT 0 0.003"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -359,7 +359,7 @@ http_interactions:
         [12846444], "ocaid": "revoltofmodernyo0000lind", "latest_revision": 8, "revision":
         8, "created": {"type": "/type/datetime", "value": "2008-04-01T03:28:50.625462"},
         "last_modified": {"type": "/type/datetime", "value": "2022-07-31T05:45:19.824198"}}'
-  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+  recorded_at: Mon, 26 Sep 2022 17:13:14 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/.json
@@ -381,7 +381,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 17:04:46 GMT
+      - Mon, 26 Sep 2022 17:13:15 GMT
       Transfer-Encoding:
       - chunked
       Connection:
@@ -393,11 +393,11 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"IB 1 0.002 MC 1 0.000 TT 0 0.003"'
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
     body:
       encoding: UTF-8
       string: '{"error": "notfound", "key": "/books/"}'
-  recorded_at: Mon, 26 Sep 2022 17:04:45 GMT
+  recorded_at: Mon, 26 Sep 2022 17:13:15 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/OL8584347M.json
@@ -419,7 +419,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 17:04:46 GMT
+      - Mon, 26 Sep 2022 17:13:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -433,7 +433,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"MC 2 0.002 TT 0 0.004"'
+      - '"MC 2 0.001 TT 0 0.003"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -452,5 +452,5 @@ http_interactions:
         ["0974959782"], "publish_date": "May 15, 2006", "oclc_numbers": ["71354924"],
         "works": [{"key": "/works/OL3404420W"}], "type": {"key": "/type/edition"},
         "physical_dimensions": "8.8 x 6 x 0.5 inches", "revision": 8}'
-  recorded_at: Mon, 26 Sep 2022 17:04:46 GMT
+  recorded_at: Mon, 26 Sep 2022 17:13:15 GMT
 recorded_with: VCR 6.1.0
