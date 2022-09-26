@@ -11,6 +11,10 @@ class BaseService
     end
   end
 
+  def self.library_conn
+    Faraday.new(url: 'http://openlibrary.org')
+  end
+
   def self.get_json(response)
     JSON.parse(response.body, symbolize_names: true)
   end 
