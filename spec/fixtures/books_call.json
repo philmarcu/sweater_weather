@@ -1,0 +1,44 @@
+{
+  "data": {
+      "id": null,
+      "type": "books",
+      "attributes": {
+          "destination": "denver,co",
+          "total_books": 20,
+          "forecast": {
+              "temp": 78.21,
+              "summary": "clear sky"
+          },
+          "books": [
+              {
+                  "title": "Boldfaced Lies",
+                  "isbn": "1934099112",
+                  "olid": "OL12340667M",
+                  "publisher": "Rose City Press"
+              },
+              {
+                  "title": "The Regis santos",
+                  "olid": "OL708367M",
+                  "publisher": "LPD Press"
+              },
+              {
+                  "title": "The revolt of modern youth",
+                  "isbn": "0295952989",
+                  "olid": "OL5416784M",
+                  "publisher": "University of Washington Press"
+              },
+              {
+                  "title": "The dangerous life",
+                  "olid": null,
+                  "publisher": null
+              },
+              {
+                  "title": "Exotic and irrational",
+                  "isbn": "0974959782",
+                  "olid": "OL8584347M",
+                  "publisher": "Pilgrims' Process, Inc."
+              }
+          ]
+      }
+  }
+}

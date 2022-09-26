@@ -1,12 +1,14 @@
 class Books
-  attr_reader :location,
-              :total,
-              :weather,
-              :books
-  def initialize(location, total, weather, books)
-    @location = location
-    @total = total
-    @weather = weather
-    @books = book
+  attr_reader :destination,
+              :total_books,
+              :forecast,
+              :books,
+              :id
+  def initialize(destination, total_books, forecast, books)
+    @id = nil
+    @destination = destination.downcase
+    @total_books = total_books
+    @forecast = forecast
+    @books = books
   end
 end

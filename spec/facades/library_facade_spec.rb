@@ -27,7 +27,7 @@ RSpec.describe 'LibraryFacade', :vcr do
 
       book_call = LibraryFacade.books_forecast(location)
 
-      expect(book_call).to be_a Hash
+      expect(book_call).to be_a Books
     end
   end
 end
