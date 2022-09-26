@@ -1,0 +1,189 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openlibrary.org/subjects/denver.json?details=true&limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 16:25:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 4 0.002 SR 1 0.000 TT 0 0.586"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"key": "/subjects/denver", "name": "Denver", "subject_type": "subject",
+        "work_count": 20, "works": [{"key": "/works/OL9897019W", "title": "Boldfaced
+        Lies", "edition_count": 3, "cover_id": 6480927, "cover_edition_key": "OL12340667M",
+        "subject": ["Passing (Identity)", "Colorado", "Ku Klux Klan (1915- )", "Denver",
+        "Fiction", "Accessible book", "Protected DAISY"], "ia_collection": ["americana",
+        "inlibrary", "internetarchivebooks", "printdisabled", "smithsonianlibraries"],
+        "lendinglibrary": false, "printdisabled": true, "lending_edition": "OL12340667M",
+        "lending_identifier": "boldfacedliesnov00port", "authors": [{"key": "/authors/OL3879032A",
+        "name": "Charlene A. Porter"}], "first_publish_year": null, "ia": "boldfacedliesnov00port",
+        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
+        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
+        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
+        "is_previewable": true, "identifier": "boldfacedliesnov00port", "isbn": "1934099112",
+        "oclc": null, "openlibrary_work": "OL9897019W", "openlibrary_edition": "OL12340667M",
+        "last_loan_date": null, "num_waitlist": null, "last_waitlist_date": null,
+        "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}},
+        {"key": "/works/OL2766605W", "title": "The Regis santos", "edition_count":
+        3, "cover_id": 1694386, "cover_edition_key": "OL708367M", "subject": ["Catalogs",
+        "Folk art", "Santos (Art)", "Art collections", "Regis University (Denver,
+        Colo.)", "Ethnic studies", "Exhibition catalogues and specific collections",
+        "History Of Art / Art & Design Styles", "Museum, historic sites, gallery &
+        art guides", "Hispanic Art", "Colorado", "Permanent Collection Catalogs",
+        "Art", "Art & Art Instruction", "Collections, Catalogs, Exhibitions - General",
+        "Folk & Outsider Art", "Criticism", "Subjects & Themes - General", "New Mexico",
+        "Denver", "Hispanic american art"], "ia_collection": [], "lendinglibrary":
+        false, "printdisabled": false, "lending_edition": "", "lending_identifier":
+        "", "authors": [{"key": "/authors/OL406949A", "name": "Thomas J. Steele"},
+        {"key": "/authors/OL407128A", "name": "Barbe Awalt"}, {"key": "/authors/OL1240313A",
+        "name": "Paul Fisher Rhetts"}], "first_publish_year": null, "ia": null, "public_scan":
+        false, "has_fulltext": false}, {"key": "/works/OL1439708W", "title": "The
+        revolt of modern youth", "edition_count": 3, "cover_id": 12846444, "cover_edition_key":
+        "OL5416784M", "subject": ["Juvenile delinquency", "Sexual ethics", "Denver",
+        "Denver. Juvenile Court of the City and County of Denver", "Denver (Colo).
+        Juvenile Court of the City and County of Denver", "Denver (Colo)"], "ia_collection":
+        ["inlibrary", "internetarchivebooks", "printdisabled"], "lendinglibrary":
+        false, "printdisabled": true, "lending_edition": "OL5416784M", "lending_identifier":
+        "revoltofmodernyo0000lind", "authors": [{"key": "/authors/OL150590A", "name":
+        "Ben B. Lindsey"}], "first_publish_year": null, "ia": "revoltofmodernyo0000lind",
+        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
+        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
+        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
+        "is_previewable": true, "identifier": "revoltofmodernyo0000lind", "isbn":
+        "0295952989", "oclc": null, "openlibrary_work": "OL1439708W", "openlibrary_edition":
+        "OL5416784M", "last_loan_date": null, "num_waitlist": null, "last_waitlist_date":
+        null, "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}},
+        {"key": "/works/OL1439707W", "title": "The dangerous life", "edition_count":
+        2, "cover_id": null, "subject": ["Child welfare", "Denver", "Denver. Juvenile
+        Court of the City and County of Denver"], "ia_collection": [], "lendinglibrary":
+        false, "printdisabled": false, "lending_edition": "", "lending_identifier":
+        "", "authors": [{"key": "/authors/OL150590A", "name": "Ben B. Lindsey"}],
+        "first_publish_year": null, "ia": null, "public_scan": false, "has_fulltext":
+        false}, {"key": "/works/OL3404420W", "title": "Exotic and irrational", "edition_count":
+        2, "cover_id": 740871, "cover_edition_key": "OL8584347M", "subject": ["Opera",
+        "Social life and customs", "Genres & Styles - Opera", "History & Criticism
+        - General", "Music / History & Criticism", "Music-Genres & Styles - Opera",
+        "Music/Songbooks", "Music", "Colorado", "Denver", "Denver (Colo.)", "Accessible
+        book", "Protected DAISY"], "ia_collection": ["inlibrary", "internetarchivebooks",
+        "printdisabled"], "lendinglibrary": false, "printdisabled": true, "lending_edition":
+        "OL22750683M", "lending_identifier": "exoticirrational0000youn", "authors":
+        [{"key": "/authors/OL558147A", "name": "Young, Allen"}, {"key": "/authors/OL1175532A",
+        "name": "Allen Young"}], "first_publish_year": null, "ia": "exoticirrational0000youn",
+        "public_scan": false, "has_fulltext": true, "availability": {"status": "borrow_available",
+        "available_to_browse": true, "available_to_borrow": false, "available_to_waitlist":
+        false, "is_printdisabled": true, "is_readable": false, "is_lendable": true,
+        "is_previewable": true, "identifier": "exoticirrational0000youn", "isbn":
+        "0974959782", "oclc": null, "openlibrary_work": "OL3404420W", "openlibrary_edition":
+        "OL22750683M", "last_loan_date": null, "num_waitlist": null, "last_waitlist_date":
+        null, "is_restricted": true, "is_browseable": true, "__src__": "core.models.lending.get_availability"}}],
+        "ebook_count": 20, "subjects": [{"key": "/subjects/colorado", "name": "Colorado",
+        "count": 7}, {"key": "/subjects/accessible_book", "name": "Accessible book",
+        "count": 6}, {"key": "/subjects/navajo_indians", "name": "Navajo Indians",
+        "count": 4}, {"key": "/subjects/protected_daisy", "name": "Protected DAISY",
+        "count": 3}, {"key": "/subjects/denver", "name": "denver", "count": 3}, {"key":
+        "/subjects/bibliography", "name": "Bibliography", "count": 2}, {"key": "/subjects/catalogs",
+        "name": "Catalogs", "count": 2}, {"key": "/subjects/denver._juvenile_court_of_the_city_and_county_of_denver",
+        "name": "Denver. Juvenile Court of the City and County of Denver", "count":
+        2}, {"key": "/subjects/fiction", "name": "Fiction", "count": 2}, {"key": "/subjects/rural-urban_migration",
+        "name": "Rural-urban migration", "count": 2}, {"key": "/subjects/bonds", "name":
+        "bonds", "count": 2}, {"key": "/subjects/earnings", "name": "earnings", "count":
+        2}, {"key": "/subjects/google_book", "name": "google book", "count": 2}, {"key":
+        "/subjects/kansas", "name": "kansas", "count": 2}, {"key": "/subjects/land_grant",
+        "name": "land grant", "count": 2}, {"key": "/subjects/omaha", "name": "omaha",
+        "count": 2}, {"key": "/subjects/pacific", "name": "pacific", "count": 2},
+        {"key": "/subjects/public_domain", "name": "public domain", "count": 2}, {"key":
+        "/subjects/union_pacific", "name": "union pacific", "count": 2}, {"key": "/subjects/acculturation",
+        "name": "Acculturation", "count": 1}, {"key": "/subjects/american_college_verse",
+        "name": "American College verse", "count": 1}, {"key": "/subjects/amusements",
+        "name": "Amusements", "count": 1}, {"key": "/subjects/architects", "name":
+        "Architects", "count": 1}, {"key": "/subjects/architecture", "name": "Architecture",
+        "count": 1}], "places": [{"key": "/subjects/place:colorado", "name": "Colorado",
+        "count": 6}, {"key": "/subjects/place:denver", "name": "Denver", "count":
+        6}, {"key": "/subjects/place:denver_(colo.)", "name": "Denver (Colo.)", "count":
+        1}, {"key": "/subjects/place:new_mexico", "name": "New Mexico", "count": 1},
+        {"key": "/subjects/place:north_america", "name": "North America", "count":
+        1}, {"key": "/subjects/place:united_states", "name": "United States", "count":
+        1}, {"key": "/subjects/place:west_(u.s.)", "name": "West (U.S.)", "count":
+        1}], "people": [{"key": "/subjects/person:mary_hauck_elitch_long", "name":
+        "Mary Hauck Elitch Long", "count": 1}], "times": [], "authors": [{"name":
+        "Ben B. Lindsey", "key": "/authors/OL150590A", "count": 2}, {"name": "Theodore
+        Dumaine Graves", "key": "/authors/OL5049200A", "count": 2}, {"name": "Union
+        Pacific Railway Company", "key": "/authors/OL6038425A", "count": 2}, {"name":
+        "Allen Young", "key": "/authors/OL1175532A", "count": 1}, {"name": "Paul Fisher
+        Rhetts", "key": "/authors/OL1240313A", "count": 1}, {"name": "Denver Planning
+        Office.", "key": "/authors/OL1374512A", "count": 1}, {"name": "Sara Goodman
+        Zimet", "key": "/authors/OL2010374A", "count": 1}, {"name": "Denver. Public
+        Library. Western History Dept.", "key": "/authors/OL2142767A", "count": 1},
+        {"name": "Barbara Aro", "key": "/authors/OL2215676A", "count": 1}, {"name":
+        "Caroline Lawrence Dier", "key": "/authors/OL2308668A", "count": 1}, {"name":
+        "Thomas J. Noel", "key": "/authors/OL238497A", "count": 1}, {"name": "Charlene
+        A. Porter", "key": "/authors/OL3879032A", "count": 1}, {"name": "Thomas J.
+        Steele", "key": "/authors/OL406949A", "count": 1}, {"name": "Barbe Awalt",
+        "key": "/authors/OL407128A", "count": 1}, {"name": "Barbara S. Norgren", "key":
+        "/authors/OL4251979A", "count": 1}, {"name": "Romola Mae McSwain", "key":
+        "/authors/OL5059297A", "count": 1}, {"name": "University of Denver", "key":
+        "/authors/OL5111702A", "count": 1}, {"name": "Young, Allen", "key": "/authors/OL558147A",
+        "count": 1}, {"name": "Peter Zane Snyder", "key": "/authors/OL5611647A", "count":
+        1}, {"name": "Bureau of Labor Statistics", "key": "/authors/OL5988138A", "count":
+        1}, {"name": "Colorado", "key": "/authors/OL6013249A", "count": 1}, {"name":
+        "Union Pacific Railroad Company", "key": "/authors/OL6033569A", "count": 1},
+        {"name": "Colorado Bureau of Labor Statistics ", "key": "/authors/OL6084355A",
+        "count": 1}], "publishers": [{"name": "Arno Press", "count": 1, "key": "/publishers/Arno_Press"},
+        {"name": "Bodley Head", "count": 1, "key": "/publishers/Bodley_Head"}, {"name":
+        "Boni & Liveright", "count": 1, "key": "/publishers/Boni_&_Liveright"}, {"name":
+        "Denver University Libraries?", "count": 1, "key": "/publishers/Denver_University_Libraries?"},
+        {"name": "Discovery Press Publications Inc", "count": 1, "key": "/publishers/Discovery_Press_Publications_Inc"},
+        {"name": "G. K. Hall", "count": 1, "key": "/publishers/G._K._Hall"}, {"name":
+        "Graduate School of Librarianship, University of Denver", "count": 1, "key":
+        "/publishers/Graduate_School_of_Librarianship,_University_of_Denver"}, {"name":
+        "H. Liveright", "count": 1, "key": "/publishers/H._Liveright"}, {"name": "Hollycrofters,
+        inc., ltd.", "count": 1, "key": "/publishers/Hollycrofters,_inc.,_ltd."},
+        {"name": "LPD Press", "count": 1, "key": "/publishers/LPD_Press"}, {"name":
+        "LPD Publishing", "count": 1, "key": "/publishers/LPD_Publishing"}, {"name":
+        "Pilgrims Progress", "count": 1, "key": "/publishers/Pilgrims_Progress"},
+        {"name": "Pilgrims'' Process, Inc.", "count": 1, "key": "/publishers/Pilgrims''_Process,_Inc."},
+        {"name": "Renaissance House Pub", "count": 1, "key": "/publishers/Renaissance_House_Pub"},
+        {"name": "Rose City Press", "count": 1, "key": "/publishers/Rose_City_Press"},
+        {"name": "Salem Author Services", "count": 1, "key": "/publishers/Salem_Author_Services"},
+        {"name": "The Co.", "count": 1, "key": "/publishers/The_Co."}, {"name": "University
+        of Denver", "count": 1, "key": "/publishers/University_of_Denver"}, {"name":
+        "University of Washington Press", "count": 1, "key": "/publishers/University_of_Washington_Press"}],
+        "languages": [{"name": "eng", "count": 16}], "publishing_history": [[1881,
+        1], [1882, 1], [1892, 1], [1925, 1], [1928, 1], [1931, 1], [1932, 1], [1962,
+        1], [1964, 1], [1965, 3], [1968, 1], [1969, 1], [1970, 1], [1972, 1], [1973,
+        1], [1974, 1], [1987, 1], [1997, 1], [1998, 1], [2005, 1], [2006, 2], [2012,
+        1]]}'
+  recorded_at: Mon, 26 Sep 2022 16:25:51 GMT
+recorded_with: VCR 6.1.0

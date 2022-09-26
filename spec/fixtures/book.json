@@ -1,0 +1,58 @@
+{
+  "key": "/works/OL9897019W",
+  "title": "Boldfaced Lies",
+  "edition_count": 3,
+  "cover_id": 6480927,
+  "cover_edition_key": "OL12340667M",
+  "subject": [
+      "Passing (Identity)",
+      "Colorado",
+      "Ku Klux Klan (1915- )",
+      "Denver",
+      "Fiction",
+      "Accessible book",
+      "Protected DAISY"
+  ],
+  "ia_collection": [
+      "americana",
+      "inlibrary",
+      "internetarchivebooks",
+      "printdisabled",
+      "smithsonianlibraries"
+  ],
+  "lendinglibrary": false,
+  "printdisabled": true,
+  "lending_edition": "OL12340667M",
+  "lending_identifier": "boldfacedliesnov00port",
+  "authors": [
+      {
+          "key": "/authors/OL3879032A",
+          "name": "Charlene A. Porter"
+      }
+  ],
+  "first_publish_year": null,
+  "ia": "boldfacedliesnov00port",
+  "public_scan": false,
+  "has_fulltext": true,
+  "availability": {
+      "status": "borrow_available",
+      "available_to_browse": true,
+      "available_to_borrow": false,
+      "available_to_waitlist": false,
+      "is_printdisabled": true,
+      "is_readable": false,
+      "is_lendable": true,
+      "is_previewable": true,
+      "identifier": "boldfacedliesnov00port",
+      "isbn": "1934099112",
+      "oclc": null,
+      "openlibrary_work": "OL9897019W",
+      "openlibrary_edition": "OL12340667M",
+      "last_loan_date": null,
+      "num_waitlist": null,
+      "last_waitlist_date": null,
+      "is_restricted": true,
+      "is_browseable": true,
+      "__src__": "core.models.lending.get_availability"
+  }
+}
