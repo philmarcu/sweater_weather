@@ -2,6 +2,1741 @@
 http_interactions:
 - request:
     method: get
+    uri: http://openlibrary.org/books/OL6284026M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.005"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Hollycrofters, inc., ltd."], "table_of_contents":
+        [{"type": {"key": "/type/toc_item"}, "pagenum": "17", "class": "subsection",
+        "label": "Chapter I"}, {"type": {"key": "/type/toc_item"}, "pagenum": "29",
+        "class": "part", "label": "Chapter II"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "32", "class": "part", "label": "Chapter III"}, {"type": {"key":
+        "/type/toc_item"}, "pagenum": "43", "class": "part", "label": "Chapter IV"},
+        {"type": {"key": "/type/toc_item"}, "title": "1898-1899", "pagenum": "51",
+        "class": "part", "label": "Chapter V"}, {"type": {"key": "/type/toc_item"},
+        "title": "1900-1901", "pagenum": "59", "class": "part", "label": "Chapter
+        VI"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter VII", "pagenum":
+        "70", "class": "part", "title": "1902-1903"}, {"type": {"key": "/type/toc_item"},
+        "title": "1904-1905", "pagenum": "85", "class": "part", "label": "Chapter
+        VIII"}, {"type": {"key": "/type/toc_item"}, "title": "1906", "pagenum": "95",
+        "class": "part", "label": "Chapter IX"}, {"type": {"key": "/type/toc_item"},
+        "title": "1907-1908", "pagenum": "103", "class": "part", "label": "Chapter
+        X"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter XI", "pagenum":
+        "110", "class": "part", "title": "1909-1910-1911"}, {"type": {"key": "/type/toc_item"},
+        "label": "Chapter XII", "pagenum": "120", "class": "part", "title": "1912"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XIII", "pagenum": "124",
+        "class": "part", "title": "1913-1914"}, {"type": {"key": "/type/toc_item"},
+        "title": "1915", "pagenum": "128", "class": "part", "label": "Chapter XIV"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XV", "pagenum": "132",
+        "class": "part", "title": "1916-1932"}, {"type": {"key": "/type/toc_item"},
+        "title": "Mary Elitch Long", "pagenum": "137", "class": "part", "label": "Chapter
+        XVI"}, {"type": {"key": "/type/toc_item"}, "pagenum": "143", "class": "part",
+        "title": "They Played At Elitch''s"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "153", "class": "part", "title": "From the Gardens'' Family Album"},
+        {"type": {"key": "/type/toc_item"}, "class": "part", "title": "Index of Illustrations"}],
+        "description": "THE DENVER WOMAN''S PRESS CLUB\r\n1325 Logan Street\r\n\r\nTo
+        Whom It May Concern:\r\n\r\nWe who are members of the Denver Women''s Press\r\nClub
+        are proud of this opportunity to endorse the book\r\nThe Lady of the Gardens:
+        Mary Elitch Long, by Caroline\r\nL. Dier.\r\n\r\nThis book is particularly
+        precious to us because Mary\r\nElitch Long is one of our honorary life members
+        and a\r\nbeloved person. Her story is unique and picturesque.\r\n\r\nAnd Mrs.
+        Dier, also a long time member of the Press\r\nClub, has written within one
+        volume the biography of a\r\nfriend and a personage, the history of a beautiful
+        garden\r\nresort and the saga of a summer theatre whose program\r\nfiles are
+        a veritable Who''s Who of the stage world.\r\n\r\nThe Denver Woman''s Press
+        Club\r\n\r\nHelen M. Black, President, 1931-1932\r\nFormer Dramatic Critic
+        of\r\nThe Rocky Mountain News", "subject_place": ["Colorado", "Denver."],
+        "covers": [5794178, 5794208], "physical_format": "Hardcover", "lc_classifications":
+        ["PN2287.L63 D5"], "latest_revision": 6, "key": "/books/OL6284026M", "authors":
+        [{"key": "/authors/OL2308668A"}], "publish_places": ["Hollywood Ca"], "contributions":
+        ["Letter of endorsement -- The Denver Women''s Press Club; Foreward -- Burns
+        Mantle; Illustration/Plate Credits -- The Hopkins and Scholtz Studios, Denver,
+        and the DeMirjian and Otto Dyar Studios"], "first_sentence": "Mary Elizabeth
+        Hauck was born in Philadelphia.", "pagination": "305, [2] p. incl. front.,
+        illus., plates, ports., facsims.", "source_records": ["marc:marc_loc_2016/BooksAll.2016.part03.utf8:89203195:766"],
+        "title": "The Lady of the Gardens: Mary Elitch Long", "dewey_decimal_class":
+        ["920.7", "[792.09788]"], "number_of_pages": 305, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "languages": [{"key": "/languages/eng"}],
+        "lccn": ["33000124"], "subjects": ["Long, Mary Hauck Elitch.", "Denver. Elitch
+        Gardens.", "Theater -- Colorado -- Denver.", "Amusements -- Colorado -- Denver."],
+        "publish_date": "1932", "publish_country": "cau", "last_modified": {"type":
+        "/type/datetime", "value": "2020-09-14T22:12:49.257349"}, "by_statement":
+        "by Caroline Lawrence Dier", "oclc_numbers": ["307807"], "works": [{"key":
+        "/works/OL7546275W"}], "type": {"key": "/type/edition"}, "physical_dimensions":
+        "6.5 x 9.75 in", "revision": 6}'
+  recorded_at: Mon, 26 Sep 2022 20:01:53 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL11709103M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.004"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Discovery Press Publications Inc"], "number_of_pages":
+        32, "weight": "14.4 ounces", "covers": [2699837], "physical_format": "Hardcover",
+        "key": "/books/OL11709103M", "authors": [{"key": "/authors/OL2010374A"}],
+        "subjects": ["Children''s 4-8", "Fear in children", "Fear of the dark", "Monsters",
+        "Nightmares", "Juvenile Fiction / Bedtime & Dreams", "Juvenile Fiction / Social
+        Situations / Emotions & Feelings", "Action & Adventure - General", "Bedtime",
+        "Fiction", "Juvenile Fiction", "Sleep", "Children: Kindergarten"], "isbn_13":
+        ["9780964515918"], "source_records": ["amazon:0964515911", "marc:marc_loc_updates/v36.i42.records.utf8:4642852:955",
+        "marc:marc_loc_2016/BooksAll.2016.part33.utf8:77056596:955", "ia:monstersolution0000zime"],
+        "title": "Monster Solution", "identifiers": {"goodreads": ["5718608"]}, "languages":
+        [{"key": "/languages/eng"}], "isbn_10": ["0964515911"], "publish_date": "July
+        1, 2005", "oclc_numbers": ["61209948"], "works": [{"key": "/works/OL7099888W"}],
+        "type": {"key": "/type/edition"}, "physical_dimensions": "10.7 x 8.6 x 0.4
+        inches", "lccn": ["2005902461"], "lc_classifications": ["MLCM 2006/43725 (P)"],
+        "ocaid": "monstersolution0000zime", "latest_revision": 9, "revision": 9, "created":
+        {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"}, "last_modified":
+        {"type": "/type/datetime", "value": "2021-08-17T21:58:38.070807"}}'
+  recorded_at: Mon, 26 Sep 2022 20:01:53 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:54 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.001 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:54 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:54 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:54 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:54 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:54 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:54 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:54 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL6284026M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.005"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Hollycrofters, inc., ltd."], "table_of_contents":
+        [{"type": {"key": "/type/toc_item"}, "pagenum": "17", "class": "subsection",
+        "label": "Chapter I"}, {"type": {"key": "/type/toc_item"}, "pagenum": "29",
+        "class": "part", "label": "Chapter II"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "32", "class": "part", "label": "Chapter III"}, {"type": {"key":
+        "/type/toc_item"}, "pagenum": "43", "class": "part", "label": "Chapter IV"},
+        {"type": {"key": "/type/toc_item"}, "title": "1898-1899", "pagenum": "51",
+        "class": "part", "label": "Chapter V"}, {"type": {"key": "/type/toc_item"},
+        "title": "1900-1901", "pagenum": "59", "class": "part", "label": "Chapter
+        VI"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter VII", "pagenum":
+        "70", "class": "part", "title": "1902-1903"}, {"type": {"key": "/type/toc_item"},
+        "title": "1904-1905", "pagenum": "85", "class": "part", "label": "Chapter
+        VIII"}, {"type": {"key": "/type/toc_item"}, "title": "1906", "pagenum": "95",
+        "class": "part", "label": "Chapter IX"}, {"type": {"key": "/type/toc_item"},
+        "title": "1907-1908", "pagenum": "103", "class": "part", "label": "Chapter
+        X"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter XI", "pagenum":
+        "110", "class": "part", "title": "1909-1910-1911"}, {"type": {"key": "/type/toc_item"},
+        "label": "Chapter XII", "pagenum": "120", "class": "part", "title": "1912"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XIII", "pagenum": "124",
+        "class": "part", "title": "1913-1914"}, {"type": {"key": "/type/toc_item"},
+        "title": "1915", "pagenum": "128", "class": "part", "label": "Chapter XIV"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XV", "pagenum": "132",
+        "class": "part", "title": "1916-1932"}, {"type": {"key": "/type/toc_item"},
+        "title": "Mary Elitch Long", "pagenum": "137", "class": "part", "label": "Chapter
+        XVI"}, {"type": {"key": "/type/toc_item"}, "pagenum": "143", "class": "part",
+        "title": "They Played At Elitch''s"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "153", "class": "part", "title": "From the Gardens'' Family Album"},
+        {"type": {"key": "/type/toc_item"}, "class": "part", "title": "Index of Illustrations"}],
+        "description": "THE DENVER WOMAN''S PRESS CLUB\r\n1325 Logan Street\r\n\r\nTo
+        Whom It May Concern:\r\n\r\nWe who are members of the Denver Women''s Press\r\nClub
+        are proud of this opportunity to endorse the book\r\nThe Lady of the Gardens:
+        Mary Elitch Long, by Caroline\r\nL. Dier.\r\n\r\nThis book is particularly
+        precious to us because Mary\r\nElitch Long is one of our honorary life members
+        and a\r\nbeloved person. Her story is unique and picturesque.\r\n\r\nAnd Mrs.
+        Dier, also a long time member of the Press\r\nClub, has written within one
+        volume the biography of a\r\nfriend and a personage, the history of a beautiful
+        garden\r\nresort and the saga of a summer theatre whose program\r\nfiles are
+        a veritable Who''s Who of the stage world.\r\n\r\nThe Denver Woman''s Press
+        Club\r\n\r\nHelen M. Black, President, 1931-1932\r\nFormer Dramatic Critic
+        of\r\nThe Rocky Mountain News", "subject_place": ["Colorado", "Denver."],
+        "covers": [5794178, 5794208], "physical_format": "Hardcover", "lc_classifications":
+        ["PN2287.L63 D5"], "latest_revision": 6, "key": "/books/OL6284026M", "authors":
+        [{"key": "/authors/OL2308668A"}], "publish_places": ["Hollywood Ca"], "contributions":
+        ["Letter of endorsement -- The Denver Women''s Press Club; Foreward -- Burns
+        Mantle; Illustration/Plate Credits -- The Hopkins and Scholtz Studios, Denver,
+        and the DeMirjian and Otto Dyar Studios"], "first_sentence": "Mary Elizabeth
+        Hauck was born in Philadelphia.", "pagination": "305, [2] p. incl. front.,
+        illus., plates, ports., facsims.", "source_records": ["marc:marc_loc_2016/BooksAll.2016.part03.utf8:89203195:766"],
+        "title": "The Lady of the Gardens: Mary Elitch Long", "dewey_decimal_class":
+        ["920.7", "[792.09788]"], "number_of_pages": 305, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "languages": [{"key": "/languages/eng"}],
+        "lccn": ["33000124"], "subjects": ["Long, Mary Hauck Elitch.", "Denver. Elitch
+        Gardens.", "Theater -- Colorado -- Denver.", "Amusements -- Colorado -- Denver."],
+        "publish_date": "1932", "publish_country": "cau", "last_modified": {"type":
+        "/type/datetime", "value": "2020-09-14T22:12:49.257349"}, "by_statement":
+        "by Caroline Lawrence Dier", "oclc_numbers": ["307807"], "works": [{"key":
+        "/works/OL7546275W"}], "type": {"key": "/type/edition"}, "physical_dimensions":
+        "6.5 x 9.75 in", "revision": 6}'
+  recorded_at: Mon, 26 Sep 2022 20:01:54 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL11709103M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.004"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Discovery Press Publications Inc"], "number_of_pages":
+        32, "weight": "14.4 ounces", "covers": [2699837], "physical_format": "Hardcover",
+        "key": "/books/OL11709103M", "authors": [{"key": "/authors/OL2010374A"}],
+        "subjects": ["Children''s 4-8", "Fear in children", "Fear of the dark", "Monsters",
+        "Nightmares", "Juvenile Fiction / Bedtime & Dreams", "Juvenile Fiction / Social
+        Situations / Emotions & Feelings", "Action & Adventure - General", "Bedtime",
+        "Fiction", "Juvenile Fiction", "Sleep", "Children: Kindergarten"], "isbn_13":
+        ["9780964515918"], "source_records": ["amazon:0964515911", "marc:marc_loc_updates/v36.i42.records.utf8:4642852:955",
+        "marc:marc_loc_2016/BooksAll.2016.part33.utf8:77056596:955", "ia:monstersolution0000zime"],
+        "title": "Monster Solution", "identifiers": {"goodreads": ["5718608"]}, "languages":
+        [{"key": "/languages/eng"}], "isbn_10": ["0964515911"], "publish_date": "July
+        1, 2005", "oclc_numbers": ["61209948"], "works": [{"key": "/works/OL7099888W"}],
+        "type": {"key": "/type/edition"}, "physical_dimensions": "10.7 x 8.6 x 0.4
+        inches", "lccn": ["2005902461"], "lc_classifications": ["MLCM 2006/43725 (P)"],
+        "ocaid": "monstersolution0000zime", "latest_revision": 9, "revision": 9, "created":
+        {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"}, "last_modified":
+        {"type": "/type/datetime", "value": "2021-08-17T21:58:38.070807"}}'
+  recorded_at: Mon, 26 Sep 2022 20:01:55 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:55 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:55 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.001 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:55 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:55 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:55 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:55 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL6284026M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.005"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Hollycrofters, inc., ltd."], "table_of_contents":
+        [{"type": {"key": "/type/toc_item"}, "pagenum": "17", "class": "subsection",
+        "label": "Chapter I"}, {"type": {"key": "/type/toc_item"}, "pagenum": "29",
+        "class": "part", "label": "Chapter II"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "32", "class": "part", "label": "Chapter III"}, {"type": {"key":
+        "/type/toc_item"}, "pagenum": "43", "class": "part", "label": "Chapter IV"},
+        {"type": {"key": "/type/toc_item"}, "title": "1898-1899", "pagenum": "51",
+        "class": "part", "label": "Chapter V"}, {"type": {"key": "/type/toc_item"},
+        "title": "1900-1901", "pagenum": "59", "class": "part", "label": "Chapter
+        VI"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter VII", "pagenum":
+        "70", "class": "part", "title": "1902-1903"}, {"type": {"key": "/type/toc_item"},
+        "title": "1904-1905", "pagenum": "85", "class": "part", "label": "Chapter
+        VIII"}, {"type": {"key": "/type/toc_item"}, "title": "1906", "pagenum": "95",
+        "class": "part", "label": "Chapter IX"}, {"type": {"key": "/type/toc_item"},
+        "title": "1907-1908", "pagenum": "103", "class": "part", "label": "Chapter
+        X"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter XI", "pagenum":
+        "110", "class": "part", "title": "1909-1910-1911"}, {"type": {"key": "/type/toc_item"},
+        "label": "Chapter XII", "pagenum": "120", "class": "part", "title": "1912"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XIII", "pagenum": "124",
+        "class": "part", "title": "1913-1914"}, {"type": {"key": "/type/toc_item"},
+        "title": "1915", "pagenum": "128", "class": "part", "label": "Chapter XIV"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XV", "pagenum": "132",
+        "class": "part", "title": "1916-1932"}, {"type": {"key": "/type/toc_item"},
+        "title": "Mary Elitch Long", "pagenum": "137", "class": "part", "label": "Chapter
+        XVI"}, {"type": {"key": "/type/toc_item"}, "pagenum": "143", "class": "part",
+        "title": "They Played At Elitch''s"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "153", "class": "part", "title": "From the Gardens'' Family Album"},
+        {"type": {"key": "/type/toc_item"}, "class": "part", "title": "Index of Illustrations"}],
+        "description": "THE DENVER WOMAN''S PRESS CLUB\r\n1325 Logan Street\r\n\r\nTo
+        Whom It May Concern:\r\n\r\nWe who are members of the Denver Women''s Press\r\nClub
+        are proud of this opportunity to endorse the book\r\nThe Lady of the Gardens:
+        Mary Elitch Long, by Caroline\r\nL. Dier.\r\n\r\nThis book is particularly
+        precious to us because Mary\r\nElitch Long is one of our honorary life members
+        and a\r\nbeloved person. Her story is unique and picturesque.\r\n\r\nAnd Mrs.
+        Dier, also a long time member of the Press\r\nClub, has written within one
+        volume the biography of a\r\nfriend and a personage, the history of a beautiful
+        garden\r\nresort and the saga of a summer theatre whose program\r\nfiles are
+        a veritable Who''s Who of the stage world.\r\n\r\nThe Denver Woman''s Press
+        Club\r\n\r\nHelen M. Black, President, 1931-1932\r\nFormer Dramatic Critic
+        of\r\nThe Rocky Mountain News", "subject_place": ["Colorado", "Denver."],
+        "covers": [5794178, 5794208], "physical_format": "Hardcover", "lc_classifications":
+        ["PN2287.L63 D5"], "latest_revision": 6, "key": "/books/OL6284026M", "authors":
+        [{"key": "/authors/OL2308668A"}], "publish_places": ["Hollywood Ca"], "contributions":
+        ["Letter of endorsement -- The Denver Women''s Press Club; Foreward -- Burns
+        Mantle; Illustration/Plate Credits -- The Hopkins and Scholtz Studios, Denver,
+        and the DeMirjian and Otto Dyar Studios"], "first_sentence": "Mary Elizabeth
+        Hauck was born in Philadelphia.", "pagination": "305, [2] p. incl. front.,
+        illus., plates, ports., facsims.", "source_records": ["marc:marc_loc_2016/BooksAll.2016.part03.utf8:89203195:766"],
+        "title": "The Lady of the Gardens: Mary Elitch Long", "dewey_decimal_class":
+        ["920.7", "[792.09788]"], "number_of_pages": 305, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "languages": [{"key": "/languages/eng"}],
+        "lccn": ["33000124"], "subjects": ["Long, Mary Hauck Elitch.", "Denver. Elitch
+        Gardens.", "Theater -- Colorado -- Denver.", "Amusements -- Colorado -- Denver."],
+        "publish_date": "1932", "publish_country": "cau", "last_modified": {"type":
+        "/type/datetime", "value": "2020-09-14T22:12:49.257349"}, "by_statement":
+        "by Caroline Lawrence Dier", "oclc_numbers": ["307807"], "works": [{"key":
+        "/works/OL7546275W"}], "type": {"key": "/type/edition"}, "physical_dimensions":
+        "6.5 x 9.75 in", "revision": 6}'
+  recorded_at: Mon, 26 Sep 2022 20:01:56 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL11709103M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Discovery Press Publications Inc"], "number_of_pages":
+        32, "weight": "14.4 ounces", "covers": [2699837], "physical_format": "Hardcover",
+        "key": "/books/OL11709103M", "authors": [{"key": "/authors/OL2010374A"}],
+        "subjects": ["Children''s 4-8", "Fear in children", "Fear of the dark", "Monsters",
+        "Nightmares", "Juvenile Fiction / Bedtime & Dreams", "Juvenile Fiction / Social
+        Situations / Emotions & Feelings", "Action & Adventure - General", "Bedtime",
+        "Fiction", "Juvenile Fiction", "Sleep", "Children: Kindergarten"], "isbn_13":
+        ["9780964515918"], "source_records": ["amazon:0964515911", "marc:marc_loc_updates/v36.i42.records.utf8:4642852:955",
+        "marc:marc_loc_2016/BooksAll.2016.part33.utf8:77056596:955", "ia:monstersolution0000zime"],
+        "title": "Monster Solution", "identifiers": {"goodreads": ["5718608"]}, "languages":
+        [{"key": "/languages/eng"}], "isbn_10": ["0964515911"], "publish_date": "July
+        1, 2005", "oclc_numbers": ["61209948"], "works": [{"key": "/works/OL7099888W"}],
+        "type": {"key": "/type/edition"}, "physical_dimensions": "10.7 x 8.6 x 0.4
+        inches", "lccn": ["2005902461"], "lc_classifications": ["MLCM 2006/43725 (P)"],
+        "ocaid": "monstersolution0000zime", "latest_revision": 9, "revision": 9, "created":
+        {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"}, "last_modified":
+        {"type": "/type/datetime", "value": "2021-08-17T21:58:38.070807"}}'
+  recorded_at: Mon, 26 Sep 2022 20:01:56 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:56 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:56 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:56 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:56 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:56 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:56 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:56 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.001 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:56 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:57 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:57 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:57 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:57 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL6284026M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.006"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Hollycrofters, inc., ltd."], "table_of_contents":
+        [{"type": {"key": "/type/toc_item"}, "pagenum": "17", "class": "subsection",
+        "label": "Chapter I"}, {"type": {"key": "/type/toc_item"}, "pagenum": "29",
+        "class": "part", "label": "Chapter II"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "32", "class": "part", "label": "Chapter III"}, {"type": {"key":
+        "/type/toc_item"}, "pagenum": "43", "class": "part", "label": "Chapter IV"},
+        {"type": {"key": "/type/toc_item"}, "title": "1898-1899", "pagenum": "51",
+        "class": "part", "label": "Chapter V"}, {"type": {"key": "/type/toc_item"},
+        "title": "1900-1901", "pagenum": "59", "class": "part", "label": "Chapter
+        VI"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter VII", "pagenum":
+        "70", "class": "part", "title": "1902-1903"}, {"type": {"key": "/type/toc_item"},
+        "title": "1904-1905", "pagenum": "85", "class": "part", "label": "Chapter
+        VIII"}, {"type": {"key": "/type/toc_item"}, "title": "1906", "pagenum": "95",
+        "class": "part", "label": "Chapter IX"}, {"type": {"key": "/type/toc_item"},
+        "title": "1907-1908", "pagenum": "103", "class": "part", "label": "Chapter
+        X"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter XI", "pagenum":
+        "110", "class": "part", "title": "1909-1910-1911"}, {"type": {"key": "/type/toc_item"},
+        "label": "Chapter XII", "pagenum": "120", "class": "part", "title": "1912"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XIII", "pagenum": "124",
+        "class": "part", "title": "1913-1914"}, {"type": {"key": "/type/toc_item"},
+        "title": "1915", "pagenum": "128", "class": "part", "label": "Chapter XIV"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XV", "pagenum": "132",
+        "class": "part", "title": "1916-1932"}, {"type": {"key": "/type/toc_item"},
+        "title": "Mary Elitch Long", "pagenum": "137", "class": "part", "label": "Chapter
+        XVI"}, {"type": {"key": "/type/toc_item"}, "pagenum": "143", "class": "part",
+        "title": "They Played At Elitch''s"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "153", "class": "part", "title": "From the Gardens'' Family Album"},
+        {"type": {"key": "/type/toc_item"}, "class": "part", "title": "Index of Illustrations"}],
+        "description": "THE DENVER WOMAN''S PRESS CLUB\r\n1325 Logan Street\r\n\r\nTo
+        Whom It May Concern:\r\n\r\nWe who are members of the Denver Women''s Press\r\nClub
+        are proud of this opportunity to endorse the book\r\nThe Lady of the Gardens:
+        Mary Elitch Long, by Caroline\r\nL. Dier.\r\n\r\nThis book is particularly
+        precious to us because Mary\r\nElitch Long is one of our honorary life members
+        and a\r\nbeloved person. Her story is unique and picturesque.\r\n\r\nAnd Mrs.
+        Dier, also a long time member of the Press\r\nClub, has written within one
+        volume the biography of a\r\nfriend and a personage, the history of a beautiful
+        garden\r\nresort and the saga of a summer theatre whose program\r\nfiles are
+        a veritable Who''s Who of the stage world.\r\n\r\nThe Denver Woman''s Press
+        Club\r\n\r\nHelen M. Black, President, 1931-1932\r\nFormer Dramatic Critic
+        of\r\nThe Rocky Mountain News", "subject_place": ["Colorado", "Denver."],
+        "covers": [5794178, 5794208], "physical_format": "Hardcover", "lc_classifications":
+        ["PN2287.L63 D5"], "latest_revision": 6, "key": "/books/OL6284026M", "authors":
+        [{"key": "/authors/OL2308668A"}], "publish_places": ["Hollywood Ca"], "contributions":
+        ["Letter of endorsement -- The Denver Women''s Press Club; Foreward -- Burns
+        Mantle; Illustration/Plate Credits -- The Hopkins and Scholtz Studios, Denver,
+        and the DeMirjian and Otto Dyar Studios"], "first_sentence": "Mary Elizabeth
+        Hauck was born in Philadelphia.", "pagination": "305, [2] p. incl. front.,
+        illus., plates, ports., facsims.", "source_records": ["marc:marc_loc_2016/BooksAll.2016.part03.utf8:89203195:766"],
+        "title": "The Lady of the Gardens: Mary Elitch Long", "dewey_decimal_class":
+        ["920.7", "[792.09788]"], "number_of_pages": 305, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "languages": [{"key": "/languages/eng"}],
+        "lccn": ["33000124"], "subjects": ["Long, Mary Hauck Elitch.", "Denver. Elitch
+        Gardens.", "Theater -- Colorado -- Denver.", "Amusements -- Colorado -- Denver."],
+        "publish_date": "1932", "publish_country": "cau", "last_modified": {"type":
+        "/type/datetime", "value": "2020-09-14T22:12:49.257349"}, "by_statement":
+        "by Caroline Lawrence Dier", "oclc_numbers": ["307807"], "works": [{"key":
+        "/works/OL7546275W"}], "type": {"key": "/type/edition"}, "physical_dimensions":
+        "6.5 x 9.75 in", "revision": 6}'
+  recorded_at: Mon, 26 Sep 2022 20:01:57 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL11709103M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.004"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Discovery Press Publications Inc"], "number_of_pages":
+        32, "weight": "14.4 ounces", "covers": [2699837], "physical_format": "Hardcover",
+        "key": "/books/OL11709103M", "authors": [{"key": "/authors/OL2010374A"}],
+        "subjects": ["Children''s 4-8", "Fear in children", "Fear of the dark", "Monsters",
+        "Nightmares", "Juvenile Fiction / Bedtime & Dreams", "Juvenile Fiction / Social
+        Situations / Emotions & Feelings", "Action & Adventure - General", "Bedtime",
+        "Fiction", "Juvenile Fiction", "Sleep", "Children: Kindergarten"], "isbn_13":
+        ["9780964515918"], "source_records": ["amazon:0964515911", "marc:marc_loc_updates/v36.i42.records.utf8:4642852:955",
+        "marc:marc_loc_2016/BooksAll.2016.part33.utf8:77056596:955", "ia:monstersolution0000zime"],
+        "title": "Monster Solution", "identifiers": {"goodreads": ["5718608"]}, "languages":
+        [{"key": "/languages/eng"}], "isbn_10": ["0964515911"], "publish_date": "July
+        1, 2005", "oclc_numbers": ["61209948"], "works": [{"key": "/works/OL7099888W"}],
+        "type": {"key": "/type/edition"}, "physical_dimensions": "10.7 x 8.6 x 0.4
+        inches", "lccn": ["2005902461"], "lc_classifications": ["MLCM 2006/43725 (P)"],
+        "ocaid": "monstersolution0000zime", "latest_revision": 9, "revision": 9, "created":
+        {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"}, "last_modified":
+        {"type": "/type/datetime", "value": "2021-08-17T21:58:38.070807"}}'
+  recorded_at: Mon, 26 Sep 2022 20:01:57 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:57 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.001 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:57 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:57 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:57 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:57 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.005 MC 1 0.000 TT 0 0.005"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:57 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:58 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.001 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:58 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:58 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.001 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:58 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:58 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:01:58 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL6284026M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:58 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Hollycrofters, inc., ltd."], "table_of_contents":
+        [{"type": {"key": "/type/toc_item"}, "pagenum": "17", "class": "subsection",
+        "label": "Chapter I"}, {"type": {"key": "/type/toc_item"}, "pagenum": "29",
+        "class": "part", "label": "Chapter II"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "32", "class": "part", "label": "Chapter III"}, {"type": {"key":
+        "/type/toc_item"}, "pagenum": "43", "class": "part", "label": "Chapter IV"},
+        {"type": {"key": "/type/toc_item"}, "title": "1898-1899", "pagenum": "51",
+        "class": "part", "label": "Chapter V"}, {"type": {"key": "/type/toc_item"},
+        "title": "1900-1901", "pagenum": "59", "class": "part", "label": "Chapter
+        VI"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter VII", "pagenum":
+        "70", "class": "part", "title": "1902-1903"}, {"type": {"key": "/type/toc_item"},
+        "title": "1904-1905", "pagenum": "85", "class": "part", "label": "Chapter
+        VIII"}, {"type": {"key": "/type/toc_item"}, "title": "1906", "pagenum": "95",
+        "class": "part", "label": "Chapter IX"}, {"type": {"key": "/type/toc_item"},
+        "title": "1907-1908", "pagenum": "103", "class": "part", "label": "Chapter
+        X"}, {"type": {"key": "/type/toc_item"}, "label": "Chapter XI", "pagenum":
+        "110", "class": "part", "title": "1909-1910-1911"}, {"type": {"key": "/type/toc_item"},
+        "label": "Chapter XII", "pagenum": "120", "class": "part", "title": "1912"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XIII", "pagenum": "124",
+        "class": "part", "title": "1913-1914"}, {"type": {"key": "/type/toc_item"},
+        "title": "1915", "pagenum": "128", "class": "part", "label": "Chapter XIV"},
+        {"type": {"key": "/type/toc_item"}, "label": "Chapter XV", "pagenum": "132",
+        "class": "part", "title": "1916-1932"}, {"type": {"key": "/type/toc_item"},
+        "title": "Mary Elitch Long", "pagenum": "137", "class": "part", "label": "Chapter
+        XVI"}, {"type": {"key": "/type/toc_item"}, "pagenum": "143", "class": "part",
+        "title": "They Played At Elitch''s"}, {"type": {"key": "/type/toc_item"},
+        "pagenum": "153", "class": "part", "title": "From the Gardens'' Family Album"},
+        {"type": {"key": "/type/toc_item"}, "class": "part", "title": "Index of Illustrations"}],
+        "description": "THE DENVER WOMAN''S PRESS CLUB\r\n1325 Logan Street\r\n\r\nTo
+        Whom It May Concern:\r\n\r\nWe who are members of the Denver Women''s Press\r\nClub
+        are proud of this opportunity to endorse the book\r\nThe Lady of the Gardens:
+        Mary Elitch Long, by Caroline\r\nL. Dier.\r\n\r\nThis book is particularly
+        precious to us because Mary\r\nElitch Long is one of our honorary life members
+        and a\r\nbeloved person. Her story is unique and picturesque.\r\n\r\nAnd Mrs.
+        Dier, also a long time member of the Press\r\nClub, has written within one
+        volume the biography of a\r\nfriend and a personage, the history of a beautiful
+        garden\r\nresort and the saga of a summer theatre whose program\r\nfiles are
+        a veritable Who''s Who of the stage world.\r\n\r\nThe Denver Woman''s Press
+        Club\r\n\r\nHelen M. Black, President, 1931-1932\r\nFormer Dramatic Critic
+        of\r\nThe Rocky Mountain News", "subject_place": ["Colorado", "Denver."],
+        "covers": [5794178, 5794208], "physical_format": "Hardcover", "lc_classifications":
+        ["PN2287.L63 D5"], "latest_revision": 6, "key": "/books/OL6284026M", "authors":
+        [{"key": "/authors/OL2308668A"}], "publish_places": ["Hollywood Ca"], "contributions":
+        ["Letter of endorsement -- The Denver Women''s Press Club; Foreward -- Burns
+        Mantle; Illustration/Plate Credits -- The Hopkins and Scholtz Studios, Denver,
+        and the DeMirjian and Otto Dyar Studios"], "first_sentence": "Mary Elizabeth
+        Hauck was born in Philadelphia.", "pagination": "305, [2] p. incl. front.,
+        illus., plates, ports., facsims.", "source_records": ["marc:marc_loc_2016/BooksAll.2016.part03.utf8:89203195:766"],
+        "title": "The Lady of the Gardens: Mary Elitch Long", "dewey_decimal_class":
+        ["920.7", "[792.09788]"], "number_of_pages": 305, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "languages": [{"key": "/languages/eng"}],
+        "lccn": ["33000124"], "subjects": ["Long, Mary Hauck Elitch.", "Denver. Elitch
+        Gardens.", "Theater -- Colorado -- Denver.", "Amusements -- Colorado -- Denver."],
+        "publish_date": "1932", "publish_country": "cau", "last_modified": {"type":
+        "/type/datetime", "value": "2020-09-14T22:12:49.257349"}, "by_statement":
+        "by Caroline Lawrence Dier", "oclc_numbers": ["307807"], "works": [{"key":
+        "/works/OL7546275W"}], "type": {"key": "/type/edition"}, "physical_dimensions":
+        "6.5 x 9.75 in", "revision": 6}'
+  recorded_at: Mon, 26 Sep 2022 20:01:58 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL11709103M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:01:58 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Discovery Press Publications Inc"], "number_of_pages":
+        32, "weight": "14.4 ounces", "covers": [2699837], "physical_format": "Hardcover",
+        "key": "/books/OL11709103M", "authors": [{"key": "/authors/OL2010374A"}],
+        "subjects": ["Children''s 4-8", "Fear in children", "Fear of the dark", "Monsters",
+        "Nightmares", "Juvenile Fiction / Bedtime & Dreams", "Juvenile Fiction / Social
+        Situations / Emotions & Feelings", "Action & Adventure - General", "Bedtime",
+        "Fiction", "Juvenile Fiction", "Sleep", "Children: Kindergarten"], "isbn_13":
+        ["9780964515918"], "source_records": ["amazon:0964515911", "marc:marc_loc_updates/v36.i42.records.utf8:4642852:955",
+        "marc:marc_loc_2016/BooksAll.2016.part33.utf8:77056596:955", "ia:monstersolution0000zime"],
+        "title": "Monster Solution", "identifiers": {"goodreads": ["5718608"]}, "languages":
+        [{"key": "/languages/eng"}], "isbn_10": ["0964515911"], "publish_date": "July
+        1, 2005", "oclc_numbers": ["61209948"], "works": [{"key": "/works/OL7099888W"}],
+        "type": {"key": "/type/edition"}, "physical_dimensions": "10.7 x 8.6 x 0.4
+        inches", "lccn": ["2005902461"], "lc_classifications": ["MLCM 2006/43725 (P)"],
+        "ocaid": "monstersolution0000zime", "latest_revision": 9, "revision": 9, "created":
+        {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"}, "last_modified":
+        {"type": "/type/datetime", "value": "2021-08-17T21:58:38.070807"}}'
+  recorded_at: Mon, 26 Sep 2022 20:01:58 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:02:01 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.004 MC 1 0.000 TT 0 0.005"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:02:01 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:02:01 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.003 MC 1 0.000 TT 0 0.004"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:02:01 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:04:41 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:04:41 GMT
+- request:
+    method: get
     uri: http://openlibrary.org/books/OL12340667M.json
     body:
       encoding: US-ASCII
@@ -21,7 +1756,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 18:02:05 GMT
+      - Mon, 26 Sep 2022 20:06:46 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +1770,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"MC 2 0.001 TT 0 0.003"'
+      - '"MC 2 0.001 TT 0 0.004"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -52,7 +1787,7 @@ http_interactions:
         "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
         10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
         "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
-  recorded_at: Mon, 26 Sep 2022 18:02:05 GMT
+  recorded_at: Mon, 26 Sep 2022 20:06:46 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/OL708367M.json
@@ -74,7 +1809,541 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 18:02:06 GMT
+      - Mon, 26 Sep 2022 20:06:47 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.005"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["LPD Press"], "identifiers": {"goodreads": ["495928",
+        "4342018"], "librarything": ["4893103"]}, "subtitle": "thirty years of collecting
+        1966-1996", "isbn_10": ["0964154242", "0964154277"], "subject_place": ["New
+        Mexico", "Colorado", "Denver"], "pagination": "91 p. :", "covers": [1694386,
+        727871], "lc_classifications": ["N7910.N6 S78 1997", "N7910.N6S78 1997"],
+        "key": "/books/OL708367M", "authors": [{"key": "/authors/OL406949A"}], "publish_places":
+        ["Albuquerque, NM"], "contributions": ["Awalt, Barbe.", "Rhetts, Paul Fisher."],
+        "genres": ["Catalogs."], "source_records": ["marc:marc_loc_2016/BooksAll.2016.part26.utf8:82605084:1164",
+        "bwb:9780964154247"], "title": "The Regis santos", "dewey_decimal_class":
+        ["704.9/482/07478883"], "notes": {"type": "/type/text", "value": "Includes
+        bibliographical references (p. 87-90) and indexes."}, "number_of_pages": 91,
+        "languages": [{"key": "/languages/eng"}], "lccn": ["97070979"], "subjects":
+        ["Regis University (Denver, Colo.) -- Art collections -- Catalogs.", "Santos
+        (Art) -- New Mexico -- Catalogs.", "Folk art -- New Mexico -- Catalogs.",
+        "Santos (Art) -- Colorado -- Denver -- Catalogs.", "Folk art -- Colorado --
+        Denver -- Catalogs."], "publish_date": "1997", "publish_country": "nmu", "by_statement":
+        "by Thomas J. Steele, Barbe Awalt, and Paul Rhetts.", "oclc_numbers": ["37482854"],
+        "works": [{"key": "/works/OL2766605W"}], "type": {"key": "/type/edition"},
+        "latest_revision": 9, "revision": 9, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "last_modified": {"type": "/type/datetime",
+        "value": "2021-09-17T21:05:30.232755"}}'
+  recorded_at: Mon, 26 Sep 2022 20:06:47 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL5416784M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:06:47 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["University of Washington Press"], "number_of_pages":
+        364, "isbn_10": ["0295952989"], "series": ["Americana library, AL-28"], "lc_classifications":
+        ["HV9094.D4 L5 1973"], "key": "/books/OL5416784M", "authors": [{"key": "/authors/OL150590A"}],
+        "publish_places": ["Seattle"], "contributions": ["Evans, Wainwright, joint
+        author."], "pagination": "xx, 364 p.", "source_records": ["marc:marc_records_scriblio_net/part07.dat:107217508:959",
+        "marc:marc_ithaca_college/ic_marc.mrc:149385128:1011", "marc:marc_loc_2016/BooksAll.2016.part08.utf8:5375457:954",
+        "ia:revoltofmodernyo0000lind"], "title": "The revolt of modern youth", "dewey_decimal_class":
+        ["301.43/15"], "notes": {"type": "/type/text", "value": "Includes bibliographical
+        references.\nReprint of the ed. published by Boni & Liveright, New York; with
+        new introd."}, "identifiers": {"goodreads": ["1167918"]}, "languages": [{"key":
+        "/languages/eng"}], "lccn": ["73008818"], "subjects": ["Denver. Juvenile Court
+        of the City and County of Denver", "Juvenile delinquency", "Sexual ethics"],
+        "publish_date": "1973", "publish_country": "wau", "by_statement": "by Ben
+        B. Lindsey and Wainwright Evans. Introd. by Charles E. Larsen.", "works":
+        [{"key": "/works/OL1439708W"}], "type": {"key": "/type/edition"}, "covers":
+        [12846444], "ocaid": "revoltofmodernyo0000lind", "latest_revision": 8, "revision":
+        8, "created": {"type": "/type/datetime", "value": "2008-04-01T03:28:50.625462"},
+        "last_modified": {"type": "/type/datetime", "value": "2022-07-31T05:45:19.824198"}}'
+  recorded_at: Mon, 26 Sep 2022 20:06:47 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:06:47 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:06:47 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL8584347M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:06:47 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Pilgrims'' Process, Inc."], "number_of_pages": 252,
+        "subtitle": "Opera in Denver-1879-2006", "weight": "11.2 ounces", "covers":
+        [740871], "physical_format": "Paperback", "last_modified": {"type": "/type/datetime",
+        "value": "2019-07-31T04:03:45.585860"}, "latest_revision": 8, "key": "/books/OL8584347M",
+        "authors": [{"key": "/authors/OL1175532A"}], "subjects": ["Genres & Styles
+        - Opera", "History & Criticism - General", "Music / History & Criticism",
+        "Music-Genres & Styles - Opera", "Music/Songbooks", "Music", "Colorado", "Denver",
+        "Denver (Colo.)", "Opera", "Social life and customs"], "isbn_13": ["9780974959788"],
+        "title": "Exotic and Irrational", "identifiers": {"goodreads": ["4290059"],
+        "librarything": ["2495048"]}, "created": {"type": "/type/datetime", "value":
+        "2008-04-30T06:33:27.187047"}, "languages": [{"key": "/languages/eng"}], "isbn_10":
+        ["0974959782"], "publish_date": "May 15, 2006", "oclc_numbers": ["71354924"],
+        "works": [{"key": "/works/OL3404420W"}], "type": {"key": "/type/edition"},
+        "physical_dimensions": "8.8 x 6 x 0.5 inches", "revision": 8}'
+  recorded_at: Mon, 26 Sep 2022 20:06:47 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL12340667M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:06:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.005"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Rose City Press"], "identifiers": {"goodreads": ["3624325"]},
+        "ia_box_id": ["IA117404"], "covers": [6480927], "physical_format": "Hardcover",
+        "key": "/books/OL12340667M", "authors": [{"key": "/authors/OL3879032A"}],
+        "ocaid": "boldfacedliesnov00port", "source_records": ["amazon:1934099112",
+        "marc:marc_loc_updates/v35.i12.records.utf8:11702355:796", "marc:marc_loc_updates/v36.i04.records.utf8:18012748:791",
+        "ia:boldfacedliesnov00port", "marc:marc_loc_2016/BooksAll.2016.part34.utf8:181673992:791"],
+        "title": "Boldfaced Lies", "number_of_pages": 349, "languages": [{"key": "/languages/eng"}],
+        "isbn_10": ["1934099112"], "publish_date": "2006", "oclc_numbers": ["70877639"],
+        "works": [{"key": "/works/OL9897019W"}], "type": {"key": "/type/edition"},
+        "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
+        10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
+        "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
+  recorded_at: Mon, 26 Sep 2022 20:06:52 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL708367M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:06:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.004"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["LPD Press"], "identifiers": {"goodreads": ["495928",
+        "4342018"], "librarything": ["4893103"]}, "subtitle": "thirty years of collecting
+        1966-1996", "isbn_10": ["0964154242", "0964154277"], "subject_place": ["New
+        Mexico", "Colorado", "Denver"], "pagination": "91 p. :", "covers": [1694386,
+        727871], "lc_classifications": ["N7910.N6 S78 1997", "N7910.N6S78 1997"],
+        "key": "/books/OL708367M", "authors": [{"key": "/authors/OL406949A"}], "publish_places":
+        ["Albuquerque, NM"], "contributions": ["Awalt, Barbe.", "Rhetts, Paul Fisher."],
+        "genres": ["Catalogs."], "source_records": ["marc:marc_loc_2016/BooksAll.2016.part26.utf8:82605084:1164",
+        "bwb:9780964154247"], "title": "The Regis santos", "dewey_decimal_class":
+        ["704.9/482/07478883"], "notes": {"type": "/type/text", "value": "Includes
+        bibliographical references (p. 87-90) and indexes."}, "number_of_pages": 91,
+        "languages": [{"key": "/languages/eng"}], "lccn": ["97070979"], "subjects":
+        ["Regis University (Denver, Colo.) -- Art collections -- Catalogs.", "Santos
+        (Art) -- New Mexico -- Catalogs.", "Folk art -- New Mexico -- Catalogs.",
+        "Santos (Art) -- Colorado -- Denver -- Catalogs.", "Folk art -- Colorado --
+        Denver -- Catalogs."], "publish_date": "1997", "publish_country": "nmu", "by_statement":
+        "by Thomas J. Steele, Barbe Awalt, and Paul Rhetts.", "oclc_numbers": ["37482854"],
+        "works": [{"key": "/works/OL2766605W"}], "type": {"key": "/type/edition"},
+        "latest_revision": 9, "revision": 9, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "last_modified": {"type": "/type/datetime",
+        "value": "2021-09-17T21:05:30.232755"}}'
+  recorded_at: Mon, 26 Sep 2022 20:06:52 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL5416784M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:06:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.005"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["University of Washington Press"], "number_of_pages":
+        364, "isbn_10": ["0295952989"], "series": ["Americana library, AL-28"], "lc_classifications":
+        ["HV9094.D4 L5 1973"], "key": "/books/OL5416784M", "authors": [{"key": "/authors/OL150590A"}],
+        "publish_places": ["Seattle"], "contributions": ["Evans, Wainwright, joint
+        author."], "pagination": "xx, 364 p.", "source_records": ["marc:marc_records_scriblio_net/part07.dat:107217508:959",
+        "marc:marc_ithaca_college/ic_marc.mrc:149385128:1011", "marc:marc_loc_2016/BooksAll.2016.part08.utf8:5375457:954",
+        "ia:revoltofmodernyo0000lind"], "title": "The revolt of modern youth", "dewey_decimal_class":
+        ["301.43/15"], "notes": {"type": "/type/text", "value": "Includes bibliographical
+        references.\nReprint of the ed. published by Boni & Liveright, New York; with
+        new introd."}, "identifiers": {"goodreads": ["1167918"]}, "languages": [{"key":
+        "/languages/eng"}], "lccn": ["73008818"], "subjects": ["Denver. Juvenile Court
+        of the City and County of Denver", "Juvenile delinquency", "Sexual ethics"],
+        "publish_date": "1973", "publish_country": "wau", "by_statement": "by Ben
+        B. Lindsey and Wainwright Evans. Introd. by Charles E. Larsen.", "works":
+        [{"key": "/works/OL1439708W"}], "type": {"key": "/type/edition"}, "covers":
+        [12846444], "ocaid": "revoltofmodernyo0000lind", "latest_revision": 8, "revision":
+        8, "created": {"type": "/type/datetime", "value": "2008-04-01T03:28:50.625462"},
+        "last_modified": {"type": "/type/datetime", "value": "2022-07-31T05:45:19.824198"}}'
+  recorded_at: Mon, 26 Sep 2022 20:06:52 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:06:52 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.002"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:06:52 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL8584347M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:06:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.002 TT 0 0.004"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Pilgrims'' Process, Inc."], "number_of_pages": 252,
+        "subtitle": "Opera in Denver-1879-2006", "weight": "11.2 ounces", "covers":
+        [740871], "physical_format": "Paperback", "last_modified": {"type": "/type/datetime",
+        "value": "2019-07-31T04:03:45.585860"}, "latest_revision": 8, "key": "/books/OL8584347M",
+        "authors": [{"key": "/authors/OL1175532A"}], "subjects": ["Genres & Styles
+        - Opera", "History & Criticism - General", "Music / History & Criticism",
+        "Music-Genres & Styles - Opera", "Music/Songbooks", "Music", "Colorado", "Denver",
+        "Denver (Colo.)", "Opera", "Social life and customs"], "isbn_13": ["9780974959788"],
+        "title": "Exotic and Irrational", "identifiers": {"goodreads": ["4290059"],
+        "librarything": ["2495048"]}, "created": {"type": "/type/datetime", "value":
+        "2008-04-30T06:33:27.187047"}, "languages": [{"key": "/languages/eng"}], "isbn_10":
+        ["0974959782"], "publish_date": "May 15, 2006", "oclc_numbers": ["71354924"],
+        "works": [{"key": "/works/OL3404420W"}], "type": {"key": "/type/edition"},
+        "physical_dimensions": "8.8 x 6 x 0.5 inches", "revision": 8}'
+  recorded_at: Mon, 26 Sep 2022 20:06:52 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL12340667M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:09:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.005"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Rose City Press"], "identifiers": {"goodreads": ["3624325"]},
+        "ia_box_id": ["IA117404"], "covers": [6480927], "physical_format": "Hardcover",
+        "key": "/books/OL12340667M", "authors": [{"key": "/authors/OL3879032A"}],
+        "ocaid": "boldfacedliesnov00port", "source_records": ["amazon:1934099112",
+        "marc:marc_loc_updates/v35.i12.records.utf8:11702355:796", "marc:marc_loc_updates/v36.i04.records.utf8:18012748:791",
+        "ia:boldfacedliesnov00port", "marc:marc_loc_2016/BooksAll.2016.part34.utf8:181673992:791"],
+        "title": "Boldfaced Lies", "number_of_pages": 349, "languages": [{"key": "/languages/eng"}],
+        "isbn_10": ["1934099112"], "publish_date": "2006", "oclc_numbers": ["70877639"],
+        "works": [{"key": "/works/OL9897019W"}], "type": {"key": "/type/edition"},
+        "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
+        10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
+        "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
+  recorded_at: Mon, 26 Sep 2022 20:09:14 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL708367M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:09:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -114,7 +2383,7 @@ http_interactions:
         "latest_revision": 9, "revision": 9, "created": {"type": "/type/datetime",
         "value": "2008-04-01T03:28:50.625462"}, "last_modified": {"type": "/type/datetime",
         "value": "2021-09-17T21:05:30.232755"}}'
-  recorded_at: Mon, 26 Sep 2022 18:02:06 GMT
+  recorded_at: Mon, 26 Sep 2022 20:09:14 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/OL5416784M.json
@@ -136,7 +2405,541 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 18:02:06 GMT
+      - Mon, 26 Sep 2022 20:09:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["University of Washington Press"], "number_of_pages":
+        364, "isbn_10": ["0295952989"], "series": ["Americana library, AL-28"], "lc_classifications":
+        ["HV9094.D4 L5 1973"], "key": "/books/OL5416784M", "authors": [{"key": "/authors/OL150590A"}],
+        "publish_places": ["Seattle"], "contributions": ["Evans, Wainwright, joint
+        author."], "pagination": "xx, 364 p.", "source_records": ["marc:marc_records_scriblio_net/part07.dat:107217508:959",
+        "marc:marc_ithaca_college/ic_marc.mrc:149385128:1011", "marc:marc_loc_2016/BooksAll.2016.part08.utf8:5375457:954",
+        "ia:revoltofmodernyo0000lind"], "title": "The revolt of modern youth", "dewey_decimal_class":
+        ["301.43/15"], "notes": {"type": "/type/text", "value": "Includes bibliographical
+        references.\nReprint of the ed. published by Boni & Liveright, New York; with
+        new introd."}, "identifiers": {"goodreads": ["1167918"]}, "languages": [{"key":
+        "/languages/eng"}], "lccn": ["73008818"], "subjects": ["Denver. Juvenile Court
+        of the City and County of Denver", "Juvenile delinquency", "Sexual ethics"],
+        "publish_date": "1973", "publish_country": "wau", "by_statement": "by Ben
+        B. Lindsey and Wainwright Evans. Introd. by Charles E. Larsen.", "works":
+        [{"key": "/works/OL1439708W"}], "type": {"key": "/type/edition"}, "covers":
+        [12846444], "ocaid": "revoltofmodernyo0000lind", "latest_revision": 8, "revision":
+        8, "created": {"type": "/type/datetime", "value": "2008-04-01T03:28:50.625462"},
+        "last_modified": {"type": "/type/datetime", "value": "2022-07-31T05:45:19.824198"}}'
+  recorded_at: Mon, 26 Sep 2022 20:09:14 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:09:14 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.002 MC 1 0.000 TT 0 0.003"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:09:14 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL8584347M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:09:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Pilgrims'' Process, Inc."], "number_of_pages": 252,
+        "subtitle": "Opera in Denver-1879-2006", "weight": "11.2 ounces", "covers":
+        [740871], "physical_format": "Paperback", "last_modified": {"type": "/type/datetime",
+        "value": "2019-07-31T04:03:45.585860"}, "latest_revision": 8, "key": "/books/OL8584347M",
+        "authors": [{"key": "/authors/OL1175532A"}], "subjects": ["Genres & Styles
+        - Opera", "History & Criticism - General", "Music / History & Criticism",
+        "Music-Genres & Styles - Opera", "Music/Songbooks", "Music", "Colorado", "Denver",
+        "Denver (Colo.)", "Opera", "Social life and customs"], "isbn_13": ["9780974959788"],
+        "title": "Exotic and Irrational", "identifiers": {"goodreads": ["4290059"],
+        "librarything": ["2495048"]}, "created": {"type": "/type/datetime", "value":
+        "2008-04-30T06:33:27.187047"}, "languages": [{"key": "/languages/eng"}], "isbn_10":
+        ["0974959782"], "publish_date": "May 15, 2006", "oclc_numbers": ["71354924"],
+        "works": [{"key": "/works/OL3404420W"}], "type": {"key": "/type/edition"},
+        "physical_dimensions": "8.8 x 6 x 0.5 inches", "revision": 8}'
+  recorded_at: Mon, 26 Sep 2022 20:09:14 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL12340667M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:12:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.002"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Rose City Press"], "identifiers": {"goodreads": ["3624325"]},
+        "ia_box_id": ["IA117404"], "covers": [6480927], "physical_format": "Hardcover",
+        "key": "/books/OL12340667M", "authors": [{"key": "/authors/OL3879032A"}],
+        "ocaid": "boldfacedliesnov00port", "source_records": ["amazon:1934099112",
+        "marc:marc_loc_updates/v35.i12.records.utf8:11702355:796", "marc:marc_loc_updates/v36.i04.records.utf8:18012748:791",
+        "ia:boldfacedliesnov00port", "marc:marc_loc_2016/BooksAll.2016.part34.utf8:181673992:791"],
+        "title": "Boldfaced Lies", "number_of_pages": 349, "languages": [{"key": "/languages/eng"}],
+        "isbn_10": ["1934099112"], "publish_date": "2006", "oclc_numbers": ["70877639"],
+        "works": [{"key": "/works/OL9897019W"}], "type": {"key": "/type/edition"},
+        "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
+        10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
+        "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
+  recorded_at: Mon, 26 Sep 2022 20:12:39 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL708367M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:12:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["LPD Press"], "identifiers": {"goodreads": ["495928",
+        "4342018"], "librarything": ["4893103"]}, "subtitle": "thirty years of collecting
+        1966-1996", "isbn_10": ["0964154242", "0964154277"], "subject_place": ["New
+        Mexico", "Colorado", "Denver"], "pagination": "91 p. :", "covers": [1694386,
+        727871], "lc_classifications": ["N7910.N6 S78 1997", "N7910.N6S78 1997"],
+        "key": "/books/OL708367M", "authors": [{"key": "/authors/OL406949A"}], "publish_places":
+        ["Albuquerque, NM"], "contributions": ["Awalt, Barbe.", "Rhetts, Paul Fisher."],
+        "genres": ["Catalogs."], "source_records": ["marc:marc_loc_2016/BooksAll.2016.part26.utf8:82605084:1164",
+        "bwb:9780964154247"], "title": "The Regis santos", "dewey_decimal_class":
+        ["704.9/482/07478883"], "notes": {"type": "/type/text", "value": "Includes
+        bibliographical references (p. 87-90) and indexes."}, "number_of_pages": 91,
+        "languages": [{"key": "/languages/eng"}], "lccn": ["97070979"], "subjects":
+        ["Regis University (Denver, Colo.) -- Art collections -- Catalogs.", "Santos
+        (Art) -- New Mexico -- Catalogs.", "Folk art -- New Mexico -- Catalogs.",
+        "Santos (Art) -- Colorado -- Denver -- Catalogs.", "Folk art -- Colorado --
+        Denver -- Catalogs."], "publish_date": "1997", "publish_country": "nmu", "by_statement":
+        "by Thomas J. Steele, Barbe Awalt, and Paul Rhetts.", "oclc_numbers": ["37482854"],
+        "works": [{"key": "/works/OL2766605W"}], "type": {"key": "/type/edition"},
+        "latest_revision": 9, "revision": 9, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "last_modified": {"type": "/type/datetime",
+        "value": "2021-09-17T21:05:30.232755"}}'
+  recorded_at: Mon, 26 Sep 2022 20:12:39 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL5416784M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:12:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["University of Washington Press"], "number_of_pages":
+        364, "isbn_10": ["0295952989"], "series": ["Americana library, AL-28"], "lc_classifications":
+        ["HV9094.D4 L5 1973"], "key": "/books/OL5416784M", "authors": [{"key": "/authors/OL150590A"}],
+        "publish_places": ["Seattle"], "contributions": ["Evans, Wainwright, joint
+        author."], "pagination": "xx, 364 p.", "source_records": ["marc:marc_records_scriblio_net/part07.dat:107217508:959",
+        "marc:marc_ithaca_college/ic_marc.mrc:149385128:1011", "marc:marc_loc_2016/BooksAll.2016.part08.utf8:5375457:954",
+        "ia:revoltofmodernyo0000lind"], "title": "The revolt of modern youth", "dewey_decimal_class":
+        ["301.43/15"], "notes": {"type": "/type/text", "value": "Includes bibliographical
+        references.\nReprint of the ed. published by Boni & Liveright, New York; with
+        new introd."}, "identifiers": {"goodreads": ["1167918"]}, "languages": [{"key":
+        "/languages/eng"}], "lccn": ["73008818"], "subjects": ["Denver. Juvenile Court
+        of the City and County of Denver", "Juvenile delinquency", "Sexual ethics"],
+        "publish_date": "1973", "publish_country": "wau", "by_statement": "by Ben
+        B. Lindsey and Wainwright Evans. Introd. by Charles E. Larsen.", "works":
+        [{"key": "/works/OL1439708W"}], "type": {"key": "/type/edition"}, "covers":
+        [12846444], "ocaid": "revoltofmodernyo0000lind", "latest_revision": 8, "revision":
+        8, "created": {"type": "/type/datetime", "value": "2008-04-01T03:28:50.625462"},
+        "last_modified": {"type": "/type/datetime", "value": "2022-07-31T05:45:19.824198"}}'
+  recorded_at: Mon, 26 Sep 2022 20:12:39 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:12:39 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"IB 1 0.006 MC 1 0.004 TT 0 0.010"'
+    body:
+      encoding: UTF-8
+      string: '{"error": "notfound", "key": "/books/"}'
+  recorded_at: Mon, 26 Sep 2022 20:12:39 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL8584347M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:12:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Pilgrims'' Process, Inc."], "number_of_pages": 252,
+        "subtitle": "Opera in Denver-1879-2006", "weight": "11.2 ounces", "covers":
+        [740871], "physical_format": "Paperback", "last_modified": {"type": "/type/datetime",
+        "value": "2019-07-31T04:03:45.585860"}, "latest_revision": 8, "key": "/books/OL8584347M",
+        "authors": [{"key": "/authors/OL1175532A"}], "subjects": ["Genres & Styles
+        - Opera", "History & Criticism - General", "Music / History & Criticism",
+        "Music-Genres & Styles - Opera", "Music/Songbooks", "Music", "Colorado", "Denver",
+        "Denver (Colo.)", "Opera", "Social life and customs"], "isbn_13": ["9780974959788"],
+        "title": "Exotic and Irrational", "identifiers": {"goodreads": ["4290059"],
+        "librarything": ["2495048"]}, "created": {"type": "/type/datetime", "value":
+        "2008-04-30T06:33:27.187047"}, "languages": [{"key": "/languages/eng"}], "isbn_10":
+        ["0974959782"], "publish_date": "May 15, 2006", "oclc_numbers": ["71354924"],
+        "works": [{"key": "/works/OL3404420W"}], "type": {"key": "/type/edition"},
+        "physical_dimensions": "8.8 x 6 x 0.5 inches", "revision": 8}'
+  recorded_at: Mon, 26 Sep 2022 20:12:39 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL12340667M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:24:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.005 TT 0 0.008"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["Rose City Press"], "identifiers": {"goodreads": ["3624325"]},
+        "ia_box_id": ["IA117404"], "covers": [6480927], "physical_format": "Hardcover",
+        "key": "/books/OL12340667M", "authors": [{"key": "/authors/OL3879032A"}],
+        "ocaid": "boldfacedliesnov00port", "source_records": ["amazon:1934099112",
+        "marc:marc_loc_updates/v35.i12.records.utf8:11702355:796", "marc:marc_loc_updates/v36.i04.records.utf8:18012748:791",
+        "ia:boldfacedliesnov00port", "marc:marc_loc_2016/BooksAll.2016.part34.utf8:181673992:791"],
+        "title": "Boldfaced Lies", "number_of_pages": 349, "languages": [{"key": "/languages/eng"}],
+        "isbn_10": ["1934099112"], "publish_date": "2006", "oclc_numbers": ["70877639"],
+        "works": [{"key": "/works/OL9897019W"}], "type": {"key": "/type/edition"},
+        "lccn": ["2007295483"], "lc_classifications": ["PS3566.O6423 B65 2006"], "latest_revision":
+        10, "revision": 10, "created": {"type": "/type/datetime", "value": "2008-04-30T20:50:18.033121"},
+        "last_modified": {"type": "/type/datetime", "value": "2020-12-17T13:33:39.124109"}}'
+  recorded_at: Mon, 26 Sep 2022 20:24:49 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL708367M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:24:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"MC 2 0.001 TT 0 0.003"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: '{"publishers": ["LPD Press"], "identifiers": {"goodreads": ["495928",
+        "4342018"], "librarything": ["4893103"]}, "subtitle": "thirty years of collecting
+        1966-1996", "isbn_10": ["0964154242", "0964154277"], "subject_place": ["New
+        Mexico", "Colorado", "Denver"], "pagination": "91 p. :", "covers": [1694386,
+        727871], "lc_classifications": ["N7910.N6 S78 1997", "N7910.N6S78 1997"],
+        "key": "/books/OL708367M", "authors": [{"key": "/authors/OL406949A"}], "publish_places":
+        ["Albuquerque, NM"], "contributions": ["Awalt, Barbe.", "Rhetts, Paul Fisher."],
+        "genres": ["Catalogs."], "source_records": ["marc:marc_loc_2016/BooksAll.2016.part26.utf8:82605084:1164",
+        "bwb:9780964154247"], "title": "The Regis santos", "dewey_decimal_class":
+        ["704.9/482/07478883"], "notes": {"type": "/type/text", "value": "Includes
+        bibliographical references (p. 87-90) and indexes."}, "number_of_pages": 91,
+        "languages": [{"key": "/languages/eng"}], "lccn": ["97070979"], "subjects":
+        ["Regis University (Denver, Colo.) -- Art collections -- Catalogs.", "Santos
+        (Art) -- New Mexico -- Catalogs.", "Folk art -- New Mexico -- Catalogs.",
+        "Santos (Art) -- Colorado -- Denver -- Catalogs.", "Folk art -- Colorado --
+        Denver -- Catalogs."], "publish_date": "1997", "publish_country": "nmu", "by_statement":
+        "by Thomas J. Steele, Barbe Awalt, and Paul Rhetts.", "oclc_numbers": ["37482854"],
+        "works": [{"key": "/works/OL2766605W"}], "type": {"key": "/type/edition"},
+        "latest_revision": 9, "revision": 9, "created": {"type": "/type/datetime",
+        "value": "2008-04-01T03:28:50.625462"}, "last_modified": {"type": "/type/datetime",
+        "value": "2021-09-17T21:05:30.232755"}}'
+  recorded_at: Mon, 26 Sep 2022 20:24:49 GMT
+- request:
+    method: get
+    uri: http://openlibrary.org/books/OL5416784M.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Mon, 26 Sep 2022 20:24:49 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -173,7 +2976,7 @@ http_interactions:
         [12846444], "ocaid": "revoltofmodernyo0000lind", "latest_revision": 8, "revision":
         8, "created": {"type": "/type/datetime", "value": "2008-04-01T03:28:50.625462"},
         "last_modified": {"type": "/type/datetime", "value": "2022-07-31T05:45:19.824198"}}'
-  recorded_at: Mon, 26 Sep 2022 18:02:06 GMT
+  recorded_at: Mon, 26 Sep 2022 20:24:49 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/.json
@@ -195,7 +2998,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 18:02:06 GMT
+      - Mon, 26 Sep 2022 20:24:49 GMT
       Transfer-Encoding:
       - chunked
       Connection:
@@ -211,7 +3014,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"error": "notfound", "key": "/books/"}'
-  recorded_at: Mon, 26 Sep 2022 18:02:06 GMT
+  recorded_at: Mon, 26 Sep 2022 20:24:49 GMT
 - request:
     method: get
     uri: http://openlibrary.org/books/OL8584347M.json
@@ -233,7 +3036,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 18:02:06 GMT
+      - Mon, 26 Sep 2022 20:24:49 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -266,5 +3069,5 @@ http_interactions:
         ["0974959782"], "publish_date": "May 15, 2006", "oclc_numbers": ["71354924"],
         "works": [{"key": "/works/OL3404420W"}], "type": {"key": "/type/edition"},
         "physical_dimensions": "8.8 x 6 x 0.5 inches", "revision": 8}'
-  recorded_at: Mon, 26 Sep 2022 18:02:06 GMT
+  recorded_at: Mon, 26 Sep 2022 20:24:49 GMT
 recorded_with: VCR 6.1.0

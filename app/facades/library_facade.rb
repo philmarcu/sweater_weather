@@ -1,16 +1,16 @@
 class LibraryFacade
-  def self.books_forecast(location)
+  def self.books_forecast(location, qty)
     city = location[0..-4].downcase
     local = MapQuestFacade.coords(location)
     weather = WeatherFacade.library_call(local.lat, local.lng)
     results = LibraryService.get_books(city)
     total = results[:work_count]
-    books = get_books(results)
+    books = get_books(results, qty)
     Books.new(location, total, weather, books)
   end
 
-  def self.get_books(data)
-    data[:works].map do |book_data|
+  def self.get_books(data, qty)
+    data[:works].first(qty).map do |book_data|
       Book.new(book_data)
     end
   end

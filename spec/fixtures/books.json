@@ -261,6 +261,243 @@
               "is_browseable": true,
               "__src__": "core.models.lending.get_availability"
           }
+      },
+      {
+          "key": "/works/OL7392191W",
+          "title": "Cost analysis study, Technical Services Division, University of Denver Library",
+          "edition_count": 1,
+          "cover_id": null,
+          "subject": [
+              "Case studies",
+              "Denver",
+              "Denver. University. Library. Technical Services Division",
+              "Library finance"
+          ],
+          "ia_collection": [],
+          "lendinglibrary": false,
+          "printdisabled": false,
+          "lending_edition": "",
+          "lending_identifier": "",
+          "authors": [
+              {
+                  "key": "/authors/OL2215676A",
+                  "name": "Barbara Aro"
+              }
+          ],
+          "first_publish_year": null,
+          "ia": null,
+          "public_scan": false,
+          "has_fulltext": false
+      },
+      {
+          "key": "/works/OL13350151M",
+          "title": "Denver",
+          "edition_count": 1,
+          "cover_id": null,
+          "subject": [
+              "Urban Architecture",
+              "Architects",
+              "Architecture",
+              "Buildings",
+              "Colorado",
+              "Denver"
+          ],
+          "ia_collection": [],
+          "lendinglibrary": false,
+          "printdisabled": false,
+          "lending_edition": "",
+          "lending_identifier": "",
+          "authors": [
+              {
+                  "key": "/authors/OL238497A",
+                  "name": "Thomas J. Noel"
+              },
+              {
+                  "key": "/authors/OL4251979A",
+                  "name": "Barbara S. Norgren"
+              }
+          ],
+          "first_publish_year": null,
+          "ia": null,
+          "public_scan": false,
+          "has_fulltext": false
+      },
+      {
+          "key": "/works/OL7302038W",
+          "title": "Catalog",
+          "edition_count": 1,
+          "cover_id": null,
+          "subject": [
+              "Bibliography",
+              "Catalogs",
+              "Denver",
+              "Denver. Public Library. Western History Dept",
+              "Denver. Public Library. Western History Department"
+          ],
+          "ia_collection": [],
+          "lendinglibrary": false,
+          "printdisabled": false,
+          "lending_edition": "",
+          "lending_identifier": "",
+          "authors": [
+              {
+                  "key": "/authors/OL2142767A",
+                  "name": "Denver. Public Library. Western History Dept."
+              }
+          ],
+          "first_publish_year": null,
+          "ia": null,
+          "public_scan": false,
+          "has_fulltext": false
+      },
+      {
+          "key": "/works/OL7546275W",
+          "title": "The Lady of the Gardens: Mary Elitch Long",
+          "edition_count": 1,
+          "cover_id": 5794178,
+          "cover_edition_key": "OL6284026M",
+          "subject": [
+              "Amusements",
+              "Denver",
+              "Denver. Elitch Gardens",
+              "Theater",
+              "History"
+          ],
+          "ia_collection": [],
+          "lendinglibrary": false,
+          "printdisabled": false,
+          "lending_edition": "",
+          "lending_identifier": "",
+          "authors": [
+              {
+                  "key": "/authors/OL2308668A",
+                  "name": "Caroline Lawrence Dier"
+              }
+          ],
+          "first_publish_year": null,
+          "ia": null,
+          "public_scan": false,
+          "has_fulltext": false
+      },
+      {
+          "key": "/works/OL7099888W",
+          "title": "Monster Solution",
+          "edition_count": 1,
+          "cover_id": 2699837,
+          "cover_edition_key": "OL11709103M",
+          "subject": [
+              "children's book",
+              "monsters",
+              "Sara Goodman Zimet",
+              "Shannon Parish",
+              "full color",
+              "illustrated",
+              "Denver",
+              "CO",
+              "Sleep",
+              "Juvenile fiction",
+              "Fiction",
+              "Bedtime",
+              "Monsters",
+              "Accessible book",
+              "Protected DAISY"
+          ],
+          "ia_collection": [
+              "inlibrary",
+              "internetarchivebooks",
+              "printdisabled"
+          ],
+          "lendinglibrary": false,
+          "printdisabled": true,
+          "lending_edition": "OL11709103M",
+          "lending_identifier": "monstersolution0000zime",
+          "authors": [
+              {
+                  "key": "/authors/OL2010374A",
+                  "name": "Sara Goodman Zimet"
+              }
+          ],
+          "first_publish_year": null,
+          "ia": "monstersolution0000zime",
+          "public_scan": false,
+          "has_fulltext": true,
+          "availability": {
+              "status": "borrow_available",
+              "available_to_browse": true,
+              "available_to_borrow": false,
+              "available_to_waitlist": false,
+              "is_printdisabled": true,
+              "is_readable": false,
+              "is_lendable": true,
+              "is_previewable": true,
+              "identifier": "monstersolution0000zime",
+              "isbn": "0964515911",
+              "oclc": null,
+              "openlibrary_work": "OL7099888W",
+              "openlibrary_edition": "OL11709103M",
+              "last_loan_date": null,
+              "num_waitlist": null,
+              "last_waitlist_date": null,
+              "is_restricted": true,
+              "is_browseable": true,
+              "__src__": "core.models.lending.get_availability"
+          }
+      },
+      {
+          "key": "/works/OL11841849W",
+          "title": "The role of wives in the urban adjustment of Navaho migrant families to Denver, Colorado",
+          "edition_count": 1,
+          "cover_id": null,
+          "subject": [
+              "Acculturation",
+              "Colorado",
+              "Rural-urban migration",
+              "Navajo Indians",
+              "Denver",
+              "Indian women"
+          ],
+          "ia_collection": [],
+          "lendinglibrary": false,
+          "printdisabled": false,
+          "lending_edition": "",
+          "lending_identifier": "",
+          "authors": [
+              {
+                  "key": "/authors/OL5059297A",
+                  "name": "Romola Mae McSwain"
+              }
+          ],
+          "first_publish_year": null,
+          "ia": null,
+          "public_scan": false,
+          "has_fulltext": false
+      },
+      {
+          "key": "/works/OL11826344W",
+          "title": "Perceived opportunities, expectations, and the decision to remain on relocation",
+          "edition_count": 1,
+          "cover_id": null,
+          "subject": [
+              "Rural-urban migration",
+              "Navajo Indians",
+              "Colorado",
+              "Denver"
+          ],
+          "ia_collection": [],
+          "lendinglibrary": false,
+          "printdisabled": false,
+          "lending_edition": "",
+          "lending_identifier": "",
+          "authors": [
+              {
+                  "key": "/authors/OL5049200A",
+                  "name": "Theodore Dumaine Graves"
+              }
+          ],
+          "first_publish_year": null,
+          "ia": null,
+          "public_scan": false,
+          "has_fulltext": false
       }
   ],
   "ebook_count": 20,
