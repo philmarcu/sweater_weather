@@ -1,6 +1,6 @@
 class LibraryService
   def self.get_books(city)
-    response = BaseService.library_conn.get("subjects/#{city}.json?&details=true")
+    response = BaseService.library_conn.get("search.json?subjects=#{city}")
     BaseService.get_json(response)
   end
 
