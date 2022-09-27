@@ -1,981 +1,1504 @@
 {
-  "key": "/subjects/denver",
-  "name": "Denver",
-  "subject_type": "subject",
-  "work_count": 20,
-  "works": [
+  "numFound": 47113,
+  "start": 0,
+  "numFoundExact": true,
+  "docs": [
       {
-          "key": "/works/OL9897019W",
-          "title": "Boldfaced Lies",
-          "edition_count": 3,
-          "cover_id": 6480927,
-          "cover_edition_key": "OL12340667M",
-          "subject": [
-              "Passing (Identity)",
-              "Colorado",
-              "Ku Klux Klan (1915- )",
-              "Denver",
-              "Fiction",
-              "Accessible book",
-              "Protected DAISY"
+          "key": "/works/OL8503198W",
+          "type": "work",
+          "seed": [
+              "/books/OL10909613M",
+              "/works/OL8503198W",
+              "/authors/OL2843451A"
           ],
-          "ia_collection": [
-              "americana",
-              "inlibrary",
-              "internetarchivebooks",
-              "printdisabled",
-              "smithsonianlibraries"
-          ],
-          "lendinglibrary": false,
-          "printdisabled": true,
-          "lending_edition": "OL12340667M",
-          "lending_identifier": "boldfacedliesnov00port",
-          "authors": [
-              {
-                  "key": "/authors/OL3879032A",
-                  "name": "Charlene A. Porter"
-              }
-          ],
-          "first_publish_year": null,
-          "ia": "boldfacedliesnov00port",
-          "public_scan": false,
-          "has_fulltext": true,
-          "availability": {
-              "status": "borrow_available",
-              "available_to_browse": true,
-              "available_to_borrow": false,
-              "available_to_waitlist": false,
-              "is_printdisabled": true,
-              "is_readable": false,
-              "is_lendable": true,
-              "is_previewable": true,
-              "identifier": "boldfacedliesnov00port",
-              "isbn": "1934099112",
-              "oclc": null,
-              "openlibrary_work": "OL9897019W",
-              "openlibrary_edition": "OL12340667M",
-              "last_loan_date": null,
-              "num_waitlist": null,
-              "last_waitlist_date": null,
-              "is_restricted": true,
-              "is_browseable": true,
-              "__src__": "core.models.lending.get_availability"
-          }
-      },
-      {
-          "key": "/works/OL2766605W",
-          "title": "The Regis santos",
-          "edition_count": 3,
-          "cover_id": 1694386,
-          "cover_edition_key": "OL708367M",
-          "subject": [
-              "Catalogs",
-              "Folk art",
-              "Santos (Art)",
-              "Art collections",
-              "Regis University (Denver, Colo.)",
-              "Ethnic studies",
-              "Exhibition catalogues and specific collections",
-              "History Of Art / Art & Design Styles",
-              "Museum, historic sites, gallery & art guides",
-              "Hispanic Art",
-              "Colorado",
-              "Permanent Collection Catalogs",
-              "Art",
-              "Art & Art Instruction",
-              "Collections, Catalogs, Exhibitions - General",
-              "Folk & Outsider Art",
-              "Criticism",
-              "Subjects & Themes - General",
-              "New Mexico",
-              "Denver",
-              "Hispanic american art"
-          ],
-          "ia_collection": [],
-          "lendinglibrary": false,
-          "printdisabled": false,
-          "lending_edition": "",
-          "lending_identifier": "",
-          "authors": [
-              {
-                  "key": "/authors/OL406949A",
-                  "name": "Thomas J. Steele"
-              },
-              {
-                  "key": "/authors/OL407128A",
-                  "name": "Barbe Awalt"
-              },
-              {
-                  "key": "/authors/OL1240313A",
-                  "name": "Paul Fisher Rhetts"
-              }
-          ],
-          "first_publish_year": null,
-          "ia": null,
-          "public_scan": false,
-          "has_fulltext": false
-      },
-      {
-          "key": "/works/OL1439708W",
-          "title": "The revolt of modern youth",
-          "edition_count": 3,
-          "cover_id": 12846444,
-          "cover_edition_key": "OL5416784M",
-          "subject": [
-              "Juvenile delinquency",
-              "Sexual ethics",
-              "Denver",
-              "Denver. Juvenile Court of the City and County of Denver",
-              "Denver (Colo). Juvenile Court of the City and County of Denver",
-              "Denver (Colo)"
-          ],
-          "ia_collection": [
-              "inlibrary",
-              "internetarchivebooks",
-              "printdisabled"
-          ],
-          "lendinglibrary": false,
-          "printdisabled": true,
-          "lending_edition": "OL5416784M",
-          "lending_identifier": "revoltofmodernyo0000lind",
-          "authors": [
-              {
-                  "key": "/authors/OL150590A",
-                  "name": "Ben B. Lindsey"
-              }
-          ],
-          "first_publish_year": null,
-          "ia": "revoltofmodernyo0000lind",
-          "public_scan": false,
-          "has_fulltext": true,
-          "availability": {
-              "status": "borrow_available",
-              "available_to_browse": true,
-              "available_to_borrow": false,
-              "available_to_waitlist": false,
-              "is_printdisabled": true,
-              "is_readable": false,
-              "is_lendable": true,
-              "is_previewable": true,
-              "identifier": "revoltofmodernyo0000lind",
-              "isbn": "0295952989",
-              "oclc": null,
-              "openlibrary_work": "OL1439708W",
-              "openlibrary_edition": "OL5416784M",
-              "last_loan_date": null,
-              "num_waitlist": null,
-              "last_waitlist_date": null,
-              "is_restricted": true,
-              "is_browseable": true,
-              "__src__": "core.models.lending.get_availability"
-          }
-      },
-      {
-          "key": "/works/OL1439707W",
-          "title": "The dangerous life",
-          "edition_count": 2,
-          "cover_id": null,
-          "subject": [
-              "Child welfare",
-              "Denver",
-              "Denver. Juvenile Court of the City and County of Denver"
-          ],
-          "ia_collection": [],
-          "lendinglibrary": false,
-          "printdisabled": false,
-          "lending_edition": "",
-          "lending_identifier": "",
-          "authors": [
-              {
-                  "key": "/authors/OL150590A",
-                  "name": "Ben B. Lindsey"
-              }
-          ],
-          "first_publish_year": null,
-          "ia": null,
-          "public_scan": false,
-          "has_fulltext": false
-      },
-      {
-          "key": "/works/OL3404420W",
-          "title": "Exotic and irrational",
-          "edition_count": 2,
-          "cover_id": 740871,
-          "cover_edition_key": "OL8584347M",
-          "subject": [
-              "Opera",
-              "Social life and customs",
-              "Genres & Styles - Opera",
-              "History & Criticism - General",
-              "Music / History & Criticism",
-              "Music-Genres & Styles - Opera",
-              "Music/Songbooks",
-              "Music",
-              "Colorado",
-              "Denver",
-              "Denver (Colo.)",
-              "Accessible book",
-              "Protected DAISY"
-          ],
-          "ia_collection": [
-              "inlibrary",
-              "internetarchivebooks",
-              "printdisabled"
-          ],
-          "lendinglibrary": false,
-          "printdisabled": true,
-          "lending_edition": "OL22750683M",
-          "lending_identifier": "exoticirrational0000youn",
-          "authors": [
-              {
-                  "key": "/authors/OL558147A",
-                  "name": "Young, Allen"
-              },
-              {
-                  "key": "/authors/OL1175532A",
-                  "name": "Allen Young"
-              }
-          ],
-          "first_publish_year": null,
-          "ia": "exoticirrational0000youn",
-          "public_scan": false,
-          "has_fulltext": true,
-          "availability": {
-              "status": "borrow_available",
-              "available_to_browse": true,
-              "available_to_borrow": false,
-              "available_to_waitlist": false,
-              "is_printdisabled": true,
-              "is_readable": false,
-              "is_lendable": true,
-              "is_previewable": true,
-              "identifier": "exoticirrational0000youn",
-              "isbn": "0974959782",
-              "oclc": null,
-              "openlibrary_work": "OL3404420W",
-              "openlibrary_edition": "OL22750683M",
-              "last_loan_date": null,
-              "num_waitlist": null,
-              "last_waitlist_date": null,
-              "is_restricted": true,
-              "is_browseable": true,
-              "__src__": "core.models.lending.get_availability"
-          }
-      },
-      {
-          "key": "/works/OL7392191W",
-          "title": "Cost analysis study, Technical Services Division, University of Denver Library",
+          "title": "Denver, Co",
+          "title_suggest": "Denver, Co",
           "edition_count": 1,
-          "cover_id": null,
-          "subject": [
-              "Case studies",
-              "Denver",
-              "Denver. University. Library. Technical Services Division",
-              "Library finance"
+          "edition_key": [
+              "OL10909613M"
           ],
-          "ia_collection": [],
-          "lendinglibrary": false,
-          "printdisabled": false,
-          "lending_edition": "",
-          "lending_identifier": "",
-          "authors": [
-              {
-                  "key": "/authors/OL2215676A",
-                  "name": "Barbara Aro"
-              }
+          "publish_date": [
+              "January 2001"
           ],
-          "first_publish_year": null,
-          "ia": null,
-          "public_scan": false,
-          "has_fulltext": false
+          "publish_year": [
+              2001
+          ],
+          "first_publish_year": 2001,
+          "isbn": [
+              "0762507845",
+              "9780762507849"
+          ],
+          "last_modified_i": 1338943517,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "Universal Map Enterprises"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL2843451A"
+          ],
+          "author_name": [
+              "Universal Map"
+          ],
+          "publisher_facet": [
+              "Universal Map Enterprises"
+          ],
+          "_version_": 1735677215044009984,
+          "author_facet": [
+              "OL2843451A Universal Map"
+          ]
       },
       {
-          "key": "/works/OL13350151M",
-          "title": "Denver",
+          "key": "/works/OL4437736W",
+          "type": "work",
+          "seed": [
+              "/books/OL10911511M",
+              "/works/OL4437736W",
+              "/authors/OL882946A"
+          ],
+          "title": "Denver Co Deluxe Flip Map",
+          "title_suggest": "Denver Co Deluxe Flip Map",
           "edition_count": 1,
-          "cover_id": null,
-          "subject": [
-              "Urban Architecture",
-              "Architects",
-              "Architecture",
-              "Buildings",
-              "Colorado",
-              "Denver"
+          "edition_key": [
+              "OL10911511M"
           ],
-          "ia_collection": [],
-          "lendinglibrary": false,
-          "printdisabled": false,
-          "lending_edition": "",
-          "lending_identifier": "",
-          "authors": [
-              {
-                  "key": "/authors/OL238497A",
-                  "name": "Thomas J. Noel"
-              },
-              {
-                  "key": "/authors/OL4251979A",
-                  "name": "Barbara S. Norgren"
-              }
+          "publish_date": [
+              "January 2003"
           ],
-          "first_publish_year": null,
-          "ia": null,
-          "public_scan": false,
-          "has_fulltext": false
+          "publish_year": [
+              2003
+          ],
+          "first_publish_year": 2003,
+          "isbn": [
+              "0762557362",
+              "9780762557363"
+          ],
+          "last_modified_i": 1260838560,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "Universal Map Enterprises"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL882946A"
+          ],
+          "author_name": [
+              "Laura Ryder"
+          ],
+          "publisher_facet": [
+              "Universal Map Enterprises"
+          ],
+          "_version_": 1735672139959238658,
+          "author_facet": [
+              "OL882946A Laura Ryder"
+          ]
       },
       {
-          "key": "/works/OL7302038W",
-          "title": "Catalog",
+          "key": "/works/OL8808821W",
+          "type": "work",
+          "seed": [
+              "/books/OL8537031M",
+              "/works/OL8808821W",
+              "/authors/OL3010394A"
+          ],
+          "title": "University of Denver Co 2007",
+          "title_suggest": "University of Denver Co 2007",
           "edition_count": 1,
-          "cover_id": null,
-          "subject": [
-              "Bibliography",
-              "Catalogs",
-              "Denver",
-              "Denver. Public Library. Western History Dept",
-              "Denver. Public Library. Western History Department"
+          "edition_key": [
+              "OL8537031M"
           ],
-          "ia_collection": [],
-          "lendinglibrary": false,
-          "printdisabled": false,
-          "lending_edition": "",
-          "lending_identifier": "",
-          "authors": [
-              {
-                  "key": "/authors/OL2142767A",
-                  "name": "Denver. Public Library. Western History Dept."
-              }
+          "publish_date": [
+              "July 1, 2006"
           ],
-          "first_publish_year": null,
-          "ia": null,
-          "public_scan": false,
-          "has_fulltext": false
+          "publish_year": [
+              2006
+          ],
+          "first_publish_year": 2006,
+          "number_of_pages_median": 180,
+          "oclc": [
+              "150368610"
+          ],
+          "isbn": [
+              "9781427401687",
+              "1427401683"
+          ],
+          "last_modified_i": 1304171421,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "cover_edition_key": "OL8537031M",
+          "cover_i": 1847337,
+          "publisher": [
+              "College Prowler"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL3010394A"
+          ],
+          "author_name": [
+              "College Prowler"
+          ],
+          "id_goodreads": [
+              "2985742"
+          ],
+          "publisher_facet": [
+              "College Prowler"
+          ],
+          "_version_": 1735677464197201922,
+          "author_facet": [
+              "OL3010394A College Prowler"
+          ]
       },
       {
-          "key": "/works/OL7546275W",
-          "title": "The Lady of the Gardens: Mary Elitch Long",
+          "key": "/works/OL10910782M",
+          "type": "work",
+          "seed": [
+              "/books/OL10910782M",
+              "/works/OL10910782M"
+          ],
+          "title": "Denver, Co Vicinity (City Wall Maps)",
+          "title_suggest": "Denver, Co Vicinity (City Wall Maps)",
           "edition_count": 1,
-          "cover_id": 5794178,
-          "cover_edition_key": "OL6284026M",
+          "edition_key": [
+              "OL10910782M"
+          ],
+          "publish_date": [
+              "January 2001"
+          ],
+          "publish_year": [
+              2001
+          ],
+          "first_publish_year": 2001,
+          "isbn": [
+              "0762538627",
+              "9780762538621"
+          ],
+          "last_modified_i": 1655272482,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "Universal Map Enterprises"
+          ],
+          "language": [
+              "eng"
+          ],
+          "publisher_facet": [
+              "Universal Map Enterprises"
+          ],
+          "_version_": 1735678998732603392
+      },
+      {
+          "key": "/works/OL8415118W",
+          "type": "work",
+          "seed": [
+              "/books/OL7900786M",
+              "/works/OL8415118W",
+              "/authors/OL2806763A"
+          ],
+          "title": "Five Points Neighborhood of Denver  (CO)",
+          "title_suggest": "Five Points Neighborhood of Denver  (CO)",
+          "edition_count": 1,
+          "edition_key": [
+              "OL7900786M"
+          ],
+          "publish_date": [
+              "June 11, 2001"
+          ],
+          "publish_year": [
+              2001
+          ],
+          "first_publish_year": 2001,
+          "number_of_pages_median": 128,
+          "oclc": [
+              "47691535"
+          ],
+          "isbn": [
+              "0738518700",
+              "9780738518701"
+          ],
+          "last_modified_i": 1303742645,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "cover_edition_key": "OL7900786M",
+          "cover_i": 1371298,
+          "first_sentence": [
+              "After the Civil War, freed slaves came west from the south looking for work."
+          ],
+          "publisher": [
+              "Arcadia  Publishing (SC)"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL2806763A"
+          ],
+          "author_name": [
+              "Laura M. Mauck"
+          ],
+          "id_librarything": [
+              "3305602"
+          ],
+          "publisher_facet": [
+              "Arcadia  Publishing (SC)"
+          ],
+          "_version_": 1735676935354187777,
+          "author_facet": [
+              "OL2806763A Laura M. Mauck"
+          ]
+      },
+      {
+          "key": "/works/OL8541064W",
+          "type": "work",
+          "seed": [
+              "/books/OL9197762M",
+              "/works/OL8541064W",
+              "/authors/OL2859862A"
+          ],
+          "title": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+          "title_suggest": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+          "edition_count": 1,
+          "edition_key": [
+              "OL9197762M"
+          ],
+          "publish_date": [
+              "January 30, 2006"
+          ],
+          "publish_year": [
+              2006
+          ],
+          "first_publish_year": 2006,
+          "number_of_pages_median": 1,
+          "oclc": [
+              "64038908"
+          ],
+          "isbn": [
+              "9789812582621",
+              "9812582622"
+          ],
+          "last_modified_i": 1304090516,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "cover_edition_key": "OL9197762M",
+          "cover_i": 2302739,
+          "publisher": [
+              "American Map Corporation"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL2859862A"
+          ],
+          "author_name": [
+              "American Map Corp"
+          ],
+          "publisher_facet": [
+              "American Map Corporation"
+          ],
+          "_version_": 1735677240763482115,
+          "author_facet": [
+              "OL2859862A American Map Corp"
+          ]
+      },
+      {
+          "key": "/works/OL10910559M",
+          "type": "work",
+          "seed": [
+              "/books/OL10910559M",
+              "/works/OL10910559M"
+          ],
+          "title": "Denver, Co (City & County Street Folding Maps)",
+          "title_suggest": "Denver, Co (City & County Street Folding Maps)",
+          "edition_count": 1,
+          "edition_key": [
+              "OL10910559M"
+          ],
+          "publish_date": [
+              "January 2001"
+          ],
+          "publish_year": [
+              2001
+          ],
+          "first_publish_year": 2001,
+          "isbn": [
+              "0762532475",
+              "9780762532476"
+          ],
+          "last_modified_i": 1655272481,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "Universal Map Enterprises"
+          ],
+          "language": [
+              "eng"
+          ],
+          "publisher_facet": [
+              "Universal Map Enterprises"
+          ],
+          "_version_": 1735678998561685506
+      },
+      {
+          "key": "/works/OL8415359W",
+          "type": "work",
+          "seed": [
+              "/books/OL7902353M",
+              "/works/OL8415359W",
+              "/subjects/railroads",
+              "/subjects/pictorial_works",
+              "/subjects/history",
+              "/authors/OL2807038A"
+          ],
+          "title": "Rails Around Denver (CO) (Images of Rail)",
+          "title_suggest": "Rails Around Denver (CO) (Images of Rail)",
+          "edition_count": 1,
+          "edition_key": [
+              "OL7902353M"
+          ],
+          "publish_date": [
+              "July 9, 2007"
+          ],
+          "publish_year": [
+              2007
+          ],
+          "first_publish_year": 2007,
+          "number_of_pages_median": 128,
+          "lccn": [
+              "2007923841"
+          ],
+          "oclc": [
+              "154683075"
+          ],
+          "lcc": [
+              "TF-0025.00000000.D427 L49 2007"
+          ],
+          "isbn": [
+              "0738548022",
+              "9780738548029"
+          ],
+          "last_modified_i": 1608419793,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "cover_edition_key": "OL7902353M",
+          "cover_i": 1373092,
+          "publisher": [
+              "Arcadia Publishing"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL2807038A"
+          ],
+          "author_name": [
+              "Allan C. Lewis"
+          ],
           "subject": [
-              "Amusements",
-              "Denver",
-              "Denver. Elitch Gardens",
-              "Theater",
+              "Railroads",
+              "Pictorial works",
               "History"
           ],
-          "ia_collection": [],
-          "lendinglibrary": false,
-          "printdisabled": false,
-          "lending_edition": "",
-          "lending_identifier": "",
-          "authors": [
-              {
-                  "key": "/authors/OL2308668A",
-                  "name": "Caroline Lawrence Dier"
-              }
+          "id_goodreads": [
+              "5918953"
           ],
-          "first_publish_year": null,
-          "ia": null,
-          "public_scan": false,
-          "has_fulltext": false
+          "id_librarything": [
+              "5645277"
+          ],
+          "publisher_facet": [
+              "Arcadia Publishing"
+          ],
+          "subject_facet": [
+              "History",
+              "Pictorial works",
+              "Railroads"
+          ],
+          "_version_": 1735676935324827652,
+          "lcc_sort": "TF-0025.00000000.D427 L49 2007",
+          "author_facet": [
+              "OL2807038A Allan C. Lewis"
+          ],
+          "subject_key": [
+              "history",
+              "pictorial_works",
+              "railroads"
+          ]
       },
       {
-          "key": "/works/OL7099888W",
-          "title": "Monster Solution",
+          "key": "/works/OL19500062W",
+          "type": "work",
+          "seed": [
+              "/books/OL2061373M",
+              "/works/OL19500062W",
+              "/subjects/photovoltaic_cells",
+              "/subjects/safety_measures",
+              "/subjects/solar_cells",
+              "/subjects/congresses",
+              "/subjects/design_and_construction",
+              "/authors/OL714790A"
+          ],
+          "title": "Photovoltaic safety, Denver, CO, 1988",
+          "title_suggest": "Photovoltaic safety, Denver, CO, 1988",
           "edition_count": 1,
-          "cover_id": 2699837,
-          "cover_edition_key": "OL11709103M",
+          "edition_key": [
+              "OL2061373M"
+          ],
+          "publish_date": [
+              "1988"
+          ],
+          "publish_year": [
+              1988
+          ],
+          "first_publish_year": 1988,
+          "number_of_pages_median": 246,
+          "lccn": [
+              "88042854"
+          ],
+          "publish_place": [
+              "New York"
+          ],
+          "contributor": [
+              "Photovoltaics Safety Conference (2nd : 1988 : Denver, Colo.)",
+              "Solar Energy Research Institute.",
+              "Luft, Werner."
+          ],
+          "lcc": [
+              "TK-8322.00000000.P46 1988"
+          ],
+          "ddc": [
+              "621.31244"
+          ],
+          "isbn": [
+              "0883183668",
+              "9780883183663"
+          ],
+          "last_modified_i": 1653726978,
+          "ebook_count_i": 1,
+          "ebook_access": "borrowable",
+          "has_fulltext": true,
+          "public_scan_b": false,
+          "ia": [
+              "photovoltaicsafe0000unse"
+          ],
+          "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
+          "lending_edition_s": "OL2061373M",
+          "lending_identifier_s": "photovoltaicsafe0000unse",
+          "printdisabled_s": "OL2061373M",
+          "cover_edition_key": "OL2061373M",
+          "cover_i": 4745684,
+          "publisher": [
+              "American Institute of Physics"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL714790A"
+          ],
+          "author_name": [
+              "Werner Luft"
+          ],
           "subject": [
-              "children's book",
-              "monsters",
-              "Sara Goodman Zimet",
-              "Shannon Parish",
-              "full color",
-              "illustrated",
-              "Denver",
-              "CO",
-              "Sleep",
-              "Juvenile fiction",
-              "Fiction",
-              "Bedtime",
-              "Monsters",
+              "Photovoltaic cells",
+              "Safety measures",
+              "Solar cells",
+              "Congresses",
+              "Design and construction",
               "Accessible book",
               "Protected DAISY"
           ],
-          "ia_collection": [
-              "inlibrary",
-              "internetarchivebooks",
-              "printdisabled"
+          "id_goodreads": [
+              "3793862"
           ],
-          "lendinglibrary": false,
-          "printdisabled": true,
-          "lending_edition": "OL11709103M",
-          "lending_identifier": "monstersolution0000zime",
-          "authors": [
-              {
-                  "key": "/authors/OL2010374A",
-                  "name": "Sara Goodman Zimet"
-              }
+          "ia_box_id": [
+              "IA40514301"
           ],
-          "first_publish_year": null,
-          "ia": "monstersolution0000zime",
-          "public_scan": false,
-          "has_fulltext": true,
-          "availability": {
-              "status": "borrow_available",
-              "available_to_browse": true,
-              "available_to_borrow": false,
-              "available_to_waitlist": false,
-              "is_printdisabled": true,
-              "is_readable": false,
-              "is_lendable": true,
-              "is_previewable": true,
-              "identifier": "monstersolution0000zime",
-              "isbn": "0964515911",
-              "oclc": null,
-              "openlibrary_work": "OL7099888W",
-              "openlibrary_edition": "OL11709103M",
-              "last_loan_date": null,
-              "num_waitlist": null,
-              "last_waitlist_date": null,
-              "is_restricted": true,
-              "is_browseable": true,
-              "__src__": "core.models.lending.get_availability"
-          }
+          "publisher_facet": [
+              "American Institute of Physics"
+          ],
+          "subject_facet": [
+              "Accessible book",
+              "Congresses",
+              "Design and construction",
+              "Photovoltaic cells",
+              "Protected DAISY",
+              "Safety measures",
+              "Solar cells"
+          ],
+          "_version_": 1735660805457707010,
+          "lcc_sort": "TK-8322.00000000.P46 1988",
+          "author_facet": [
+              "OL714790A Werner Luft"
+          ],
+          "subject_key": [
+              "accessible_book",
+              "congresses",
+              "design_and_construction",
+              "photovoltaic_cells",
+              "protected_daisy",
+              "safety_measures",
+              "solar_cells"
+          ],
+          "ddc_sort": "621.31244"
       },
       {
-          "key": "/works/OL11841849W",
-          "title": "The role of wives in the urban adjustment of Navaho migrant families to Denver, Colorado",
+          "key": "/works/OL24993703W",
+          "type": "work",
+          "seed": [
+              "/books/OL33223956M",
+              "/works/OL24993703W",
+              "/authors/OL7546291A"
+          ],
+          "title": "Denver, CO, US Dot-Grid Notebook",
+          "title_suggest": "Denver, CO, US Dot-Grid Notebook",
           "edition_count": 1,
-          "cover_id": null,
+          "edition_key": [
+              "OL33223956M"
+          ],
+          "publish_date": [
+              "Dec 17, 2016"
+          ],
+          "publish_year": [
+              2016
+          ],
+          "first_publish_year": 2016,
+          "number_of_pages_median": 158,
+          "isbn": [
+              "9781541184251",
+              "1541184254"
+          ],
+          "last_modified_i": 1631123055,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "cover_edition_key": "OL33223956M",
+          "cover_i": 11936540,
+          "publisher": [
+              "Createspace Independent Publishing Platform",
+              "CreateSpace Independent Publishing Platform"
+          ],
+          "author_key": [
+              "OL7546291A"
+          ],
+          "author_name": [
+              "N.D. Author Services"
+          ],
+          "publisher_facet": [
+              "CreateSpace Independent Publishing Platform",
+              "Createspace Independent Publishing Platform"
+          ],
+          "_version_": 1735666952497528832,
+          "author_facet": [
+              "OL7546291A N.D. Author Services"
+          ]
+      },
+      {
+          "key": "/works/OL27674149W",
+          "type": "work",
+          "seed": [
+              "/books/OL37733650M",
+              "/works/OL27674149W",
+              "/subjects/health",
+              "/subjects/self-help_techniques",
+              "/authors/OL9802020A",
+              "/authors/OL10333974A"
+          ],
+          "title": "Thriving at Home, North Metro Denver, CO Edition",
+          "title_suggest": "Thriving at Home, North Metro Denver, CO Edition",
+          "edition_count": 1,
+          "edition_key": [
+              "OL37733650M"
+          ],
+          "publish_date": [
+              "2021"
+          ],
+          "publish_year": [
+              2021
+          ],
+          "first_publish_year": 2021,
+          "isbn": [
+              "9781736525623",
+              "173652562X"
+          ],
+          "last_modified_i": 1646368640,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "Northeast Care Development, LLC"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL9802020A",
+              "OL10333974A"
+          ],
+          "author_name": [
+              "Dave Tasto",
+              "Vanessa Sutton"
+          ],
           "subject": [
-              "Acculturation",
-              "Colorado",
-              "Rural-urban migration",
-              "Navajo Indians",
+              "Health",
+              "Self-help techniques"
+          ],
+          "publisher_facet": [
+              "Northeast Care Development, LLC"
+          ],
+          "subject_facet": [
+              "Health",
+              "Self-help techniques"
+          ],
+          "_version_": 1735669758881169409,
+          "author_facet": [
+              "OL10333974A Vanessa Sutton",
+              "OL9802020A Dave Tasto"
+          ],
+          "subject_key": [
+              "health",
+              "self-help_techniques"
+          ]
+      },
+      {
+          "key": "/works/OL26519670W",
+          "type": "work",
+          "seed": [
+              "/books/OL35871322M",
+              "/works/OL26519670W",
+              "/authors/OL812880A"
+          ],
+          "title": "Key Issues Confronting the Black Community in Denver, CO",
+          "title_suggest": "Key Issues Confronting the Black Community in Denver, CO",
+          "edition_count": 1,
+          "edition_key": [
+              "OL35871322M"
+          ],
+          "publish_date": [
+              "2021"
+          ],
+          "publish_year": [
+              2021
+          ],
+          "first_publish_year": 2021,
+          "isbn": [
+              "1527575527",
+              "9781527575523"
+          ],
+          "last_modified_i": 1640511004,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "Cambridge Scholars Publisher"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL812880A"
+          ],
+          "author_name": [
+              "David W. Jackson"
+          ],
+          "publisher_facet": [
+              "Cambridge Scholars Publisher"
+          ],
+          "_version_": 1735668551446953985,
+          "author_facet": [
+              "OL812880A David W. Jackson"
+          ]
+      },
+      {
+          "key": "/works/OL13388286M",
+          "type": "work",
+          "seed": [
+              "/books/OL13388286M",
+              "/works/OL13388286M"
+          ],
+          "title": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
+          "title_suggest": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
+          "edition_count": 1,
+          "edition_key": [
+              "OL13388286M"
+          ],
+          "publish_date": [
+              "November 1987"
+          ],
+          "publish_year": [
+              1987
+          ],
+          "first_publish_year": 1987,
+          "isbn": [
+              "9789999104159",
+              "9999104150"
+          ],
+          "last_modified_i": 1655272865,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "Ieee"
+          ],
+          "publisher_facet": [
+              "Ieee"
+          ],
+          "_version_": 1735679400583626753
+      },
+      {
+          "key": "/works/OL896607W",
+          "type": "work",
+          "seed": [
+              "/books/OL10945157M",
+              "/works/OL896607W",
+              "/authors/OL79165A"
+          ],
+          "title": "Denver west, CO and Bailey, CO: Denver, CO",
+          "title_suggest": "Denver west, CO and Bailey, CO: Denver, CO",
+          "subtitle": "39105, digital raster graphic data",
+          "edition_count": 1,
+          "edition_key": [
+              "OL10945157M"
+          ],
+          "publish_date": [
+              "1996"
+          ],
+          "publish_year": [
+              1996
+          ],
+          "first_publish_year": 1996,
+          "isbn": [
+              "9780607620054",
+              "0607620056"
+          ],
+          "last_modified_i": 1272517172,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "USGS Branch of Distribution"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL79165A"
+          ],
+          "author_name": [
+              "United States Geological Survey"
+          ],
+          "author_alternative_name": [
+              "U.S. Geological Survey",
+              "Geological Survey. (U.S.)",
+              "Geological Survey (U .S.)",
+              "Geological Survey (U.S.)",
+              "Geological Survey (U. S.)",
+              "United States. Geological survey.",
+              "United States. Geological Survey",
+              "United States. Geological Survey.",
+              "Geological Survey (U.S.) 088"
+          ],
+          "publisher_facet": [
+              "USGS Branch of Distribution"
+          ],
+          "_version_": 1735677676908183553,
+          "author_facet": [
+              "OL79165A United States Geological Survey"
+          ]
+      },
+      {
+          "key": "/works/OL11048519W",
+          "type": "work",
+          "seed": [
+              "/books/OL14477927M",
+              "/works/OL11048519W",
+              "/subjects/corrugated_paperboard",
+              "/subjects/congresses",
+              "/authors/OL4601798A"
+          ],
+          "title": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
+          "title_suggest": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
+          "edition_count": 1,
+          "edition_key": [
+              "OL14477927M"
+          ],
+          "publish_date": [
+              "1979"
+          ],
+          "publish_year": [
+              1979
+          ],
+          "first_publish_year": 1979,
+          "number_of_pages_median": 70,
+          "lccn": [
+              "80106738"
+          ],
+          "publish_place": [
+              "Atlanta, Ga"
+          ],
+          "contributor": [
+              "Technical Association of the Pulp and Paper Industry"
+          ],
+          "last_modified_i": 1263866143,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "Technical Association of the Pulp and Paper Industry"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL4601798A"
+          ],
+          "author_name": [
+              "Corrugated Containers Conference (1979 Denver)"
+          ],
+          "subject": [
+              "Corrugated paperboard",
+              "Congresses"
+          ],
+          "publisher_facet": [
+              "Technical Association of the Pulp and Paper Industry"
+          ],
+          "subject_facet": [
+              "Congresses",
+              "Corrugated paperboard"
+          ],
+          "_version_": 1735651708991700995,
+          "author_facet": [
+              "OL4601798A Corrugated Containers Conference (1979 Denver)"
+          ],
+          "subject_key": [
+              "congresses",
+              "corrugated_paperboard"
+          ]
+      },
+      {
+          "key": "/works/OL19198901W",
+          "type": "work",
+          "seed": [
+              "/books/OL2067438M",
+              "/works/OL19198901W",
+              "/subjects/neural_networks_(computer_science)",
+              "/subjects/congresses",
+              "/subjects/neural_computers",
+              "/subjects/neural_transmission"
+          ],
+          "title": "Neural information processing systems",
+          "title_suggest": "Neural information processing systems",
+          "edition_count": 1,
+          "edition_key": [
+              "OL2067438M"
+          ],
+          "publish_date": [
+              "1988"
+          ],
+          "publish_year": [
+              1988
+          ],
+          "first_publish_year": 1988,
+          "number_of_pages_median": 871,
+          "lccn": [
+              "88071208"
+          ],
+          "publish_place": [
+              "New York"
+          ],
+          "contributor": [
+              "Institute of Electrical and Electronics Engineers.",
+              "IEEE Conference on \"Neural Information Processing Systems--Natural and Synthetic\" (1st : 1987 : Denver, Colo.)",
+              "Anderson, Dana Z."
+          ],
+          "lcc": [
+              "Q--0295.00000000",
+              "QA-0076.50000000.N428 1988"
+          ],
+          "ddc": [
+              "006.3"
+          ],
+          "isbn": [
+              "0883185695",
+              "9780883185698"
+          ],
+          "last_modified_i": 1645794345,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "cover_edition_key": "OL2067438M",
+          "cover_i": 1639864,
+          "publisher": [
+              "American Institute of Physics"
+          ],
+          "language": [
+              "eng"
+          ],
+          "subject": [
+              "Neural networks (Computer science)",
+              "Congresses",
+              "Neural computers",
+              "Neural transmission"
+          ],
+          "id_goodreads": [
+              "3982643"
+          ],
+          "publisher_facet": [
+              "American Institute of Physics"
+          ],
+          "subject_facet": [
+              "Congresses",
+              "Neural computers",
+              "Neural networks (Computer science)",
+              "Neural transmission"
+          ],
+          "_version_": 1735660331136450560,
+          "lcc_sort": "QA-0076.50000000.N428 1988",
+          "subject_key": [
+              "congresses",
+              "neural_computers",
+              "neural_networks_(computer_science)",
+              "neural_transmission"
+          ],
+          "ddc_sort": "006.3"
+      },
+      {
+          "key": "/works/OL896605W",
+          "type": "work",
+          "seed": [
+              "/books/OL10945156M",
+              "/works/OL896605W",
+              "/authors/OL79165A"
+          ],
+          "title": "Denver East, CO and Castle Rock, CO: Denver, CO",
+          "title_suggest": "Denver East, CO and Castle Rock, CO: Denver, CO",
+          "subtitle": "39104, digital raster graphic data",
+          "edition_count": 1,
+          "edition_key": [
+              "OL10945156M"
+          ],
+          "publish_date": [
+              "1996"
+          ],
+          "publish_year": [
+              1996
+          ],
+          "first_publish_year": 1996,
+          "isbn": [
+              "9780607620047",
+              "0607620048"
+          ],
+          "last_modified_i": 1272517172,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "publisher": [
+              "USGS Branch of Distribution"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL79165A"
+          ],
+          "author_name": [
+              "United States Geological Survey"
+          ],
+          "author_alternative_name": [
+              "U.S. Geological Survey",
+              "Geological Survey. (U.S.)",
+              "Geological Survey (U .S.)",
+              "Geological Survey (U.S.)",
+              "Geological Survey (U. S.)",
+              "United States. Geological survey.",
+              "United States. Geological Survey",
+              "United States. Geological Survey.",
+              "Geological Survey (U.S.) 088"
+          ],
+          "publisher_facet": [
+              "USGS Branch of Distribution"
+          ],
+          "_version_": 1735677677151453185,
+          "author_facet": [
+              "OL79165A United States Geological Survey"
+          ]
+      },
+      {
+          "key": "/works/OL22205996M",
+          "type": "work",
+          "seed": [
+              "/books/OL22205996M",
+              "/works/OL22205996M"
+          ],
+          "title": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
+          "title_suggest": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
+          "edition_count": 1,
+          "edition_key": [
+              "OL22205996M"
+          ],
+          "contributor": [
+              "United States. Bureau of Labor Statistics"
+          ],
+          "last_modified_i": 1655273917,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "language": [
+              "eng"
+          ],
+          "_version_": 1735680504387076097
+      },
+      {
+          "key": "/works/OL16800110W",
+          "type": "work",
+          "seed": [
+              "/books/OL25422192M",
+              "/works/OL16800110W",
+              "/subjects/hfb",
+              "/subjects/hfbco",
+              "/subjects/hfbcolo",
+              "/subjects/colorado_marriage_records",
+              "/subjects/co_marriage_records",
+              "/subjects/colo_marriage_records",
+              "/subjects/colorado_genealogy",
+              "/subjects/co_genealogy",
+              "/subjects/colo_genealogy",
+              "/subjects/colorado_marriages",
+              "/subjects/co_marriages",
+              "/subjects/colo_marriages",
+              "/subjects/colorado_vital_records",
+              "/subjects/co_vital_records",
+              "/subjects/colo_vital_records",
+              "/subjects/colorado_vitals",
+              "/subjects/co_vitals",
+              "/subjects/colo_vitals",
+              "/subjects/co_archives",
+              "/subjects/western_heritage",
+              "/subjects/colorado_ancestry",
+              "/subjects/co_ancestry",
+              "/subjects/colorado_archives",
+              "/subjects/marriage_records_of_colorado",
+              "/subjects/marriage_records_of_co",
+              "/subjects/colorado_grooms",
+              "/subjects/colorado_brides",
+              "/subjects/co_grooms",
+              "/subjects/co_brides",
+              "/subjects/genealogy",
+              "/subjects/colorado_marriage_licenses",
+              "/subjects/co_marriage_licenses",
+              "/subjects/colorado_marriage_sources",
+              "/subjects/co_marriage_sources",
+              "/subjects/colorado_marriage_bonds",
+              "/subjects/co_marriage_bonds",
+              "/subjects/place:hfbcodenv",
+              "/subjects/place:denver_county_colorado",
+              "/subjects/place:denver_county",
+              "/subjects/place:denver",
+              "/subjects/place:denver_co",
+              "/subjects/place:co",
+              "/subjects/place:denver_county_co",
+              "/subjects/place:denver_co_co_marr",
+              "/subjects/place:denver_marriages",
+              "/subjects/place:denver_county_colo",
+              "/subjects/place:denver_co_colo",
+              "/subjects/place:denver_county_marriage_records",
+              "/subjects/place:denver_co_marriage_records",
+              "/subjects/place:denver_co_marriages",
+              "/subjects/place:denver_co_vital_records",
+              "/subjects/place:denver_co_vitals",
+              "/subjects/place:denver_county_(colo.)",
+              "/subjects/time:1873-1939",
+              "/subjects/time:1700s",
+              "/subjects/time:1800s",
+              "/subjects/time:19th_century",
+              "/subjects/time:pre_1900",
+              "/subjects/time:early",
+              "/subjects/time:pre_modern",
+              "/subjects/time:early_nineteenth_century_and_early_twentieth_century",
+              "/authors/OL7168194A",
+              "/authors/OL7168201A"
+          ],
+          "title": "Denver County Colorado Marriage Index 1873-1939",
+          "title_suggest": "Denver County Colorado Marriage Index 1873-1939",
+          "edition_count": 1,
+          "edition_key": [
+              "OL25422192M"
+          ],
+          "publish_date": [
+              "2013"
+          ],
+          "publish_year": [
+              2013
+          ],
+          "first_publish_year": 2013,
+          "number_of_pages_median": 27,
+          "publish_place": [
+              "3878 W 3200 S, Salt Lake City, UT 84120-2154 USA  ph.801-966-1611  huntingforbears@yahoo.com"
+          ],
+          "last_modified_i": 1513747688,
+          "ebook_count_i": 0,
+          "ebook_access": "no_ebook",
+          "has_fulltext": false,
+          "public_scan_b": false,
+          "cover_edition_key": "OL25422192M",
+          "cover_i": 7250387,
+          "publisher": [
+              "Hunting For Bears Genealogical Society and Library"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL7168194A",
+              "OL7168201A"
+          ],
+          "author_name": [
+              "Patrick Vernon Murray",
+              "Dixie Owens Murray"
+          ],
+          "place": [
+              "hfbcodenv",
+              "Denver County Colorado",
+              "Denver County",
               "Denver",
-              "Indian women"
+              "Denver Co",
+              "CO",
+              "Denver County CO",
+              "Denver Co CO Marr",
+              "Denver Marriages",
+              "Denver County Colo",
+              "Denver Co Colo",
+              "Denver County Marriage Records",
+              "Denver Co Marriage Records",
+              "Denver CO Marriages",
+              "Denver CO vital records",
+              "Denver CO vitals",
+              "Denver County (Colo.)"
           ],
-          "ia_collection": [],
-          "lendinglibrary": false,
-          "printdisabled": false,
-          "lending_edition": "",
-          "lending_identifier": "",
-          "authors": [
-              {
-                  "key": "/authors/OL5059297A",
-                  "name": "Romola Mae McSwain"
-              }
-          ],
-          "first_publish_year": null,
-          "ia": null,
-          "public_scan": false,
-          "has_fulltext": false
-      },
-      {
-          "key": "/works/OL11826344W",
-          "title": "Perceived opportunities, expectations, and the decision to remain on relocation",
-          "edition_count": 1,
-          "cover_id": null,
           "subject": [
-              "Rural-urban migration",
-              "Navajo Indians",
-              "Colorado",
-              "Denver"
+              "hfb",
+              "hfbco",
+              "hfbcolo",
+              "Colorado Marriage Records",
+              "CO Marriage Records",
+              "Colo Marriage Records",
+              "Colorado Genealogy",
+              "CO Genealogy",
+              "Colo Genealogy",
+              "Colorado Marriages",
+              "CO Marriages",
+              "Colo Marriages",
+              "Colorado vital records",
+              "CO vital records",
+              "Colo vital records",
+              "Colorado vitals",
+              "CO vitals",
+              "Colo vitals",
+              "CO Archives",
+              "Western Heritage",
+              "Colorado Ancestry",
+              "CO Ancestry",
+              "Colorado Archives",
+              "Marriage Records of Colorado",
+              "Marriage Records of CO",
+              "Colorado Grooms",
+              "Colorado Brides",
+              "CO Grooms",
+              "CO Brides",
+              "Genealogy",
+              "Colorado Marriage licenses",
+              "CO Marriage licenses",
+              "Colorado Marriage Sources",
+              "CO Marriage Sources",
+              "Colorado Marriage bonds",
+              "CO Marriage bonds"
           ],
-          "ia_collection": [],
-          "lendinglibrary": false,
-          "printdisabled": false,
-          "lending_edition": "",
-          "lending_identifier": "",
-          "authors": [
-              {
-                  "key": "/authors/OL5049200A",
-                  "name": "Theodore Dumaine Graves"
-              }
+          "time": [
+              "1873-1939",
+              "1700s",
+              "1800s",
+              "19th Century",
+              "pre 1900",
+              "Early",
+              "pre modern",
+              "Early Nineteenth Century and Early Twentieth Century"
           ],
-          "first_publish_year": null,
-          "ia": null,
-          "public_scan": false,
-          "has_fulltext": false
+          "publisher_facet": [
+              "Hunting For Bears Genealogical Society and Library"
+          ],
+          "place_key": [
+              "co",
+              "denver",
+              "denver_co",
+              "denver_co_co_marr",
+              "denver_co_colo",
+              "denver_co_marriage_records",
+              "denver_co_marriages",
+              "denver_co_vital_records",
+              "denver_co_vitals",
+              "denver_county",
+              "denver_county_(colo.)",
+              "denver_county_co",
+              "denver_county_colo",
+              "denver_county_colorado",
+              "denver_county_marriage_records",
+              "denver_marriages",
+              "hfbcodenv"
+          ],
+          "time_facet": [
+              "1700s",
+              "1800s",
+              "1873-1939",
+              "19th Century",
+              "Early",
+              "Early Nineteenth Century and Early Twentieth Century",
+              "pre 1900",
+              "pre modern"
+          ],
+          "subject_facet": [
+              "CO Ancestry",
+              "CO Archives",
+              "CO Brides",
+              "CO Genealogy",
+              "CO Grooms",
+              "CO Marriage Records",
+              "CO Marriage Sources",
+              "CO Marriage bonds",
+              "CO Marriage licenses",
+              "CO Marriages",
+              "CO vital records",
+              "CO vitals",
+              "Colo Genealogy",
+              "Colo Marriage Records",
+              "Colo Marriages",
+              "Colo vital records",
+              "Colo vitals",
+              "Colorado Ancestry",
+              "Colorado Archives",
+              "Colorado Brides",
+              "Colorado Genealogy",
+              "Colorado Grooms",
+              "Colorado Marriage Records",
+              "Colorado Marriage Sources",
+              "Colorado Marriage bonds",
+              "Colorado Marriage licenses",
+              "Colorado Marriages",
+              "Colorado vital records",
+              "Colorado vitals",
+              "Genealogy",
+              "Marriage Records of CO",
+              "Marriage Records of Colorado",
+              "Western Heritage",
+              "hfb",
+              "hfbco",
+              "hfbcolo"
+          ],
+          "_version_": 1735657165148913666,
+          "place_facet": [
+              "CO",
+              "Denver",
+              "Denver CO Marriages",
+              "Denver CO vital records",
+              "Denver CO vitals",
+              "Denver Co",
+              "Denver Co CO Marr",
+              "Denver Co Colo",
+              "Denver Co Marriage Records",
+              "Denver County",
+              "Denver County (Colo.)",
+              "Denver County CO",
+              "Denver County Colo",
+              "Denver County Colorado",
+              "Denver County Marriage Records",
+              "Denver Marriages",
+              "hfbcodenv"
+          ],
+          "author_facet": [
+              "OL7168194A Patrick Vernon Murray",
+              "OL7168201A Dixie Owens Murray"
+          ],
+          "subject_key": [
+              "co_ancestry",
+              "co_archives",
+              "co_brides",
+              "co_genealogy",
+              "co_grooms",
+              "co_marriage_bonds",
+              "co_marriage_licenses",
+              "co_marriage_records",
+              "co_marriage_sources",
+              "co_marriages",
+              "co_vital_records",
+              "co_vitals",
+              "colo_genealogy",
+              "colo_marriage_records",
+              "colo_marriages",
+              "colo_vital_records",
+              "colo_vitals",
+              "colorado_ancestry",
+              "colorado_archives",
+              "colorado_brides",
+              "colorado_genealogy",
+              "colorado_grooms",
+              "colorado_marriage_bonds",
+              "colorado_marriage_licenses",
+              "colorado_marriage_records",
+              "colorado_marriage_sources",
+              "colorado_marriages",
+              "colorado_vital_records",
+              "colorado_vitals",
+              "genealogy",
+              "hfb",
+              "hfbco",
+              "hfbcolo",
+              "marriage_records_of_co",
+              "marriage_records_of_colorado",
+              "western_heritage"
+          ],
+          "time_key": [
+              "1700s",
+              "1800s",
+              "1873-1939",
+              "19th_century",
+              "early",
+              "early_nineteenth_century_and_early_twentieth_century",
+              "pre_1900",
+              "pre_modern"
+          ]
+      },
+      {
+          "key": "/works/OL16859969W",
+          "type": "work",
+          "seed": [
+              "/books/OL25483944M",
+              "/works/OL16859969W",
+              "/subjects/control",
+              "/subjects/vegetation_management",
+              "/subjects/invasive_plants",
+              "/subjects/weeds",
+              "/subjects/place:united_states",
+              "/authors/OL7184645A"
+          ],
+          "title": "Proceedings",
+          "title_suggest": "Proceedings",
+          "edition_count": 1,
+          "edition_key": [
+              "OL25483944M"
+          ],
+          "publish_date": [
+              "1998"
+          ],
+          "publish_year": [
+              1998
+          ],
+          "first_publish_year": 1998,
+          "number_of_pages_median": 176,
+          "publish_place": [
+              "[Denver, CO"
+          ],
+          "contributor": [
+              " National Applied Resource Sciences Center (U.S.)",
+              " Western Society of Weed Science (U.S.)",
+              " Nature Conservancy (U.S.)",
+              "United States.   Bureau of Land Management",
+              " United States.   Forest Service"
+          ],
+          "last_modified_i": 1589569205,
+          "ebook_count_i": 1,
+          "ebook_access": "public",
+          "has_fulltext": true,
+          "public_scan_b": true,
+          "ia": [
+              "proceedingsscien40scie"
+          ],
+          "ia_collection_s": "americana;blmlibrary;fedlink",
+          "lending_edition_s": "OL25483944M",
+          "lending_identifier_s": "proceedingsscien40scie",
+          "cover_edition_key": "OL25483944M",
+          "cover_i": 9471620,
+          "publisher": [
+              "Bureau of Land Management, National Applied Resource Sciences Center"
+          ],
+          "language": [
+              "eng"
+          ],
+          "author_key": [
+              "OL7184645A"
+          ],
+          "author_name": [
+              "Science in Wildland Weed Management Symposium (1998 Denver, Colo.)"
+          ],
+          "place": [
+              "United States"
+          ],
+          "subject": [
+              "Control",
+              "Vegetation management",
+              "Invasive plants",
+              "Weeds",
+              "Accessible book"
+          ],
+          "publisher_facet": [
+              "Bureau of Land Management, National Applied Resource Sciences Center"
+          ],
+          "place_key": [
+              "united_states"
+          ],
+          "subject_facet": [
+              "Accessible book",
+              "Control",
+              "Invasive plants",
+              "Vegetation management",
+              "Weeds"
+          ],
+          "_version_": 1735657106118279171,
+          "place_facet": [
+              "United States"
+          ],
+          "author_facet": [
+              "OL7184645A Science in Wildland Weed Management Symposium (1998 Denver, Colo.)"
+          ],
+          "subject_key": [
+              "accessible_book",
+              "control",
+              "invasive_plants",
+              "vegetation_management",
+              "weeds"
+          ]
       }
   ],
-  "ebook_count": 20,
-  "subjects": [
-      {
-          "key": "/subjects/colorado",
-          "name": "Colorado",
-          "count": 7
-      },
-      {
-          "key": "/subjects/accessible_book",
-          "name": "Accessible book",
-          "count": 6
-      },
-      {
-          "key": "/subjects/navajo_indians",
-          "name": "Navajo Indians",
-          "count": 4
-      },
-      {
-          "key": "/subjects/protected_daisy",
-          "name": "Protected DAISY",
-          "count": 3
-      },
-      {
-          "key": "/subjects/denver",
-          "name": "denver",
-          "count": 3
-      },
-      {
-          "key": "/subjects/bibliography",
-          "name": "Bibliography",
-          "count": 2
-      },
-      {
-          "key": "/subjects/catalogs",
-          "name": "Catalogs",
-          "count": 2
-      },
-      {
-          "key": "/subjects/denver._juvenile_court_of_the_city_and_county_of_denver",
-          "name": "Denver. Juvenile Court of the City and County of Denver",
-          "count": 2
-      },
-      {
-          "key": "/subjects/fiction",
-          "name": "Fiction",
-          "count": 2
-      },
-      {
-          "key": "/subjects/rural-urban_migration",
-          "name": "Rural-urban migration",
-          "count": 2
-      },
-      {
-          "key": "/subjects/bonds",
-          "name": "bonds",
-          "count": 2
-      },
-      {
-          "key": "/subjects/earnings",
-          "name": "earnings",
-          "count": 2
-      },
-      {
-          "key": "/subjects/google_book",
-          "name": "google book",
-          "count": 2
-      },
-      {
-          "key": "/subjects/kansas",
-          "name": "kansas",
-          "count": 2
-      },
-      {
-          "key": "/subjects/land_grant",
-          "name": "land grant",
-          "count": 2
-      },
-      {
-          "key": "/subjects/omaha",
-          "name": "omaha",
-          "count": 2
-      },
-      {
-          "key": "/subjects/pacific",
-          "name": "pacific",
-          "count": 2
-      },
-      {
-          "key": "/subjects/public_domain",
-          "name": "public domain",
-          "count": 2
-      },
-      {
-          "key": "/subjects/union_pacific",
-          "name": "union pacific",
-          "count": 2
-      },
-      {
-          "key": "/subjects/acculturation",
-          "name": "Acculturation",
-          "count": 1
-      },
-      {
-          "key": "/subjects/american_college_verse",
-          "name": "American College verse",
-          "count": 1
-      },
-      {
-          "key": "/subjects/amusements",
-          "name": "Amusements",
-          "count": 1
-      },
-      {
-          "key": "/subjects/architects",
-          "name": "Architects",
-          "count": 1
-      },
-      {
-          "key": "/subjects/architecture",
-          "name": "Architecture",
-          "count": 1
-      }
-  ],
-  "places": [
-      {
-          "key": "/subjects/place:colorado",
-          "name": "Colorado",
-          "count": 6
-      },
-      {
-          "key": "/subjects/place:denver",
-          "name": "Denver",
-          "count": 6
-      },
-      {
-          "key": "/subjects/place:denver_(colo.)",
-          "name": "Denver (Colo.)",
-          "count": 1
-      },
-      {
-          "key": "/subjects/place:new_mexico",
-          "name": "New Mexico",
-          "count": 1
-      },
-      {
-          "key": "/subjects/place:north_america",
-          "name": "North America",
-          "count": 1
-      },
-      {
-          "key": "/subjects/place:united_states",
-          "name": "United States",
-          "count": 1
-      },
-      {
-          "key": "/subjects/place:west_(u.s.)",
-          "name": "West (U.S.)",
-          "count": 1
-      }
-  ],
-  "people": [
-      {
-          "key": "/subjects/person:mary_hauck_elitch_long",
-          "name": "Mary Hauck Elitch Long",
-          "count": 1
-      }
-  ],
-  "times": [],
-  "authors": [
-      {
-          "name": "Ben B. Lindsey",
-          "key": "/authors/OL150590A",
-          "count": 2
-      },
-      {
-          "name": "Theodore Dumaine Graves",
-          "key": "/authors/OL5049200A",
-          "count": 2
-      },
-      {
-          "name": "Union Pacific Railway Company",
-          "key": "/authors/OL6038425A",
-          "count": 2
-      },
-      {
-          "name": "Allen Young",
-          "key": "/authors/OL1175532A",
-          "count": 1
-      },
-      {
-          "name": "Paul Fisher Rhetts",
-          "key": "/authors/OL1240313A",
-          "count": 1
-      },
-      {
-          "name": "Denver Planning Office.",
-          "key": "/authors/OL1374512A",
-          "count": 1
-      },
-      {
-          "name": "Sara Goodman Zimet",
-          "key": "/authors/OL2010374A",
-          "count": 1
-      },
-      {
-          "name": "Denver. Public Library. Western History Dept.",
-          "key": "/authors/OL2142767A",
-          "count": 1
-      },
-      {
-          "name": "Barbara Aro",
-          "key": "/authors/OL2215676A",
-          "count": 1
-      },
-      {
-          "name": "Caroline Lawrence Dier",
-          "key": "/authors/OL2308668A",
-          "count": 1
-      },
-      {
-          "name": "Thomas J. Noel",
-          "key": "/authors/OL238497A",
-          "count": 1
-      },
-      {
-          "name": "Charlene A. Porter",
-          "key": "/authors/OL3879032A",
-          "count": 1
-      },
-      {
-          "name": "Thomas J. Steele",
-          "key": "/authors/OL406949A",
-          "count": 1
-      },
-      {
-          "name": "Barbe Awalt",
-          "key": "/authors/OL407128A",
-          "count": 1
-      },
-      {
-          "name": "Barbara S. Norgren",
-          "key": "/authors/OL4251979A",
-          "count": 1
-      },
-      {
-          "name": "Romola Mae McSwain",
-          "key": "/authors/OL5059297A",
-          "count": 1
-      },
-      {
-          "name": "University of Denver",
-          "key": "/authors/OL5111702A",
-          "count": 1
-      },
-      {
-          "name": "Young, Allen",
-          "key": "/authors/OL558147A",
-          "count": 1
-      },
-      {
-          "name": "Peter Zane Snyder",
-          "key": "/authors/OL5611647A",
-          "count": 1
-      },
-      {
-          "name": "Bureau of Labor Statistics",
-          "key": "/authors/OL5988138A",
-          "count": 1
-      },
-      {
-          "name": "Colorado",
-          "key": "/authors/OL6013249A",
-          "count": 1
-      },
-      {
-          "name": "Union Pacific Railroad Company",
-          "key": "/authors/OL6033569A",
-          "count": 1
-      },
-      {
-          "name": "Colorado Bureau of Labor Statistics ",
-          "key": "/authors/OL6084355A",
-          "count": 1
-      }
-  ],
-  "publishers": [
-      {
-          "name": "Arno Press",
-          "count": 1,
-          "key": "/publishers/Arno_Press"
-      },
-      {
-          "name": "Bodley Head",
-          "count": 1,
-          "key": "/publishers/Bodley_Head"
-      },
-      {
-          "name": "Boni & Liveright",
-          "count": 1,
-          "key": "/publishers/Boni_&_Liveright"
-      },
-      {
-          "name": "Denver University Libraries?",
-          "count": 1,
-          "key": "/publishers/Denver_University_Libraries?"
-      },
-      {
-          "name": "Discovery Press Publications Inc",
-          "count": 1,
-          "key": "/publishers/Discovery_Press_Publications_Inc"
-      },
-      {
-          "name": "G. K. Hall",
-          "count": 1,
-          "key": "/publishers/G._K._Hall"
-      },
-      {
-          "name": "Graduate School of Librarianship, University of Denver",
-          "count": 1,
-          "key": "/publishers/Graduate_School_of_Librarianship,_University_of_Denver"
-      },
-      {
-          "name": "H. Liveright",
-          "count": 1,
-          "key": "/publishers/H._Liveright"
-      },
-      {
-          "name": "Hollycrofters, inc., ltd.",
-          "count": 1,
-          "key": "/publishers/Hollycrofters,_inc.,_ltd."
-      },
-      {
-          "name": "LPD Press",
-          "count": 1,
-          "key": "/publishers/LPD_Press"
-      },
-      {
-          "name": "LPD Publishing",
-          "count": 1,
-          "key": "/publishers/LPD_Publishing"
-      },
-      {
-          "name": "Pilgrims Progress",
-          "count": 1,
-          "key": "/publishers/Pilgrims_Progress"
-      },
-      {
-          "name": "Pilgrims' Process, Inc.",
-          "count": 1,
-          "key": "/publishers/Pilgrims'_Process,_Inc."
-      },
-      {
-          "name": "Renaissance House Pub",
-          "count": 1,
-          "key": "/publishers/Renaissance_House_Pub"
-      },
-      {
-          "name": "Rose City Press",
-          "count": 1,
-          "key": "/publishers/Rose_City_Press"
-      },
-      {
-          "name": "Salem Author Services",
-          "count": 1,
-          "key": "/publishers/Salem_Author_Services"
-      },
-      {
-          "name": "The Co.",
-          "count": 1,
-          "key": "/publishers/The_Co."
-      },
-      {
-          "name": "University of Denver",
-          "count": 1,
-          "key": "/publishers/University_of_Denver"
-      },
-      {
-          "name": "University of Washington Press",
-          "count": 1,
-          "key": "/publishers/University_of_Washington_Press"
-      }
-  ],
-  "languages": [
-      {
-          "name": "eng",
-          "count": 16
-      }
-  ],
-  "publishing_history": [
-      [
-          1881,
-          1
-      ],
-      [
-          1882,
-          1
-      ],
-      [
-          1892,
-          1
-      ],
-      [
-          1925,
-          1
-      ],
-      [
-          1928,
-          1
-      ],
-      [
-          1931,
-          1
-      ],
-      [
-          1932,
-          1
-      ],
-      [
-          1962,
-          1
-      ],
-      [
-          1964,
-          1
-      ],
-      [
-          1965,
-          3
-      ],
-      [
-          1968,
-          1
-      ],
-      [
-          1969,
-          1
-      ],
-      [
-          1970,
-          1
-      ],
-      [
-          1972,
-          1
-      ],
-      [
-          1973,
-          1
-      ],
-      [
-          1974,
-          1
-      ],
-      [
-          1987,
-          1
-      ],
-      [
-          1997,
-          1
-      ],
-      [
-          1998,
-          1
-      ],
-      [
-          2005,
-          1
-      ],
-      [
-          2006,
-          2
-      ],
-      [
-          2012,
-          1
-      ]
-  ]
+  "num_found": 47113,
+  "q": "denver,co",
+  "offset": null
 }

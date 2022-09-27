@@ -6,8 +6,8 @@ RSpec.describe Book, :vcr do
     book = Book.new(data)
 
     expect(book).to be_a Book
-    expect(book.title).to eq("Boldfaced Lies")
-    expect(book.publisher).to eq("Rose City Press")
-    expect(book.isbn).to eq("1934099112")
+    expect(book.title).to eq("Denver, Co")
+    expect(book.publisher).to eq("Universal Map Enterprises")
+    expect(book.isbn).to eq("0762507845")
   end
 end
