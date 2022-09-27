@@ -66,4 +66,16 @@ RSpec.describe 'WeatherFacade', :vcr do
       expect(forecast.hourly).to be_a Array
     end
   end
+
+  describe '#roadtrip' do
+    it 'returns one hour of weather data at location' do
+      lat = 39.633321
+      long = -105.317215
+      
+      roadtrip = WeatherFacade.roadtrip(lat, long, 5)
+
+      expect(roadtrip).to be_a RoadtripForecast
+
+    end
+  end
 end

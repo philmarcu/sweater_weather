@@ -22,4 +22,13 @@ class WeatherFacade
       HourlyWeather.new(hour)
     end
   end
+
+  def self.weather_eta(data)
+    RoadtripForecast.new(data)
+  end
+
+  def self.roadtrip(lat, long, arrival_hr)
+    hours = WeatherService.data(lat, long)[:hourly]
+    weather_eta(hours[arrival_hr])
+  end
 end

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Weather One Call', :vcr do
-  describe '#weather_call' do
+  describe '#data' do
     it 'gets weather info from map quest lat / long' do
       lat =  39.738453
       long = -104.984853
