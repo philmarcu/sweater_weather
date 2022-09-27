@@ -7,7 +7,7 @@ RSpec.describe 'Books Request', :vcr do
     parsed = JSON.parse(File.read('spec/fixtures/books_call.json'), symbolize_names: true)
   
     get "/api/v1/book-search?location=#{location}&quantity=#{qty}"
-
+    
     attributes = parsed[:data][:attributes]
     type = parsed[:data][:type]
     books = parsed[:data][:attributes][:books]

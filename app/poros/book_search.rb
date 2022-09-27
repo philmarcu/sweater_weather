@@ -1,4 +1,4 @@
-class Books
+class BookSearch
   attr_reader :destination,
               :total_books,
               :forecast,

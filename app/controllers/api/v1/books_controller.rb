@@ -4,6 +4,6 @@ class Api::V1::BooksController < ApplicationController
   end
 
   def serializer(facade)
-    BooksSerializer.new(facade)
+    BookSearchSerializer.new(facade)
   end
 end

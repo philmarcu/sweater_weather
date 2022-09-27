@@ -14,22 +14,16 @@ RSpec.describe 'LibraryFacade', :vcr do
       expect(books.size).to eq(5)
       expect(book.title).to be_a String
       expect(book.publisher).to be_a String
-      expect(book.olid).to be_a String
       expect(book.isbn).to be_a String
     end
-
-    # it 'can get publishers' do
-    #   publisher = LibraryFacade.get_publisher("OL12340667M")
-
-    #   expect(publisher).to be_a String
-    # end
 
     it 'can get a books forecast' do
       location = "denver,co"
 
       book_call = LibraryFacade.books_forecast(location, 5)
-
-      expect(book_call).to be_a Books
+      expect(book_call).to be_a BookSearch
+      expect(book_call.books.first).to be_a Book
+      expect(book_call.forecast).to be_a BookForecast
     end
   end
 end
