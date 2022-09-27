@@ -1,26 +1,27 @@
 class Roadtrip
-  attr_reader :start,
-              :finish,
+  attr_reader :start_city,
+              :end_city,
               :duration,
               :lat,
               :long, 
-              :hour
+              :weather_at_eta,
+              :time_format
   def initialize(data)
-    @start = data[:locations].first[:adminArea5] + ", " +  data[:locations].first[:adminArea3]
-    @finish = data[:locations].last[:adminArea5] + ", " +  data[:locations].last[:adminArea3]
+    @start_city = data[:locations].first[:adminArea5] + ", " +  data[:locations].first[:adminArea3]
+    @end_city = data[:locations].last[:adminArea5] + ", " +  data[:locations].last[:adminArea3]
     @duration = data[:formattedTime]
     @lat = data[:locations].last[:displayLatLng][:lat]
-    @long = data[:locations].last[:displayLatLng][:long]
-    @forecast = arrival_weather
+    @long = data[:locations].last[:displayLatLng][:lng]
+    @weather_at_eta = arrival_weather
   end
 
   def time_format
     dt = @duration.to_datetime
-    dt.strftime("%I hours, %M minutes")
+    dt.strftime("%-l hours, %M minutes")
   end
 
   def arrival_weather
     hr = @duration.first(2).to_i
-    binding.pry
+    WeatherFacade.roadtrip(@lat, @long, hr)
   end
 end

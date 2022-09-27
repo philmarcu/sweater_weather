@@ -75,7 +75,6 @@ RSpec.describe 'WeatherFacade', :vcr do
       roadtrip = WeatherFacade.roadtrip(lat, long, 5)
 
       expect(roadtrip).to be_a RoadtripForecast
-
     end
   end
 end
