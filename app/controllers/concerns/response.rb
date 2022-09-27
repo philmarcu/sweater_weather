@@ -6,8 +6,4 @@ module Response
   def json_create(object)
     render json: object, status: 201
   end
-
-  def user_error(message)
-    render json: message, status: 400
-  end
 end
