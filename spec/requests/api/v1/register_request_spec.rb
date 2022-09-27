@@ -63,5 +63,19 @@ RSpec.describe 'Register Request' do
       expect(response.status).to eq(400)
       expect(results[:message]).to eq("Password confirmation doesn't match Password")
     end
+
+    it 'does not create user if email is not valid' do
+      user_params = {
+        email: "wumbo",
+        password: "password",
+        password_confirmation: "password",
+      }
+
+      headers = {"CONTENT_TYPE" => "application/json"}
+      post "/api/v1/users", headers: headers, params: JSON.generate(user_params)
+
+      expect(response.status).to eq(400)
+      expect(response.body).to eq("Invalid email, please try again")
+    end
   end
 end

@@ -1,10 +1,14 @@
 class Api::V1::UsersController < ApplicationController
   def create
-    new_user = User.new(user_params)
-    if new_user.save
-      json_create(serializer(new_user))
+    if email_valid?     
+      new_user = User.new(user_params)
+      if new_user.save
+        json_create(u_serializer(new_user))
+      else
+        json_error(new_user)
+      end
     else
-      render json: { status: 400, message: "#{new_user.errors.full_messages.join(" , ")}", data:{} }, status: :bad_request 
+      user_error("Invalid email, please try again")
     end
   end
   
@@ -13,8 +17,8 @@ class Api::V1::UsersController < ApplicationController
   def user_params
     params.permit(:email, :password, :password_confirmation)
   end
- 
-  def serializer(user)
-    UserSerializer.new(user)
+
+  def email_valid?
+    valid_email(params[:email])
   end
 end
