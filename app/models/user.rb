@@ -5,10 +5,6 @@ class User < ApplicationRecord
   
 
   def set_api_key
-    self.api_key = generate_api_key
-  end
-
-  def generate_api_key
-    SecureRandom.hex(10)
+    self.api_key = ApiKey.create.access_token
   end
 end

@@ -6,4 +6,12 @@ module ExceptionHandler
   def user_error(message)
     render json: message, status: 400
   end
+
+  def unauthorized(message)
+    render json: message, status: 401
+  end
+
+  def valid_email(email)
+    email.include?("@") && email.include?(".")
+  end
 end

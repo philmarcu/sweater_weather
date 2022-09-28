@@ -10,4 +10,14 @@ RSpec.describe 'MapQuestFacade', :vcr do
       expect(map_quest.lng).to be_a Float
     end
   end
+
+  describe '#roadtrip' do
+    it 'returns formatted info of a roadtrip' do
+      start = "Denver, CO"
+      finish = "Lander, WY"
+      roadtrip = MapQuestFacade.roadtrip(start, finish)
+
+      expect(roadtrip).to be_a Roadtrip
+    end
+  end
 end

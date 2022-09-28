@@ -10,7 +10,7 @@ RSpec.describe 'Log-in Request' do
       user_params = {
         email: "yep@email.com",
         password: "password",
-        password_confirmation: "password",
+        password_confirmation: "password"
       }
       user = User.create(user_params)
 
@@ -30,7 +30,7 @@ RSpec.describe 'Log-in Request' do
       user_params = {
         email: "yep@email.com",
         password: "password",
-        password_confirmation: "1212221",
+        password_confirmation: "1212221"
       }
       user = User.create(user_params)
 
@@ -45,7 +45,7 @@ RSpec.describe 'Log-in Request' do
       user_params = {
         email: "yep@email.com",
         password: "password",
-        password_confirmation: "password",
+        password_confirmation: "password"
       }
       bad_params = {
         email: "yep@email.com",
@@ -65,7 +65,7 @@ RSpec.describe 'Log-in Request' do
       unsaved_params = {
         email: "yep@email.com",
         password: "password",
-        password_confirmation: "password",
+        password_confirmation: "password"
       }
 
       headers = {"CONTENT_TYPE" => "application/json"}
