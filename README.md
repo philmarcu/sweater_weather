@@ -54,6 +54,7 @@ After you copy the key run `git clone *ssh key*` into the desired folder you wan
 ## API
 
 [OpenWeather API](https://openweathermap.org/api, "OpenWeather API") - they have numerous kinds of APIs, this project only utilized the One Call API.
+
 [MapQuest Geocoding API](https://developer.mapquest.com/documentation/geocoding-api/, "MapQuest Geocoding")
 [MapQuest Directions API](https://developer.mapquest.com/documentation/directions-api/, "MapQuest Directions")
 
