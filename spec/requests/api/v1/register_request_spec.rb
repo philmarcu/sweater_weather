@@ -37,7 +37,7 @@ RSpec.describe 'Register Request' do
       user_params = {
         email: "yep@email.com",
         password: "password",
-        password_confirmation: "password",
+        password_confirmation: "password"
       }
       user = User.create(user_params)
 
@@ -53,7 +53,7 @@ RSpec.describe 'Register Request' do
       user_params = {
         email: "yep@email.com",
         password: "password",
-        password_confirmation: "1212221",
+        password_confirmation: "1212221"
       }
 
       headers = {"CONTENT_TYPE" => "application/json"}
@@ -68,7 +68,7 @@ RSpec.describe 'Register Request' do
       user_params = {
         email: "wumbo",
         password: "password",
-        password_confirmation: "password",
+        password_confirmation: "password"
       }
 
       headers = {"CONTENT_TYPE" => "application/json"}

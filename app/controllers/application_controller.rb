@@ -11,8 +11,4 @@ class ApplicationController < ActionController::API
     @lat = mapquest.lat
     @long = mapquest.lng
   end
-
-  def valid_email(email)
-    email.include?("@") && email.include?(".")
-  end
 end
