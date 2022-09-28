@@ -1,0 +1,1522 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:26:01 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=89D4645AE12556CEB5FAFFEDC8DBAD18; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:26:01 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:26:01 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:26:52 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=0BD5CBD5E8D6852C882ED30580B81B04; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:26:52 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:26:52 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:28:04 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=A8F82FB409A392ED0AFC3B1E97904A4C; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:28:04 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:28:04 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:28:49 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=FFAF4D5EE2F7C5EBA5653049AE739244; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:28:49 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:28:49 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:31:24 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=AA92EBFBA99DF89419A6CE3F8D2FBDFD; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:31:24 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:31:24 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:32:17 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=8C615364C3B41DAA705BE914E5236404; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:32:17 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:32:17 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:34:08 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=C157D0B2E842E8DE215F197BE7BDBA58; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:34:08 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:34:08 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:34:59 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=EA8F89FC633C58A8C874F3CE1DEB6A81; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:34:59 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:34:59 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:34:59 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=6E73FB635BA4B9A953D5868D9C9E9336; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:34:59 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:34:59 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:38:45 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=1226F6D894DDDB25EF036AEBB8024038; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:38:45 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:38:45 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:39:20 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=C06F580EFE97C1647E099ACCDC6C2625; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:39:20 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:39:20 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:40:28 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=EE4754FF4DF92CBE04DF1C562F6F0533; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:40:28 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:40:28 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:42:06 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=8E9C1C8B8B0440AEB01744EC18BCBD16; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:42:06 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:42:06 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:44:34 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=15B8BFCBA8D08E98732E0CF6EAA5CD98; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:44:34 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:44:34 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:50:20 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=67368BD5CE13A0ADD88ADC1CCA903E70; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:50:20 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:50:20 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:51:15 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=6ECDCF805EC23EE5C0C8A29557FD2A7D; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:51:15 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:51:15 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:54:39 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=C0762FDBD3937E7707C23D2074BA2F6F; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:54:39 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:54:39 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:55:15 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=9678A9114881E90758950C86CDD97132; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:55:15 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:55:15 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:55:32 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=7D1FDC74BF13799250C5295214BD74E3; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:55:32 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:55:32 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:56:07 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=C160E8628B9CD94FFC0450387BFCFE83; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:56:07 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:56:07 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:56:29 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=0AD7DA71C986B49CF9B485D28DB3693F; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:56:29 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 03:56:29 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:00:18 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=A2AFDC77B8235D0D4F2476A02E9D8DA8; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:00:18 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:00:18 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:01:00 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=4B029AC97AAA2D48EFAE4029C29A2FD7; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:01:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:01:00 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:01:24 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=E3FF57EF03E363FCDB6BECF15F6DE60A; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:01:24 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:01:24 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:01:44 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=C5D391F5FDFEC6CD89D6B3E67BE7E185; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:01:44 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:01:44 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:02:20 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=29A0BC196600236378BBF7EC9AB424F9; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:02:20 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:02:20 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:04:46 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=566248AA8FD05CBEB7FF36E192776C58; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:04:46 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:04:46 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:05:16 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=9CB29964A2233AA9AEB2D58FD2FCB0F3; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:05:16 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:05:16 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:05:44 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=1699233D21DAA7CD806028F8E1532EEB; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:05:44 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:05:44 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:05:50 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=B79541E3E6375BDC719E6479913B20AD; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:05:50 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:05:50 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=Denver,%20CO&key=key&to=London,%20UK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 04:05:57 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '278'
+      Set-Cookie:
+      - JSESSIONID=9B32723A15EB50AC11B064470BC34CFA; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Wed, 28 Sep 2022 04:05:57 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Vz-Migration-Api:
+      - 'false'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6MiwibWVzc2FnZSI6IiJ9fSwiaW5mbyI6eyJzdGF0dXNjb2RlIjo0MDIsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbIldlIGFyZSB1bmFibGUgdG8gcm91dGUgd2l0aCB0aGUgZ2l2ZW4gbG9jYXRpb25zLiJdfX0=
+  recorded_at: Wed, 28 Sep 2022 04:05:57 GMT
+recorded_with: VCR 6.1.0

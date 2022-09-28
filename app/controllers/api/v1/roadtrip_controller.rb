@@ -1,10 +1,21 @@
 class Api::V1::RoadtripController < ApplicationController
   def create
-    if params[:api_key]
+    if key_valid?
       roadtrip = MapQuestFacade.roadtrip(params[:origin], params[:destination])
-      json_response(r_serializer(roadtrip))
+      if roadtrip.class != Roadtrip
+        json_response(i_serializer(roadtrip))
+      else
+        json_response(r_serializer(roadtrip))
+      end
     else
-      "Invalid access, must be logged in"
+      unauthorized("Invalid access, user must be logged in")
     end
+  end
+
+  private
+
+  def key_valid?
+    key = ApiKey.find_by(access_token: params[:api_key])
+    key.present?
   end
 end

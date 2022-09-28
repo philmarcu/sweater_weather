@@ -2802,4 +2802,631 @@ http_interactions:
         County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-733351458"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
         County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-1988410269"}]}]}'
   recorded_at: Wed, 28 Sep 2022 02:02:46 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 02:52:52 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1736'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 02:52:52 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=F48D94A19102F472A14E91E1BEE4A41C; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-1924642187"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-1572977366"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 02:52:52 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 02:53:44 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1734'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 02:53:44 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=57234CCFECE751C29FBDDF1BC2606E64; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-816246806"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-532952232"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 02:53:44 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 02:54:26 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1734'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 02:54:26 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=D57122D88C2038C7D7B553FA60BD2139; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=1344836626"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-173865807"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 02:54:25 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 02:59:53 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1732'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 02:59:53 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=309504CD44685CB34B30AA0D39BF2792; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=83555507"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=1340919719"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 02:59:53 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:01:36 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1733'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:01:36 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=699754B099EBD7A80B27B098A9D313D4; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=489888272"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-326009781"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 03:01:36 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:01:58 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1732'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:01:58 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=6CCD60AD5ECCFE2B69AB72CD1C2164D6; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=850894709"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=613046591"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 03:01:58 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:02:31 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1734'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:02:31 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=CB147C29384CD87D96F63683479D1AA9; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=1136807349"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=1997573048"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 03:02:30 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:03:25 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1734'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:03:25 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=AFECFC841E9E962EB2DD327465A22F39; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-1220477451"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=902617495"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 03:03:25 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:15:45 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1735'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:15:45 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=B6F8D410B57BFD34D8DB2BDE287CE2D5; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=1672866262"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-1869786351"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 03:15:45 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:22:38 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1735'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:22:38 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=E2D880A575080BB04FC9B1679BEDE258; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=1056341405"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-1900189430"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 03:22:38 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=key&location=Denver,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 28 Sep 2022 03:38:37 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '1734'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Wed, 28 Sep 2022 03:38:37 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=206798BCBECE4F9615EB0903B9CF3CCE; Path=/; HttpOnly
+      X-Vz-Migration-Api:
+      - 'false'
+      Status:
+      - success
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Denver,CO"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"282041090","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-1&scalebar=true&zoom=12&rand=560889481"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"Denver
+        County","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A4XAX","geocodeQuality":"COUNTY","dragPoint":false,"sideOfStreet":"N","linkId":"282932003","unknownInput":"","type":"s","latLng":{"lat":39.738453,"lng":-104.984853},"displayLatLng":{"lat":39.738453,"lng":-104.984853},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=key&type=map&size=225,160&locations=39.738453,-104.984853|marker-sm-50318A-2&scalebar=true&zoom=9&rand=-1025367227"}]}]}'
+  recorded_at: Wed, 28 Sep 2022 03:38:37 GMT
 recorded_with: VCR 6.1.0

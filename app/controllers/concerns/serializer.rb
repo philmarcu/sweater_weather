@@ -10,4 +10,8 @@ module Serializer
   def r_serializer(trip)
     RoadtripSerializer.new(trip)
   end
+
+  def i_serializer(error)
+    ImpossibleSerializer.new(error)
+  end
 end

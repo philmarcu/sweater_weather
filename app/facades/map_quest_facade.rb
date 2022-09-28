@@ -6,11 +6,15 @@ class MapQuestFacade
   end
 
   def self.roadtrip(start, finish)
-    results = MapQuestService.roadtrip(start, finish)[:route]
-    if results[:routeError][:errorCode] == -400
-      Roadtrip.new(results)
+    results = MapQuestService.roadtrip(start, finish)
+    if results[:route][:routeError][:errorCode] == -400
+      Roadtrip.new(results[:route])
     else
-      { origin: start, end: finish, message: "Impossible Route" }
+      trip_error(results)
     end
+  end
+
+  def self.trip_error(results)
+    Impossible.new(results[:info])
   end
 end
