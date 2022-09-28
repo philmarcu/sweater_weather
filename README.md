@@ -47,7 +47,7 @@ The Ruby object looks likes so:
 
 ## Setup 
 
-In order to try out the application you'll need to clone this repository and create your own API keys from OpenWeather & MapQuest. I'll go further into how to create those keys in the API section. For the set up you should copy this SSH key: git@github.com:philmarcu/sweater_weather.git
+In order to try out the application you'll need to clone this repository and create your own API keys from OpenWeather & MapQuest. I'll go further into how to create those keys in the API section. For the set up you should copy this SSH key: `git@github.com:philmarcu/sweater_weather.git`
 
 After you copy the key run `git clone *ssh key*` into the desired folder you want this application to be stored under. Run `bundle`, then `bundle update` to receive all the gems currently used in the project. Run 'rails db:create' to create a new database inside your application. After that run 'bundle exec figaro install' to create an application.yml file inside of your app so that you can store the API keys inside of there.
 
